@@ -1,0 +1,115 @@
+/* [project]/public/assets/css/flacticon.css [app-client] (css) */
+@font-face {
+  font-family: flaticon;
+  src: url("../media/flaticon.71a0204c.woff2") format("woff2"), url("../media/flaticon.ce7871f5.woff") format("woff"), url("../media/flaticon.6dc2c50a.eot") format("embedded-opentype");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before, span[class^="flaticon-"]:before, span[class*=" flaticon-"]:before {
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  line-height: 1;
+  font-family: flaticon !important;
+  font-weight: normal !important;
+}
+
+.flaticon-travel-agency:before {
+  content: "";
+}
+
+.flaticon-travel:before {
+  content: "";
+}
+
+.flaticon-traveling:before {
+  content: "";
+}
+
+.flaticon-roadmap:before {
+  content: "";
+}
+
+.flaticon-mouse:before {
+  content: "";
+}
+
+.flaticon-promotion:before {
+  content: "";
+}
+
+.flaticon-tourist:before {
+  content: "";
+}
+
+.flaticon-insurance:before {
+  content: "";
+}
+
+.flaticon-traveling-1:before {
+  content: "";
+}
+
+.flaticon-hot-air-balloon:before {
+  content: "";
+}
+
+.flaticon-passport:before {
+  content: "";
+}
+
+.flaticon-tent:before {
+  content: "";
+}
+
+.flaticon-costumer:before {
+  content: "";
+}
+
+.flaticon-suitcase:before {
+  content: "";
+}
+
+.flaticon-excursion:before {
+  content: "";
+}
+
+.flaticon-quote:before {
+  content: "";
+}
+
+.flaticon-left-quote:before {
+  content: "";
+}
+
+.flaticon-travel-agency-1:before {
+  content: "";
+}
+
+.flaticon-price-tag:before {
+  content: "";
+}
+
+.flaticon-booking:before {
+  content: "";
+}
+
+.flaticon-destination:before {
+  content: "";
+}
+
+.flaticon-man:before {
+  content: "";
+}
+
+.flaticon-holiday-trip:before {
+  content: "";
+}
+
+@font-face {
+  font-family: flaticon;
+  src: url("../media/flaticon.71a0204c.woff2") format("woff2"), url("../media/flaticon.ce7871f5.woff") format("woff"), url("../media/flaticon.6dc2c50a.eot") format("embedded-opentype");
+}
+
+/*# sourceMappingURL=public_assets_css_flacticon_css_bad6b30c._.single.css.map*/

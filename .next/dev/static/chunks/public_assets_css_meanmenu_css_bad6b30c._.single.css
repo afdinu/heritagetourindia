@@ -1,0 +1,138 @@
+/* [project]/public/assets/css/meanmenu.css [app-client] (css) */
+a.meanmenu-reveal {
+  display: none;
+}
+
+.mean-container .mean-bar {
+  float: left;
+  z-index: 999999;
+  background: #070337;
+  width: 100%;
+  min-height: 42px;
+  padding: 4px 0;
+  position: relative;
+}
+
+.mean-container a.meanmenu-reveal {
+  cursor: pointer;
+  color: #fff;
+  text-indent: -9999em;
+  width: 22px;
+  height: 22px;
+  padding: 13px 13px 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.mean-container a.meanmenu-reveal span {
+  background: #fff;
+  height: 3px;
+  margin-top: 3px;
+  display: block;
+}
+
+.mean-container .mean-nav {
+  float: left;
+  background: #070337;
+  width: 100%;
+  margin-top: 44px;
+}
+
+.mean-container .mean-nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.mean-container .mean-nav ul li {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.mean-container .mean-nav ul li a {
+  float: left;
+  text-align: left;
+  color: #fff;
+  text-transform: capitalize;
+  border-top: 1px solid #e0e3ed;
+  width: 90%;
+  margin: 0;
+  padding: 10px 5%;
+  text-decoration: none;
+  display: block;
+}
+
+.mean-container .mean-nav ul li li a {
+  visibility: visible;
+  width: 100%;
+  padding: 10px 0;
+  text-shadow: none !important;
+}
+
+.mean-container .mean-nav ul li.mean-last a {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.mean-container .mean-nav ul li li li a {
+  width: 70%;
+  padding: 10px 0;
+}
+
+.mean-container .mean-nav ul li li li li a {
+  width: 60%;
+  padding: 10px 20%;
+}
+
+.mean-container .mean-nav ul li li li li li a {
+  width: 50%;
+  padding: 10px 25%;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+  text-align: center;
+  z-index: 2;
+  background: none;
+  width: 26px;
+  height: 32px;
+  margin-top: 1px;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none !important;
+}
+
+.mean-container .mean-push {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mean-nav .wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mean-container .mean-bar, .mean-container .mean-bar * {
+  box-sizing: content-box;
+}
+
+.mean-remove {
+  display: none !important;
+}
+
+/*# sourceMappingURL=public_assets_css_meanmenu_css_bad6b30c._.single.css.map*/
