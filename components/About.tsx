@@ -13,18 +13,18 @@ export const About1 = () => {
               <div className="about-left-item">
                 <div className="section-title mb-0">
                   <h2 className="text-anim">
-                    Passionate about <br /> your adventures <br /> with Roavio
+                    Explore India  <br /> with a Local Tour Guide <br /> with Us.
                   </h2>
                 </div>
                 <h6 className="wow fadeInUp" data-wow-delay=".5s">
-                  We are started with 2005s,{" "}
-                  <span className="count">
+                  Local stories. Personal tours. Memorable journeys.{" "}
+                  {/* <span className="count">
                     <Counter end={20} decimals={0} />
                   </span>
-                  <b>+</b> years of experience
+                  <b>+</b> years of experience */}
                 </h6>
                 <div className="about-image wow img-custom-anim-left">
-                  <img src="assets/img/home-1/about/01.jpg" alt="img" />
+                    <img src="assets/img/home-1/about/jaipur-local-tour-guide.webp" alt="jaipur local tour guide" />
                 </div>
               </div>
             </div>
@@ -32,61 +32,58 @@ export const About1 = () => {
               <div className="about-right-item">
                 <div className="about-image-item">
                   <div className="about-image-2 wow img-custom-anim-left">
-                    <img src="assets/img/home-1/about/02.jpg" alt="img" />
+                  <img src="assets/img/home-1/about/taj-mahal-tour-guide.webp" alt="agra-tour-guide" />
                   </div>
                   <div className="about-box wow img-custom-anim-right">
                     <div className="icon">
                       <i className="flaticon-travel" />
                     </div>
-                    <h5>Trusted &amp; Secure</h5>
-                    <p>Your safety and trust are our top priorities.</p>
+                    <h5>Guided at Every Step</h5>
+                    <p>Discover each place with helpful local guidance.</p>
                   </div>
                 </div>
                 <div className="content">
                   <p className="wow fadeInUp" data-wow-delay=".3s">
-                    We believe travel is more than just a trip—it’s an
-                    experience that shapes your life. Our mission is to create
-                    unforgettable journeys that combine adventure, comfort, and
-                    authentic cultural encounters.
+                    At Heritage Tour Guide India, we help you explore historic monuments, local markets, and cultural landmarks with a local tour guide. Choose a city tour or plan a journey around your interests. Learn the stories behind each place and enjoy exploring at your own pace.
                   </p>
                   <div className="list-item wow fadeInUp" data-wow-delay=".5s">
                     <ul className="list">
                       <li>
                         <i className="fa-solid fa-check" />
-                        Destination Search &amp; Filters
+                        Local Tour Guides
                       </li>
                       <li>
                         <i className="fa-solid fa-check" />
-                        Online Booking System
-                      </li>
-                    </ul>
-                    <ul className="list">
-                      <li>
-                        <i className="fa-solid fa-check" />
-                        Blog &amp; Travel Guides
-                      </li>
-                      <li>
-                        <i className="fa-solid fa-check" />
-                        Live Chat Support
+                        Private & Group Tours
                       </li>
                     </ul>
                     <ul className="list">
                       <li>
                         <i className="fa-solid fa-check" />
-                        Pricing &amp; Discounts
+                       Heritage & City Walks
                       </li>
                       <li>
                         <i className="fa-solid fa-check" />
-                        Reviews &amp; Ratings
+                        Flexible Itineraries
+                      </li>
+                    </ul>
+                    <ul className="list">
+                      <li>
+                        <i className="fa-solid fa-check" />
+                        Cultural Experiences
+                      </li>
+                      <li>
+                        <i className="fa-solid fa-check" />
+                        Tours at Your Pace
                       </li>
                     </ul>
                   </div>
                   <Link
-                    href="/about"
+                    href="/contact"
                     className="theme-btn wow fadeInUp"
                     data-wow-delay=".3s"
                   >
-                    Learn More Us
+                   Plan Your Guided Tour
                   </Link>
                 </div>
               </div>

@@ -1,47 +1,48 @@
 import Link from "next/link";
-
+// import tourCards from '@/data/tour-areas'
+// import tourCards from "../data/service-areas.json";
 export const Tour1 = () => {
   const tourCards = [
     {
-      image: "assets/img/home-1/tour/tour-1.jpg",
-      title: "Bird's Eye Of Island",
-      location: "Bol, Croatia",
-      tours: "50+ tours",
+      image: "assets/img/home-1/tour/Delhi1.jpeg",
+      title: "Delhi Tour Guide",
+      // location: "Bol, Croatia",
+      // tours: "50+ tours",
     },
     {
-      image: "assets/img/home-1/tour/tour-2.jpg",
-      title: "Climbing Waterfalls",
-      location: "Bol, Croatia",
-      tours: "50+ tours",
+      image: "assets/img/home-1/tour/agra1.jpeg",
+      title: "Agra Tours Guide",
+      // location: "Bol, Croatia",
+      // tours: "50+ tours",
       imageStyle: "style-3",
     },
     {
-      image: "assets/img/home-1/tour/tour-3.jpg",
-      title: "Whitewater Rafting",
-      location: "Whitewater Rafting",
-      tours: "50+ tours",
+      image: "assets/img/home-1/tour/golden-triangle-tour.jpeg",
+      title: "Golden Triangle Tours Guide",
+      // location: "Whitewater Rafting",
+      // tours: "50+ tours",
       imageStyle: "style-3",
     },
     {
-      image: "assets/img/home-1/tour/tour-4.jpg",
-      title: "Birds Eye View of Kerkyra",
-      location: "Kerkira, Greece",
-      tours: "50+ tours",
+      image: "assets/img/home-1/tour/golden-triangle-wildlife-tour-package.webp",
+      title: "Golden Triangle Tours Guide With Wildlife",
+      // location: "Kerkira, Greece",
+      // tours: "50+ tours",
       imageStyle: "style-2",
     },
     {
-      image: "assets/img/home-1/tour/tour-5.jpg",
-      title: "Red Multi-storey Building",
-      location: "Bangkok, Thailand",
-      tours: "50+ tours",
+      image: "assets/img/home-1/tour/golden-triangle-tour-with-extension.jpeg",
+      title: "Golden Triangle Tours Guide With Extension",
+      // location: "Bangkok, Thailand",
+      // tours: "50+ tours",
       imageStyle: "style-3",
       contentStyle: "style-4",
     },
     {
-      image: "assets/img/home-1/tour/tour-6.jpg",
-      title: "Sitting on the edge",
-      location: "São Paulo, Brazil",
-      tours: "50+ tours",
+      image: "assets/img/home-1/tour/rajathan-tours.jpeg",
+      title: "Rajasthan Tour Guide",
+      // location: "São Paulo, Brazil",
+      // tours: "50+ tours",
       imageStyle: "style-3",
       contentStyle: "style-5",
     },
@@ -61,7 +62,7 @@ export const Tour1 = () => {
                     className={`tour-image ${tourCards[0].imageStyle || ""}`}
                   >
                     <img src={tourCards[0].image} alt="img" />
-                    <span>{tourCards[0].tours}</span>
+                    {/* <span>{tourCards[0].tours}</span> */}
                     <div
                       className={`tour-content ${
                         tourCards[0].contentStyle || ""
@@ -70,7 +71,7 @@ export const Tour1 = () => {
                       <h3>
                         <Link href="/tour-details">{tourCards[0].title}</Link>
                       </h3>
-                      <p>{tourCards[0].location}</p>
+                      {/* <p>{tourCards[0].location}</p> */}
                     </div>
                   </div>
                 </div>
@@ -84,7 +85,7 @@ export const Tour1 = () => {
                     className={`tour-image ${tourCards[1].imageStyle || ""}`}
                   >
                     <img src={tourCards[1].image} alt="img" />
-                    <span>{tourCards[1].tours}</span>
+                    {/* <span>{tourCards[1].tours}</span> */}
                     <div
                       className={`tour-content ${
                         tourCards[1].contentStyle || ""
@@ -93,7 +94,7 @@ export const Tour1 = () => {
                       <h3>
                         <Link href="/tour-details">{tourCards[1].title}</Link>
                       </h3>
-                      <p>{tourCards[1].location}</p>
+                      {/* <p>{tourCards[1].location}</p> */}
                     </div>
                   </div>
                 </div>
@@ -105,7 +106,7 @@ export const Tour1 = () => {
                     className={`tour-image ${tourCards[2].imageStyle || ""}`}
                   >
                     <img src={tourCards[2].image} alt="img" />
-                    <span>{tourCards[2].tours}</span>
+                    {/* <span>{tourCards[2].tours}</span> */}
                     <div
                       className={`tour-content ${
                         tourCards[2].contentStyle || ""
@@ -114,7 +115,7 @@ export const Tour1 = () => {
                       <h3>
                         <Link href="/tour-details">{tourCards[2].title}</Link>
                       </h3>
-                      <p>{tourCards[2].location}</p>
+                      {/* <p>{tourCards[2].location}</p> */}
                     </div>
                   </div>
                 </div>
@@ -132,7 +133,7 @@ export const Tour1 = () => {
                     className={`tour-image ${tourCards[3].imageStyle || ""}`}
                   >
                     <img src={tourCards[3].image} alt="img" />
-                    <span>{tourCards[3].tours}</span>
+                    {/* <span>{tourCards[3].tours}</span> */}
                     <div
                       className={`tour-content ${
                         tourCards[3].contentStyle || ""
@@ -141,7 +142,7 @@ export const Tour1 = () => {
                       <h3>
                         <Link href="/tour-details">{tourCards[3].title}</Link>
                       </h3>
-                      <p>{tourCards[3].location}</p>
+                      {/* <p>{tourCards[3].location}</p> */}
                     </div>
                   </div>
                 </div>
@@ -155,7 +156,7 @@ export const Tour1 = () => {
                     className={`tour-image ${tourCards[4].imageStyle || ""}`}
                   >
                     <img src={tourCards[4].image} alt="img" />
-                    <span>{tourCards[4].tours}</span>
+                    {/* <span>{tourCards[4].tours}</span> */}
                     <div
                       className={`tour-content ${
                         tourCards[4].contentStyle || ""
@@ -164,7 +165,7 @@ export const Tour1 = () => {
                       <h3>
                         <Link href="/tour-details">{tourCards[4].title}</Link>
                       </h3>
-                      <p>{tourCards[4].location}</p>
+                      {/* <p>{tourCards[4].location}</p> */}
                     </div>
                   </div>
                 </div>
@@ -176,7 +177,7 @@ export const Tour1 = () => {
                     className={`tour-image ${tourCards[5].imageStyle || ""}`}
                   >
                     <img src={tourCards[5].image} alt="img" />
-                    <span>{tourCards[5].tours}</span>
+                    {/* <span>{tourCards[5].tours}</span> */}
                     <div
                       className={`tour-content ${
                         tourCards[5].contentStyle || ""
@@ -185,7 +186,7 @@ export const Tour1 = () => {
                       <h3>
                         <Link href="/tour-details">{tourCards[5].title}</Link>
                       </h3>
-                      <p>{tourCards[5].location}</p>
+                      {/* <p>{tourCards[5].location}</p> */}
                     </div>
                   </div>
                 </div>

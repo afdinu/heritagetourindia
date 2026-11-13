@@ -3,62 +3,62 @@ import Link from "next/link";
 export const Benefit1 = () => {
   const benefits = [
     {
-      icon: "flaticon-traveling",
-      title: "Expert Travel Guide",
+      icon: "flaticon-tourist",
+      title: "Local Tour Guides",
       description:
-        "Travel professionals who help destinations, accommodations, and activities tailored.",
+        "Understand each place through its history, culture, and local stories.",
       animation: "fadeInLeft",
       delay: ".3s",
       colClass: "col-xl-3 col-lg-4 col-md-6",
     },
     {
       icon: "flaticon-roadmap",
-      title: "Custom Tour Plan",
+      title: "Personalised Tours",
       description:
-        "Enjoy trips designed around your preferences, whether you want a relaxing beach holiday",
+        "Choose what you want to see, and we’ll help plan your tour.",
       animation: "fadeInRight",
       delay: ".5s",
       colClass: "col-xl-3 col-lg-4 col-md-6",
     },
     {
       icon: "flaticon-mouse",
-      title: "Hassle-Free Booking",
+      title: "Travel at Your Pace",
       description:
-        "Save time and effort with a single platform to book flights, hotels, activities, transportation",
+        "Enjoy time to explore, take photos, and ask questions.",
       animation: "fadeInUp",
       delay: ".2s",
       colClass: "col-xl-3 col-lg-4 col-md-6",
     },
     {
       icon: "flaticon-promotion",
-      title: "Deals & Discounts",
+      title: "Discover Local Life",
       description:
-        "Save time and effort with a single platform to book flights, hotels, activities, transportation",
+        "Explore colourful markets, local traditions, and places beyond the main sights.",
       animation: "fadeInUp",
       delay: ".4s",
       colClass: "col-xl-3 col-lg-4 col-md-6",
     },
     {
-      icon: "flaticon-tourist",
-      title: "Local Guides Authentic",
+      icon: "flaticon-traveling",
+      title: "Private & Group Tours",
       description:
-        "Immerse yourself local culture with trusted guides who provide insider tips and hidden",
+        "Explore on your own, with family, or as part of a group.",
       animation: "fadeInUp",
       delay: ".6s",
       colClass: "col-xl-3 col-lg-4 col-md-6",
     },
     {
       icon: "flaticon-insurance",
-      title: "Travel Insurance",
+      title: "Easy Tour Planning",
       description:
-        "Stay protected with insurance options and on-ground support for a worry-free experience.",
+        "Get help planning anything from a Delhi city tour to a Golden Triangle journey.",
       animation: "fadeInUp",
       delay: ".8s",
       colClass: "col-xl-3 col-lg-4 col-md-6",
     },
   ];
   const centerImage = {
-    src: "assets/img/home-1/tour/tour-7.jpg",
+    src: "assets/img/home-1/tour/why-travel-with-us.jpeg",
     alt: "img",
     colClass: "col-xl-6 col-lg-4 col-md-6",
   };
@@ -67,10 +67,9 @@ export const Benefit1 = () => {
     <section className="benefit-tour-section section-padding fix header-bg">
       <div className="container">
         <div className="section-title text-center">
-          <h2 className="text-white text-anim">How to Benefit Our Tours</h2>
+          <h2 className="text-white text-anim">Why Choose Heritage Tour Guide India?</h2>
           <p className="text-white wow fadeInUp" data-wow-delay=".5s">
-            Make the most of your travel experience with our carefully <br />
-            curated tours designed to offer convenience
+            Enjoy a more personal way to explore India with local<br/> tour guides and tours planned around you.
           </p>
         </div>
         <div className="row">

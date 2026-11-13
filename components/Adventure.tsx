@@ -14,34 +14,33 @@ export const Adventure1 = () => {
                 <div className="col-xl-6 col-lg-6">
                   <div className="section-title mb-0">
                     <h2 className="text-anim">
-                      Special Offers Sort Time Adventures
+                      Your Time, Your Interests, Your India Tour
                     </h2>
                   </div>
                   <p className="text wow fadeInUp" data-wow-delay=".5s">
-                    Don’t miss out our exclusive special deals, designed make
-                    your dream vacation more affordable than ever.
+                    From a day in Delhi or Agra to a longer journey through Jaipur and Rajasthan, explore with a local tour guide. We’ll help you plan a tour that fits your schedule and interests.
                   </p>
                   <div className="adventure-image wow img-custom-anim-left">
-                    <img src="assets/img/home-1/adventure/01.jpg" alt="img" />
+                    <img src="assets/img/home-1/adventure/Taj Mahal Morning Reflection-1.webp" alt="img" />
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6">
                   <div className="adventure-image wow img-custom-anim-top">
-                    <img src="assets/img/home-1/adventure/02.jpg" alt="img" />
+                    <img src="assets/img/home-1/adventure/Morning at Amber Fort’s Ganesh Pol-2.webp" alt="img" />
                   </div>
                   <div className="adventure-box wow img-custom-anim-bottom">
                     <h3>
                       <Link href="/tour-details">
-                        18+ years of experience in travel services
+                        Local Stories Make Every Tour Special
                       </Link>
                     </h3>
                     <div className="info-item">
                       <img
-                        src="assets/img/home-1/adventure/client.png"
+                        src="assets/img/home-1/adventure/tour-guide-profile.png"
                         alt="img"
                       />
                       <div className="content">
-                        <h5>Mickel z Ponkoz</h5>
+                        <h5>Naresh</h5>
                         <span>Travel guide</span>
                       </div>
                     </div>
@@ -59,17 +58,17 @@ export const Adventure1 = () => {
               <div className="adventure-thumb wow img-custom-anim-right">
                 <img src="assets/img/home-1/adventure/03.jpg" alt="img" />
                 <div className="adventure-content">
-                  <h6>23% Discount</h6>
+                  <h6>Delhi • Agra • Jaipur</h6>
                   <h3>
-                    <Link href="/tour-details">Hotel &amp; Resort</Link>
+                    <Link href="/tour-details">Discover the Golden Triangle</Link>
                   </h3>
                   <div className="booking-item">
                     <div className="content">
-                      <h4>$1500</h4>
-                      <span>per night 4 star rating</span>
+                      {/* <h4>$1500</h4> */}
+                      <span>Explore famous monuments, royal palaces, and local markets with a tour guide.</span>
                     </div>
                     <Link href="/tour-details" className="theme-btn">
-                      Book Now
+                      Explore Golden Triangle Tours
                     </Link>
                   </div>
                 </div>

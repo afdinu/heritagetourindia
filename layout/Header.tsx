@@ -34,11 +34,11 @@ const Header1 = ({
         <div className="container-fluid">
           <div className="header-top-wrapper">
             <p>
-              Welcome to <span>Roavio</span> travel agency, need helps for
-              travel guide <b>Let’s Talk</b>
+              Welcome to <span>Heritage</span> Tour Guide India, need helps for
+              travel guide <b><Link href="tel:+917737244759">Let’s Talk</Link></b>
             </p>
             <div className="header-right">
-              <div className="flag-wrap">
+              {/* <div className="flag-wrap">
                 <i className="fa-solid fa-globe" />
                 <div className="nice-select" tabIndex={0}>
                   <span className="current">English</span>
@@ -54,17 +54,17 @@ const Header1 = ({
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
               <ul className="header-list">
                 <li>
                   <i className="fa-solid fa-envelope" />
                   <a href="mailto:support@gmail.com">
-                    Email : support@gmail.com
+                    Email : heritagetourguide@gmail.com
                   </a>
                 </li>
                 <li>
                   <i className="fa-solid fa-phone-flip" />
-                  <a href="tel:+1-234-567-889">Call : +1-234-567-889</a>
+                  <a href="tel:+917737244759">Call : +917737244759</a>
                 </li>
               </ul>
             </div>
@@ -78,7 +78,7 @@ const Header1 = ({
               <div className="header-left">
                 <div className="logo">
                   <Link href="/" className="header-logo">
-                    <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
+                    <img src="/assets/img/logo/htj-logo.png" alt="Heritage Tour guid india Logo" />
                   </Link>
                 </div>
                 <div className="mean__menu-wrapper">
@@ -334,9 +334,9 @@ const Nav = ({ style }: { style?: string }) => {
           <li className="has-dropdown active menu-thumb">
             <Link href="/">
               Home
-              <i className="fa-solid fa-chevron-down" />
+              <i className="fa-solid" />
             </Link>
-            <ul className={`submenu has-homemenu ${style}`}>
+            {/* <ul className={`submenu has-homemenu ${style}`}>
               <li>
                 <div className="homemenu-items">
                   <div className="homemenu">
@@ -393,13 +393,13 @@ const Nav = ({ style }: { style?: string }) => {
                   </div>
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="has-dropdown active d-xl-none">
             <Link href="/" className="border-none">
               Home
             </Link>
-            <ul className="submenu">
+            {/* <ul className="submenu">
               <li>
                 <Link href="/">Home 01</Link>
               </li>
@@ -412,7 +412,7 @@ const Nav = ({ style }: { style?: string }) => {
               <li>
                 <Link href="/index-4">Home 04</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li>
             <Link href="/destination-details">
@@ -530,7 +530,7 @@ const MobileMenu = ({
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                    <img src="assets/img/logo/htj-logo.png" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="offcanvas__close">
@@ -540,9 +540,7 @@ const MobileMenu = ({
                 </div>
               </div>
               <p className="text d-none d-xl-block">
-                Nullam dignissim, ante scelerisque the is euismod fermentum odio
-                sem semper the is erat, a feugiat leo urna eget eros. Duis
-                Aenean a imperdiet risus.
+                Discover India’s history, culture, and hidden gems with Heritage Tour Guide India. Our personalised guided tours bring each destination to life through local stories and meaningful experiences.
               </p>
               <div className="mobile-menu fix mb-3 mean-container">
                 <div className="mean-bar">
@@ -652,13 +650,13 @@ const MobileMenu = ({
                       </li>
                       <li className="has-dropdown active d-xl-none">
                         <a
-                          href="#"
+                          href="/"
                           className="border-none"
                           onClick={(e) => activeMenuSet("home", e)}
                         >
                           Home
                         </a>
-                        <ul className="submenu" style={activeLi("home")}>
+                        {/* <ul className="submenu" style={activeLi("home")}>
                           <li>
                             <Link href="/">Home 01</Link>
                           </li>
@@ -678,7 +676,7 @@ const MobileMenu = ({
                           onClick={(e) => activeMenuSet("home", e)}
                         >
                           <i className="far fa-plus" />
-                        </a>
+                        </a> */}
                       </li>
                       <li>
                         <a

@@ -16,7 +16,7 @@ export const ContactFrom1 = () => {
               <span className="count">
                 <Counter end={10} />
               </span>
-              m+
+              k+
             </h2>
             <h6>Trusted clients / happy clients</h6>
             <div className="grop-image">
@@ -28,7 +28,7 @@ export const ContactFrom1 = () => {
             <p>
               We provide more than{" "}
               <span className="count">
-                <Counter end={800} />
+                <Counter end={100} />
               </span>
               <b>+</b> travel destination
             </p>

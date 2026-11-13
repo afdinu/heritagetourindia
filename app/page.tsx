@@ -29,7 +29,7 @@ const HomePage = () => {
       <Activities1 />
       <Testimonial1 />
       <News1 />
-      <Brand1 />
+      {/* <Brand1 /> */}
       <Contact1 />
     </RoavioLayout>
   );

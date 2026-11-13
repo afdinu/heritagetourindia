@@ -2,42 +2,39 @@ import Link from "next/link";
 import Counter from "./Counter";
 
 export const CounterSection1 = () => {
-  const counters = [
-    {
-      icon: "flaticon-costumer",
-      count: 30,
-      suffix: "k+",
-      description: "Total worldwide satisfied clients",
-      delay: ".3s",
-    },
-    {
-      icon: "flaticon-suitcase",
-      count: 500,
-      suffix: "+",
-      description: "World tours available in toun",
-      delay: ".5s",
-    },
-    {
-      icon: "flaticon-excursion",
-      count: 20,
-      suffix: "+",
-      description: "Professional local tour guides",
-      delay: ".7s",
-    },
-  ];
+const counters = [
+  {
+    icon: "flaticon-costumer",
+    title: "3 Iconic Cities",
+    description: "Explore Delhi, Agra, and Jaipur on a Golden Triangle tour.",
+    delay: ".3s",
+  },
+  {
+    icon: "flaticon-suitcase",
+    title: "Local Tour Guides",
+    description: "Hear the stories behind the monuments, markets, and palaces you visit.",
+    delay: ".5s",
+  },
+  {
+    icon: "flaticon-excursion",
+    title: "Flexible Itineraries",
+    description: "Add more stops in Rajasthan or include a wildlife safari in your tour.",
+    delay: ".7s",
+  },
+];
   return (
     <section
       className="counter-section section-padding fix bg-cover"
-      style={{ backgroundImage: "url(assets/img/home-1/bg.png)" }}
+      style={{ backgroundImage: "url(assets/img/home-1/tour/amber-fort-background.webp)" }}
     >
       <div className="container">
         <div className="counter-wrapper">
           <div className="section-title text-center mb-0">
             <h2 className="text-white text-anim">
-              Unlimited Travel Experience
+              Explore India with a Local Tour Guide
             </h2>
             <p className="text-white wow fadeInUp" data-wow-delay=".5s">
-              Crafting journeys, creating memories plan smarter, travel better
+              Discover historic landmarks, local stories, and the culture behind each stop.
             </p>
           </div>
           <div className="row">

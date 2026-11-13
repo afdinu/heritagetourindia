@@ -3,44 +3,44 @@ import Counter from "./Counter";
 
 export const Feature1 = () => {
   const features = [
-    {
-      icon: "flaticon-traveling-1",
-      title: "Flight Booking & Reservation",
-      description:
-        "Take the stress to travel with our seamless flight booking and reservation services.",
-      delay: ".2s",
-    },
-    {
-      icon: "flaticon-hot-air-balloon",
-      title: "Hotel & Resort Accommodation",
-      description:
-        "Enjoy a perfect stay with our carefully selected hotels and resorts.",
-      delay: ".4s",
-    },
-    {
-      icon: "flaticon-passport",
-      iconStyle: "style-2",
-      title: "Visa & Travel Assistance",
-      description:
-        "Travel confidently with our comprehensive Visa & Travel Assistance services.",
-      delay: ".6s",
-    },
-    {
-      icon: "flaticon-tent",
-      iconStyle: "style-2",
-      title: "Customized & Private Tours",
-      description:
-        "We design itineraries that match your interests, schedule, and budget.",
-      delay: ".8s",
-    },
-  ];
+  {
+    icon: "flaticon-traveling-1",
+    title: "Local Tour Guides",
+    description:
+      "Explore Delhi, Agra, and Rajasthan with a local guide who shares the stories behind each landmark.",
+    delay: ".2s",
+  },
+  {
+    icon: "flaticon-hot-air-balloon",
+    title: "Golden Triangle Tours",
+    description:
+      "Discover Delhi, Agra, and Jaipur on a guided tour of historic monuments, royal palaces, and local markets.",
+    delay: ".4s",
+  },
+  {
+    icon: "flaticon-passport",
+    iconStyle: "style-2",
+    title: "Wildlife & Tour Extensions",
+    description:
+      "Add a wildlife safari or extra destinations to your Golden Triangle itinerary.",
+    delay: ".6s",
+  },
+  {
+    icon: "flaticon-tent",
+    iconStyle: "style-2",
+    title: "Private & Custom Tours",
+    description:
+      "Plan a private guided tour around the places you want to visit, with an itinerary that fits your schedule and pace.",
+    delay: ".8s",
+  },
+];
   return (
     <section className="feature-section section-padding fix pt-0">
       <div className="container">
         <div className="section-title text-center">
-          <h2 className="text-anim">All-in-one Travel Assistance</h2>
+          <h2 className="text-anim">Guided Tours Across Delhi, Agra, Jaipur & Rajasthan</h2>
           <p className="wow fadeInUp" data-wow-delay=".5s">
-            Crafting journeys, creating memories plan smarter, travel better
+            Explore India’s famous landmarks and local culture with Heritage Tour Guide India. Choose a city tour or plan a multi-day trip around the places you want to visit.
           </p>
         </div>
         <div className="row">

@@ -980,6 +980,9 @@ span {
   gap: 17px;
   margin-top: 20px;
 }
+.adventure-wrapper .adventure-box .info-item img{
+  max-width:80px;
+}
 .adventure-wrapper .adventure-box .info-item .content h5 {
   font-size: 18px;
   color: var(--white);
@@ -6242,6 +6245,10 @@ span {
   font-weight: 600;
   border-bottom: 1px solid var(--theme);
 }
+.header-top-wrapper p a {
+  color: var(--theme);
+ 
+}
 .header-top-wrapper p b {
   color: var(--white);
   font-weight: 600;
@@ -6810,6 +6817,14 @@ span {
 .header-1.header-4 .header-main .header-left .logo .header-logo-2 {
   display: none;
 }
+.header-left .logo .header-logo img {
+    max-width: 95px;
+}
+@media (max-width:767px){
+  .header-left .logo .header-logo img {
+    max-width: 80px;
+}
+}
 .header-1.header-4 .header-main .main-menu ul li a {
   color: var(--white);
 }
@@ -7028,7 +7043,7 @@ span {
 }
 @media (max-width: 1399px) {
   .offcanvas__wrapper .offcanvas__content .offcanvas__logo img {
-    width: 150px;
+    width: 95px;
   }
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__close {
@@ -11740,6 +11755,7 @@ span {
   background: rgba(255, 255, 255, 0.05);
   padding: 38px 35px 30px;
   position: relative;
+  height: 95%;
 }
 @media (max-width: 1399px) {
   .benefit-tour-item {

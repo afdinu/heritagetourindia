@@ -10,7 +10,7 @@ export const Contact1 = () => {
               <div className="contact-image">
                 <img
                   data-speed=".8"
-                  src="assets/img/home-1/Image.jpg"
+                  src="assets/img/home-1/Taj_Mahal_frontal_with_garden.webp"
                   alt="img"
                 />
               </div>
@@ -19,20 +19,19 @@ export const Contact1 = () => {
               <div className="contact-content">
                 <div className="logo-image">
                   <Link href="/">
-                    <img src="assets/img/logo/white-logo.svg" alt="img" />
+                    <img src="assets/img/logo/htj-logo.png" style={{ maxWidth: "80px", filter: "brightness(0) invert(1)" }} alt="img" />
                   </Link>
                 </div>
                 <div className="section-title mb-0">
                   <h2 className="sec-title text-white text-anim">
-                    Adventure is Calling – Are You Ready?
+                    Explore India with a Local Guide
                   </h2>
                 </div>
                 <p className="text wow fadeInUp" data-wow-delay=".3s">
-                  Get ready to embark on unforgettable journeys with us. whether
-                  you’re seeking thrilling adventures, relaxing escapes
+                  Visit the Taj Mahal, walk through Old Delhi, and explore Jaipur’s forts with a local guide. Choose a city tour or plan a Golden Triangle trip with extra stops in Rajasthan or a wildlife safari.
                 </p>
                 <Link href="/tour-details" className="theme-btn">
-                  Explore Our Tours
+                  Explore Guided Tours
                 </Link>
               </div>
             </div>

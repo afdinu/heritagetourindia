@@ -7,35 +7,35 @@ import Counter from "./Counter";
 export const Hero1 = () => {
   const heroSlides = [
     {
-      bgImage: "assets/img/home-1/hero/hero-bg.jpg",
-      title: "Turning your travel dreams into reality",
+      bgImage: "assets/img/home-1/hero/slider-2.webp",
+      title: "Explore India with a Local Tour Guide",
       description:
-        "Unleash your inner explorer with us! At ROAVIO, we craft unforgettable adventures tailored",
-      buttonText: "Explore Destinations",
+        "Visit famous places and learn about India’s history and culture with a guide by your side.",
+        buttonText: "Book Your Guide",
       stats: [
-        { count: 500, label: "Explore 500+ Destinations" },
+        { count: 500, label: "Explore Real India" },
         { count: 10, label: "Years of experience" },
       ],
     },
     {
-      bgImage: "assets/img/home-1/hero/hero-bg-2.jpg",
-      title: "Turning your travel dreams into reality",
+      bgImage: "assets/img/home-1/hero/slider-3.webp",
+      title: "Discover Delhi, Agra & Jaipur",
       description:
-        "Unleash your inner explorer with us! At ROAVIO, we craft unforgettable adventures tailored",
-      buttonText: "Explore Destinations",
+        "Enjoy guided tours of historic monuments, royal palaces, and local markets.",
+      buttonText: "View Our Tours",
       stats: [
-        { count: 500, label: "Explore 500+ Destinations" },
+        { count: 500, label: "Explore Real India" },
         { count: 10, label: "Years of experience" },
       ],
     },
     {
-      bgImage: "assets/img/home-1/hero/hero-bg-3.jpg",
-      title: "Turning your travel dreams into reality",
+      bgImage: "assets/img/home-1/hero/slider-3.webp",
+      title: "Plan a Tour Your Way",
       description:
-        "Unleash your inner explorer with us! At ROAVIO, we craft unforgettable adventures tailored",
-      buttonText: "Explore Destinations",
+        "Choose the places you want to visit. We’ll help you plan a guided tour that suits your time and interests.",
+      buttonText: "Plan Your Tour",
       stats: [
-        { count: 500, label: "Explore 500+ Destinations" },
+        { count: 500, label: "Explore Real India" },
         { count: 10, label: "Years of experience" },
       ],
     },

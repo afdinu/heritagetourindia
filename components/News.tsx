@@ -1,37 +1,36 @@
 import Link from "next/link";
 
 export const News1 = () => {
-  const newsItems = [
-    {
-      image: "assets/img/home-1/news/news-1.jpg",
-      date: "18 August",
-      category: "Tours & travel",
-      title: "Highlight trending destinations and why they're worth exploring.",
-      delay: ".2s",
-    },
-    {
-      image: "assets/img/home-1/news/news-2.jpg",
-      date: "20 August",
-      category: "Tours & travel",
-      title: "Tips on itinerary planning, booking, and travel hacks.",
-      delay: ".4s",
-    },
-    {
-      image: "assets/img/home-1/news/news-3.jpg",
-      date: "23 August",
-      category: "Tours & travel",
-      title: "Focus on destinations suitable for families with kids.",
-      delay: ".6s",
-    },
-    {
-      image: "assets/img/home-1/news/news-4.jpg",
-      date: "24 August",
-      category: "Tours & travel",
-      title:
-        "Guide to enjoying luxury stays and experiences without overspending.",
-      delay: ".8s",
-    },
-  ];
+ const newsItems = [
+  {
+    image: "assets/img/home-1/news/news-1.jpg",
+    date: "18 August",
+    category: "Delhi Tours",
+    title: "What to See in Old Delhi with a Local Tour Guide",
+    delay: ".2s",
+  },
+  {
+    image: "assets/img/home-1/news/news-2.jpg",
+    date: "20 August",
+    category: "Agra Tours",
+    title: "How to Visit the Taj Mahal and Agra Fort in One Day",
+    delay: ".4s",
+  },
+  {
+    image: "assets/img/home-1/news/news-3.jpg",
+    date: "23 August",
+    category: "Golden Triangle & Wildlife",
+    title: "How to Plan a Delhi, Agra & Jaipur Tour with a Wildlife Safari",
+    delay: ".6s",
+  },
+  {
+    image: "assets/img/home-1/news/news-4.jpg",
+    date: "24 August",
+    category: "Rajasthan & Tour Extensions",
+    title: "How to Extend Your Golden Triangle Tour to Jodhpur and Udaipur",
+    delay: ".8s",
+  },
+];
   return (
     <section className="news-section section-padding fix">
       <div className="container custom-container-2">

@@ -1,6 +1,16 @@
 {
-  "app": {},
-  "appUsingSizeAdjust": false,
+  "app": {
+    "[project]/app/_not-found/page": [],
+    "[project]/app/destination-details/page": [],
+    "[project]/app/news-details/page": [],
+    "[project]/app/page": [],
+    "[project]/app/tour-areas/[city]/[slug]/page": [],
+    "[project]/app/tour-areas/[city]/page": [],
+    "[project]/app/tour-areas/page": [],
+    "[project]/app/tour-details/page": [],
+    "[project]/app/tour-grid/page": []
+  },
+  "appUsingSizeAdjust": true,
   "pages": {},
   "pagesUsingSizeAdjust": false
 }
