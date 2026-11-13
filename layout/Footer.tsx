@@ -29,29 +29,37 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-area">
                   <li>
-                    <Link href="/tour-details">
-                      <i className="fa-solid fa-chevron-right" />
-                      Best Tour Guide
-                    </Link>
+                    <Link href="/services/delhi-tours-guide">
+                    <i className="fa-solid fa-chevron-right" />
+                    Delhi Tours Guide</Link>
+                   
                   </li>
                   <li>
-                    <Link href="/tour-details">
-                      <i className="fa-solid fa-chevron-right" />
-                      Tour Booking
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">
-                      <i className="fa-solid fa-chevron-right" />
-                      Hotel Booking
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">
-                      <i className="fa-solid fa-chevron-right" />
-                      Ticket Booking
-                    </Link>
-                  </li>
+                <Link href="/services/agra-tours-guide">
+                <i className="fa-solid fa-chevron-right" />
+                Agra Tours Guide</Link>
+              </li>
+              <li>
+                <Link href="/services/golden-triangle">
+                <i className="fa-solid fa-chevron-right" />
+                Golden Triangle Tours Guide</Link>
+              </li>
+              <li>
+                <Link href="/services/golden-triangle-with-wildlife">
+                <i className="fa-solid fa-chevron-right" />
+                Golden Triangle Tour with Wildlife</Link>
+              </li>
+              <li>
+                <Link href="/services/golden-triangle-with-extensions">
+                <i className="fa-solid fa-chevron-right" />
+                Golden Triangle Tour with Extensions</Link>
+              </li>
+              <li>
+                <Link href="/services/rajasthan-tours-guide">
+                <i className="fa-solid fa-chevron-right" />
+                Rajasthan Tour Guide</Link>
+              </li>
+               
                 </ul>
               </div>
             </div>
@@ -73,13 +81,13 @@ const Footer1 = () => {
                   <li>
                     <Link href="/contact">
                       <i className="fa-solid fa-chevron-right" />
-                      Community
+                      Contact
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact">
+                    <Link href="/news">
                       <i className="fa-solid fa-chevron-right" />
-                      Jobs Careers
+                      Blogs
                     </Link>
                   </li>
                   <li>
@@ -97,33 +105,22 @@ const Footer1 = () => {
             >
               <div className="single-footer-widget">
                 <div className="wid-title">
-                  <h4>Destinations</h4>
+                  <h4>Policies</h4>
                 </div>
                 <ul className="list-area">
                   <li>
-                    <Link href="/tour-details">
+                    <Link href="#">
                       <i className="fa-solid fa-chevron-right" />
-                      African Safaris
+                      Terms & Condition
                     </Link>
                   </li>
                   <li>
-                    <Link href="/tour-details">
+                    <Link href="#">
                       <i className="fa-solid fa-chevron-right" />
-                      Alaska &amp; Canada
+                      Privacy Policy
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/tour-details">
-                      <i className="fa-solid fa-chevron-right" />
-                      South America
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/tour-details">
-                      <i className="fa-solid fa-chevron-right" />
-                      Middle East
-                    </Link>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
@@ -141,8 +138,8 @@ const Footer1 = () => {
                   </div>
                   <div className="content">
                     <h6>
-                      578 Level, D-block Street <br />
-                      Melbourne, Australia
+                      Jaipur, Rajasthan<br />
+                      302001
                     </h6>
                   </div>
                 </div>
@@ -152,8 +149,8 @@ const Footer1 = () => {
                   </div>
                   <div className="content">
                     <h6>
-                      <a href="mailto:supportrevelo@gmail.com">
-                        supportrevelo@gmail.com
+                      <a href="mailto:heritagetourguide@gmail.com">
+                        heritagetourguide@gmail.com
                       </a>
                     </h6>
                   </div>
@@ -164,7 +161,7 @@ const Footer1 = () => {
                   </div>
                   <div className="content">
                     <h6>
-                      <a href="tel:+88012334588">+880 123 345 88</a>
+                      <a href="tel:+91917737244759">+91917737244759</a>
                     </h6>
                   </div>
                 </div>
@@ -209,11 +206,11 @@ const Footer1 = () => {
         <div className="container">
           <div className="footer-wrapper">
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Roavio
+              HTGI
             </h2>
             <div className="text-item wow fadeInUp" data-wow-delay=".5s">
               <p>
-                @Copy {new Date().getFullYear()} <span>ROAVIO,</span> All rights
+                @Copy {new Date().getFullYear()} <span>Heritage Tour Guide India,</span> All rights
                 reserved
               </p>
               <a href="#" className="icon">

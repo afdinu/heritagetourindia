@@ -814,7 +814,7 @@ const Contact1 = ()=>{
                                 className: "contact-image",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                     "data-speed": ".8",
-                                    src: "assets/img/home-1/Taj_Mahal_frontal_with_garden.webp",
+                                    src: "/assets/img/home-1/Taj_Mahal_frontal_with_garden.webp",
                                     alt: "img"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Contact.tsx",
@@ -841,7 +841,7 @@ const Contact1 = ()=>{
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             href: "/",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "assets/img/logo/htj-logo.png",
+                                                src: "/assets/img/logo/htj-logo.png",
                                                 style: {
                                                     maxWidth: "80px",
                                                     filter: "brightness(0) invert(1)"

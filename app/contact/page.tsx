@@ -9,29 +9,29 @@ const Contact = () => {
       title: "Email us",
       items: [
         {
-          text: "supportroavio@gmail.com",
-          link: "mailto:supportroavio@gmail.com",
+          text: "heritagetourguide@gmail.com",
+          link: "mailto:heritagetourguide@gmail.com",
         },
-        { text: "www.roavio247.com", link: "mailto:www.roavio247.com" },
+       
       ],
     },
     {
       icon: "fa-solid fa-phone",
       title: "Call Us",
       items: [
-        { text: "+1 123456 7890", link: "tel:+11234567890" },
+        { text: "+917737244759", link: "tel:+917737244759" },
         { text: "Available 24/7 hours" },
       ],
     },
     {
       icon: "fas fa-alarm-clock",
       title: "Working Hours",
-      items: [{ text: "Sunday to Friday \n 08:00 AM – 06:00 PM" }],
+      items: [{ text: "Sunday to Saturday \n 08:00 AM – 06:00 PM" }],
     },
     {
       icon: "fa-solid fa-earth-americas",
-      title: "USA Office",
-      items: [{ text: "20 Cooper Square, New \n York, NY 10003, USA" }],
+      title: "Office",
+      items: [{ text: "Jaipur \n Rajasthan,302001" }],
     },
   ];
   return (
@@ -189,7 +189,7 @@ const Contact = () => {
                       </div>
                       <div className="col-lg-8">
                         <button type="submit" className="theme-btn">
-                          Send Your Reviews
+                          Submit
                         </button>
                       </div>
                     </div>
@@ -206,7 +206,7 @@ const Contact = () => {
           <div className="map-items">
             <div className="googpemap">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14230.199848846734!2d75.79477543955082!3d26.9177743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db75dee29a50d%3A0x5f277eab0bb64757!2sHeritage%20Tour%20Guide%20India!5e0!3m2!1sen!2sin!4v1794582297508!5m2!1sen!2sin"
                 style={{ border: 0 }}
                 allowFullScreen={true}
                 loading="lazy"

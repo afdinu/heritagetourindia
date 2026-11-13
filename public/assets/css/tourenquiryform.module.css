@@ -1,0 +1,87 @@
+.form {
+  background: #e1e1e1;
+  padding: clamp(1rem, 3vw, 2rem);
+  margin-bottom: 1.5rem;
+}
+
+.form h2 {
+  color: #bd4315;
+  font-size: clamp(1.65rem, 3vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 1.25rem;
+}
+
+.form fieldset {
+  display: grid;
+  gap: .75rem;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.form label {
+  display: block;
+}
+
+.tour {
+  margin-bottom: .75rem;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: .7rem .85rem;
+  border: 1px solid #7d8791;
+  border-radius: .25rem;
+  background: #fff;
+  color: #222;
+  font: inherit;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #646464;
+}
+
+.form button {
+  justify-self: start;
+  border: 0;
+  border-radius: .3rem;
+  background: #252e68;
+  color: #fff;
+  padding: .75rem 1.75rem;
+  font: inherit;
+  font-weight: 700;
+}
+
+.form button:disabled {
+  opacity: .55;
+}
+
+.form :is(input, textarea, button):focus-visible {
+  outline: 2px solid #252e68;
+  outline-offset: 2px;
+}
+
+.form p {
+  margin: .75rem 0 0;
+}
+
+.label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

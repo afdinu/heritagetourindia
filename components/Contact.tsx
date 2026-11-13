@@ -10,7 +10,7 @@ export const Contact1 = () => {
               <div className="contact-image">
                 <img
                   data-speed=".8"
-                  src="assets/img/home-1/Taj_Mahal_frontal_with_garden.webp"
+                  src="/assets/img/home-1/Taj_Mahal_frontal_with_garden.webp"
                   alt="img"
                 />
               </div>
@@ -19,7 +19,7 @@ export const Contact1 = () => {
               <div className="contact-content">
                 <div className="logo-image">
                   <Link href="/">
-                    <img src="assets/img/logo/htj-logo.png" style={{ maxWidth: "80px", filter: "brightness(0) invert(1)" }} alt="img" />
+                    <img src="/assets/img/logo/htj-logo.png" style={{ maxWidth: "80px", filter: "brightness(0) invert(1)" }} alt="img" />
                   </Link>
                 </div>
                 <div className="section-title mb-0">

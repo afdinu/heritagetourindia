@@ -22,21 +22,21 @@
   },
   "dynamicRoutes": [
     {
-      "page": "/tour-areas/[city]",
-      "regex": "^/tour\\-areas/([^/]+?)(?:/)?$",
+      "page": "/services/[city]",
+      "regex": "^/services/([^/]+?)(?:/)?$",
       "routeKeys": {
         "nxtPcity": "nxtPcity"
       },
-      "namedRegex": "^/tour\\-areas/(?<nxtPcity>[^/]+?)(?:/)?$"
+      "namedRegex": "^/services/(?<nxtPcity>[^/]+?)(?:/)?$"
     },
     {
-      "page": "/tour-areas/[city]/[slug]",
-      "regex": "^/tour\\-areas/([^/]+?)/([^/]+?)(?:/)?$",
+      "page": "/services/[city]/[slug]",
+      "regex": "^/services/([^/]+?)/([^/]+?)(?:/)?$",
       "routeKeys": {
         "nxtPcity": "nxtPcity",
         "nxtPslug": "nxtPslug"
       },
-      "namedRegex": "^/tour\\-areas/(?<nxtPcity>[^/]+?)/(?<nxtPslug>[^/]+?)(?:/)?$"
+      "namedRegex": "^/services/(?<nxtPcity>[^/]+?)/(?<nxtPslug>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [
@@ -143,6 +143,12 @@
       "namedRegex": "^/news\\-grid(?:/)?$"
     },
     {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
       "page": "/team",
       "regex": "^/team(?:/)?$",
       "routeKeys": {},
@@ -153,12 +159,6 @@
       "regex": "^/team\\-details(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/team\\-details(?:/)?$"
-    },
-    {
-      "page": "/tour-areas",
-      "regex": "^/tour\\-areas(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/tour\\-areas(?:/)?$"
     },
     {
       "page": "/tour-details",

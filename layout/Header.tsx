@@ -414,7 +414,7 @@ const Nav = ({ style }: { style?: string }) => {
               </li>
             </ul> */}
           </li>
-          <li>
+          {/* <li>
             <Link href="/destination-details">
               Destinations
               <i className="fa-solid fa-chevron-down" />
@@ -430,17 +430,33 @@ const Nav = ({ style }: { style?: string }) => {
                 <Link href="/destination-details">Destination Details</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
-            <Link href="/tour-details">
+            <Link href="/services">
               Tours
               <i className="fa-solid fa-chevron-down" />
             </Link>
             <ul className="submenu">
               <li>
-                <Link href="/tour-list">Tour List</Link>
+                <Link href="/services/delhi-tours-guide">Delhi Tours Guide</Link>
               </li>
               <li>
+                <Link href="/services/agra-tours-guide">Agra Tours Guide</Link>
+              </li>
+              <li>
+                <Link href="/services/golden-triangle">Golden Triangle Tours Guide</Link>
+              </li>
+              <li>
+                <Link href="/services/golden-triangle-with-wildlife">Golden Triangle Tour with Wildlife</Link>
+              </li>
+              <li>
+                <Link href="/services/golden-triangle-with-extensions">Golden Triangle Tour with Extensions</Link>
+              </li>
+              <li>
+                <Link href="/services/rajasthan-tours-guide">Rajasthan Tour Guide</Link>
+              </li>
+              
+              {/* <li>
                 <Link href="/tour-grid">Tour Grid</Link>
               </li>
               <li>
@@ -451,7 +467,7 @@ const Nav = ({ style }: { style?: string }) => {
               </li>
               <li>
                 <Link href="/tour-details">Tour Details</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="has-dropdown">
@@ -466,7 +482,7 @@ const Nav = ({ style }: { style?: string }) => {
               <li>
                 <Link href="/team">Team</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/team-details">Team Details</Link>
               </li>
               <li>
@@ -477,15 +493,15 @@ const Nav = ({ style }: { style?: string }) => {
               </li>
               <li>
                 <Link href="/404">404 Page</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li>
             <Link href="/news-details">
               Blog
-              <i className="fa-solid fa-chevron-down" />
+              {/* <i className="fa-solid fa-chevron-down" /> */}
             </Link>
-            <ul className="submenu">
+            {/* <ul className="submenu">
               <li>
                 <Link href="/news">Blog Standard</Link>
               </li>
@@ -495,7 +511,7 @@ const Nav = ({ style }: { style?: string }) => {
               <li>
                 <Link href="/news-details">Blog Details</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li>
             <Link href="/contact">Contact Us</Link>
@@ -530,7 +546,7 @@ const MobileMenu = ({
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/htj-logo.png" alt="logo-img" />
+                    <img src="/assets/img/logo/htj-logo.png" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="offcanvas__close">
@@ -678,7 +694,7 @@ const MobileMenu = ({
                           <i className="far fa-plus" />
                         </a> */}
                       </li>
-                      <li>
+                      {/* <li>
                         <a
                           href="#"
                           onClick={(e) => activeMenuSet("destination", e)}
@@ -706,14 +722,32 @@ const MobileMenu = ({
                         >
                           <i className="far fa-plus" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
-                        <a href="#" onClick={(e) => activeMenuSet("tour", e)}>
+                        <a href="/services" onClick={(e) => activeMenuSet("tour", e)}>
                           Tours
                           <i className="fa-solid fa-chevron-down" />
                         </a>
                         <ul className="submenu" style={activeLi("tour")}>
                           <li>
+                <Link href="/services/delhi-tours-guide">Delhi Tours Guide</Link>
+              </li>
+              <li>
+                <Link href="/services/agra-tours-guide">Agra Tours Guide</Link>
+              </li>
+              <li>
+                <Link href="/services/golden-triangle">Golden Triangle Tours Guide</Link>
+              </li>
+              <li>
+                <Link href="/services/golden-triangle-with-wildlife">Golden Triangle Tour with Wildlife</Link>
+              </li>
+              <li>
+                <Link href="/services/golden-triangle-with-extensions">Golden Triangle Tour with Extensions</Link>
+              </li>
+              <li>
+                <Link href="/services/rajasthan-tours-guide">Rajasthan Tour Guide</Link>
+              </li>
+                          {/* <li>
                             <Link href="/tour-list">Tour List</Link>
                           </li>
                           <li>
@@ -727,7 +761,7 @@ const MobileMenu = ({
                           </li>
                           <li>
                             <Link href="/tour-details">Tour Details</Link>
-                          </li>
+                          </li> */}
                         </ul>
                         <a
                           className="mean-expand"
@@ -749,7 +783,7 @@ const MobileMenu = ({
                           <li>
                             <Link href="/team">Team</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="/team-details">Team Details</Link>
                           </li>
                           <li>
@@ -760,7 +794,7 @@ const MobileMenu = ({
                           </li>
                           <li>
                             <Link href="/404">404 Page</Link>
-                          </li>
+                          </li> */}
                         </ul>
                         <a className="mean-expand" href="#">
                           <i className="far fa-plus" />
@@ -769,9 +803,9 @@ const MobileMenu = ({
                       <li>
                         <Link href="/news-details">
                           Blog
-                          <i className="fa-solid fa-chevron-down" />
+                          {/* <i className="fa-solid fa-chevron-down" /> */}
                         </Link>
-                        <ul className="submenu">
+                        {/* <ul className="submenu">
                           <li>
                             <Link href="/news">Blog Standard</Link>
                           </li>
@@ -781,7 +815,7 @@ const MobileMenu = ({
                           <li>
                             <Link href="/news-details">Blog Details</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                         <a
                           className="mean-expand"
                           href="#"
@@ -798,7 +832,7 @@ const MobileMenu = ({
                 </div>
               </div>
               <div className="offcanvas__contact">
-                <h3>Get Appointment</h3>
+                {/* <h3>Get Appointment</h3>
                 <form
                   action="#"
                   id="contact-form"
@@ -837,7 +871,7 @@ const MobileMenu = ({
                       </div>
                     </div>
                   </div>
-                </form>
+                </form> */}
                 <div className="social-icon d-flex align-items-center">
                   <a href="#">
                     <i className="fab fa-facebook-f" />

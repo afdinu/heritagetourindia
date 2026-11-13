@@ -1,7 +1,8 @@
 [
+ 
   {
-    "name": "Delhi Tour Guide",
-    "city": "delhi",
+    "name": "Delhi Tours Guide",
+    "city": "delhi-tours-guide",
     "description": "Discover Delhi’s historic neighbourhoods, monuments and markets with a local guide.",
     "image": "assets/img/home-1/tour/tour-1.jpg",
     "imageAlt": "",
@@ -100,7 +101,8 @@
           "title": "Old Delhi Walking Tour with a Local Guide",
           "description": "Explore Chandni Chowk, Jama Masjid, and Khari Baoli on a three-hour Old Delhi walking tour with Heritage Tour Guide India."
         },
-        "draft": false
+        "draft": false,
+        "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
       },
       {
         "name": "New Delhi Sightseeing Tour",
@@ -123,7 +125,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Humayun’s Tomb Guided Tour",
@@ -146,7 +149,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Qutub Minar Guided Tour",
@@ -169,13 +173,15 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       }
-    ]
+    ],
+    "breadcrumbImage": ""
   },
   {
-    "name": "Agra Tour Guide",
-    "city": "agra",
+    "name": "Agra Tours Guide",
+    "city": "agra-tours-guide",
     "description": "Explore the Taj Mahal, Agra Fort and Agra’s Mughal heritage with a local guide.",
     "image": null,
     "imageAlt": "",
@@ -202,7 +208,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Agra Fort Guided Tour",
@@ -225,7 +232,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Taj Mahal and Agra Fort Tour",
@@ -248,7 +256,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Fatehpur Sikri Guided Tour",
@@ -271,9 +280,11 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       }
-    ]
+    ],
+    "breadcrumbImage": ""
   },
   {
     "name": "Golden Triangle Tour Guide",
@@ -304,7 +315,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Private Golden Triangle Tour",
@@ -327,7 +339,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Golden Triangle Heritage Tour",
@@ -350,7 +363,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Golden Triangle Culture Tour",
@@ -373,9 +387,11 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       }
-    ]
+    ],
+    "breadcrumbImage": ""
   },
   {
     "name": "Golden Triangle Tour with Wildlife",
@@ -406,7 +422,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Golden Triangle with Sariska",
@@ -429,7 +446,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Golden Triangle with Bharatpur Birding",
@@ -452,7 +470,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Golden Triangle Wildlife and Birding Tour",
@@ -475,9 +494,11 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       }
-    ]
+    ],
+    "breadcrumbImage": ""
   },
   {
     "name": "Golden Triangle Tour with Extensions",
@@ -508,7 +529,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Golden Triangle with Jodhpur",
@@ -531,7 +553,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Golden Triangle with Pushkar",
@@ -554,7 +577,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Golden Triangle with Varanasi",
@@ -577,13 +601,15 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       }
-    ]
+    ],
+    "breadcrumbImage": ""
   },
   {
     "name": "Rajasthan Tour Guide",
-    "city": "rajasthan",
+    "city": "rajasthan-tours-guide",
     "description": "Explore Rajasthan’s forts, palaces, markets and historic cities with a local guide.",
     "image": null,
     "imageAlt": "",
@@ -610,7 +636,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Jodhpur Fort and Old City Tour",
@@ -633,7 +660,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Udaipur City Tour",
@@ -656,7 +684,8 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       },
       {
         "name": "Jaisalmer Heritage Walk",
@@ -679,9 +708,11 @@
           "title": "",
           "description": ""
         },
-        "draft": true
+        "draft": true,
+        "breadcrumbImage": ""
       }
-    ]
+    ],
+    "breadcrumbImage": ""
   },
   {
     "name": "Jaipur",
@@ -716,7 +747,8 @@
           "title": "",
           "description": ""
         },
-        "draft": false
+        "draft": false,
+        "breadcrumbImage": ""
       },
       {
         "name": "Private City Tour",
@@ -743,8 +775,10 @@
           "title": "",
           "description": ""
         },
-        "draft": false
+        "draft": false,
+        "breadcrumbImage": ""
       }
-    ]
+    ],
+    "breadcrumbImage": ""
   }
 ]
