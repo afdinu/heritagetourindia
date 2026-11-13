@@ -49,12 +49,12 @@ const counters = [
                     <i className={counter.icon} />
                   </div>
                   <div className="content">
-                    <h3>
+                    {/* <h3>
                       <span className="count">
                         <Counter end={counter.count} />
                       </span>
                       {counter.suffix}
-                    </h3>
+                    </h3> */}
                     <p>{counter.description}</p>
                   </div>
                 </div>

@@ -8,113 +8,117 @@
     "showOnMainGrid": true,
     "services": [
       {
-  "name": "Old Delhi Walking Tour",
-  "slug": "old-delhi-walking-tour",
-  "summary": "Explore the lanes, bazaars, and food streets of Old Delhi with a local guide.",
-  "description": "Discover Old Delhi on a three-hour guided walk through Chandni Chowk. Explore the lanes around Jama Masjid, pass the food shops of Paranthe Wali Gali, and finish near Khari Baoli spice market. Along the way, your guide will share stories about the neighbourhood’s architecture, food traditions, and everyday life.",
-  "location": "Chandni Chowk, Old Delhi",
-  "duration": "3 hours",
-  "groupSize": "Up to 6 guests",
-  "image": "assets/img/tours/old-delhi/chandni-chowk.webp",
-  "imageAlt": "Shops and pedestrians in Chandni Chowk, Old Delhi",
-  "gallery": [
-    {
-      "src": "assets/img/tours/old-delhi/jama-masjid.webp",
-      "alt": "Red sandstone facade of Jama Masjid in Delhi"
-    },
-    {
-      "src": "assets/img/tours/old-delhi/chandni-chowk.webp",
-      "alt": "Market street in Chandni Chowk"
-    },
-    {
-      "src": "assets/img/tours/old-delhi/heritage-lane.webp",
-      "alt": "Historic lane in Old Delhi"
-    },
-    {
-      "src": "assets/img/tours/old-delhi/khari-baoli.webp",
-      "alt": "Spice stalls in Khari Baoli market"
-    },
-    {
-      "src": "assets/img/tours/old-delhi/paranthe-wali-gali.webp",
-      "alt": "Food shops along Paranthe Wali Gali"
-    },
-    {
-      "src": "assets/img/tours/old-delhi/market-shops.webp",
-      "alt": "Traditional shops in an Old Delhi bazaar"
-    }
-  ],
-  "highlights": [
-    "Hear stories about Jama Masjid and the surrounding neighbourhood",
-    "Walk through the bazaars of Chandni Chowk",
-    "Discover the food shops of Paranthe Wali Gali",
-    "Explore the spice stalls of Khari Baoli"
-  ],
-  "itinerary": [
-    {
-      "label": "Stop 1",
-      "title": "Jama Masjid",
-      "description": "Meet your guide near Jama Masjid and get an introduction to Old Delhi and its Mughal history."
-    },
-    {
-      "label": "Stop 2",
-      "title": "Chandni Chowk",
-      "description": "Walk through the main bazaar and nearby lanes. Learn how the neighbourhood’s shops and markets developed."
-    },
-    {
-      "label": "Stop 3",
-      "title": "Paranthe Wali Gali",
-      "description": "See the shops along this food lane and take an optional snack break."
-    },
-    {
-      "label": "Stop 4",
-      "title": "Khari Baoli Spice Market",
-      "description": "Browse spice stalls and hear how traders source and sell their goods."
-    }
-  ],
-  "inclusions": [
-    "Local tour guide",
-    "Guided walk through Old Delhi"
-  ],
-  "exclusions": [
-    "Hotel pickup and drop-off",
-    "Food and drinks",
-    "Entry fees, where applicable",
-    "Personal purchases"
-  ],
-  "faqs": [
-    {
-      "question": "How long is the Old Delhi Walking Tour?",
-      "answer": "Allow about three hours. The pace may vary with market crowds and any stops you choose to make."
-    },
-    {
-      "question": "Where does the tour start?",
-      "answer": "The sample route starts near Jama Masjid. Ask for the exact meeting point when enquiring."
-    },
-    {
-      "question": "Is food included?",
-      "answer": "Food and drinks are paid for separately. You can ask your guide about places to stop for a snack."
-    }
-  ],
-  "mapEmbedUrl": "https://www.google.com/maps?q=Chandni+Chowk+Delhi&output=embed",
-  "seo": {
-    "title": "Old Delhi Walking Tour with a Local Guide",
-    "description": "Explore Chandni Chowk, Jama Masjid, and Khari Baoli on a three-hour Old Delhi walking tour with Heritage Tour Guide India."
-  },
-  "draft": false
-},
+        "name": "Old Delhi Walking Tour",
+        "slug": "old-delhi-walking-tour",
+        "summary": "Explore the lanes, bazaars, and food streets of Old Delhi with a local guide.",
+        "description": "Discover Old Delhi on a three-hour guided walk through Chandni Chowk. Explore the lanes around Jama Masjid, pass the food shops of Paranthe Wali Gali, and finish near Khari Baoli spice market. Along the way, your guide will share stories about the neighbourhood’s architecture, food traditions, and everyday life.",
+        "location": "Chandni Chowk, Old Delhi",
+        "duration": "3 hours",
+        "groupSize": "Up to 6 guests",
+        "image": "assets/img/tours/old-delhi/chandni-chowk.webp",
+        "imageAlt": "Shops and pedestrians in Chandni Chowk, Old Delhi",
+        "gallery": [
+          {
+            "src": "assets/img/tours/old-delhi/jama-masjid.webp",
+            "alt": "Red sandstone facade of Jama Masjid in Delhi"
+          },
+          {
+            "src": "assets/img/tours/old-delhi/chandni-chowk.webp",
+            "alt": "Market street in Chandni Chowk"
+          },
+          {
+            "src": "assets/img/tours/old-delhi/heritage-lane.webp",
+            "alt": "Historic lane in Old Delhi"
+          },
+          {
+            "src": "assets/img/tours/old-delhi/khari-baoli.webp",
+            "alt": "Spice stalls in Khari Baoli market"
+          },
+          {
+            "src": "assets/img/tours/old-delhi/paranthe-wali-gali.webp",
+            "alt": "Food shops along Paranthe Wali Gali"
+          },
+          {
+            "src": "assets/img/tours/old-delhi/market-shops.webp",
+            "alt": "Traditional shops in an Old Delhi bazaar"
+          }
+        ],
+        "highlights": [
+          "Hear stories about Jama Masjid and the surrounding neighbourhood",
+          "Walk through the bazaars of Chandni Chowk",
+          "Discover the food shops of Paranthe Wali Gali",
+          "Explore the spice stalls of Khari Baoli"
+        ],
+        "itinerary": [
+          {
+            "label": "Stop 1",
+            "title": "Jama Masjid",
+            "description": "Meet your guide near Jama Masjid and get an introduction to Old Delhi and its Mughal history."
+          },
+          {
+            "label": "Stop 2",
+            "title": "Chandni Chowk",
+            "description": "Walk through the main bazaar and nearby lanes. Learn how the neighbourhood’s shops and markets developed."
+          },
+          {
+            "label": "Stop 3",
+            "title": "Paranthe Wali Gali",
+            "description": "See the shops along this food lane and take an optional snack break."
+          },
+          {
+            "label": "Stop 4",
+            "title": "Khari Baoli Spice Market",
+            "description": "Browse spice stalls and hear how traders source and sell their goods."
+          }
+        ],
+        "inclusions": [
+          "Local tour guide",
+          "Guided walk through Old Delhi"
+        ],
+        "exclusions": [
+          "Hotel pickup and drop-off",
+          "Food and drinks",
+          "Entry fees, where applicable",
+          "Personal purchases"
+        ],
+        "faqs": [
+          {
+            "question": "How long is the Old Delhi Walking Tour?",
+            "answer": "Allow about three hours. The pace may vary with market crowds and any stops you choose to make."
+          },
+          {
+            "question": "Where does the tour start?",
+            "answer": "The sample route starts near Jama Masjid. Ask for the exact meeting point when enquiring."
+          },
+          {
+            "question": "Is food included?",
+            "answer": "Food and drinks are paid for separately. You can ask your guide about places to stop for a snack."
+          }
+        ],
+        "mapEmbedUrl": "https://www.google.com/maps?q=Chandni+Chowk+Delhi&output=embed",
+        "seo": {
+          "title": "Old Delhi Walking Tour with a Local Guide",
+          "description": "Explore Chandni Chowk, Jama Masjid, and Khari Baoli on a three-hour Old Delhi walking tour with Heritage Tour Guide India."
+        },
+        "draft": false
+      },
       {
         "name": "New Delhi Sightseeing Tour",
         "slug": "new-delhi-sightseeing-tour",
         "summary": "Explore New Delhi’s landmarks, avenues and public spaces.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -126,14 +130,18 @@
         "slug": "humayuns-tomb-guided-tour",
         "summary": "Discover the garden tomb and its Mughal architecture.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -145,14 +153,18 @@
         "slug": "qutub-minar-guided-tour",
         "summary": "Explore the Qutub complex and its historic monuments.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -174,14 +186,18 @@
         "slug": "taj-mahal-guided-tour",
         "summary": "Explore the Taj Mahal and learn the story behind its design.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -193,14 +209,18 @@
         "slug": "agra-fort-guided-tour",
         "summary": "Discover the fort’s courtyards, palaces and Mughal history.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -212,14 +232,18 @@
         "slug": "taj-mahal-and-agra-fort-tour",
         "summary": "Visit two of Agra’s best-known monuments with a local guide.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -231,14 +255,18 @@
         "slug": "fatehpur-sikri-guided-tour",
         "summary": "Explore the courtyards and gateways of the former Mughal capital.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -260,14 +288,18 @@
         "slug": "classic-golden-triangle-tour",
         "summary": "Visit landmarks across Delhi, Agra and Jaipur.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -279,14 +311,18 @@
         "slug": "private-golden-triangle-tour",
         "summary": "Plan a private route through Delhi, Agra and Jaipur.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -298,14 +334,18 @@
         "slug": "golden-triangle-heritage-tour",
         "summary": "Focus on historic monuments, royal architecture and local stories.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -317,14 +357,18 @@
         "slug": "golden-triangle-culture-tour",
         "summary": "Build a trip around local markets, crafts and traditions.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -346,14 +390,18 @@
         "slug": "golden-triangle-with-ranthambore",
         "summary": "Add a Ranthambore safari stop to your Golden Triangle itinerary.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -365,14 +413,18 @@
         "slug": "golden-triangle-with-sariska",
         "summary": "Add a visit to Sariska to your route through Rajasthan.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -384,14 +436,18 @@
         "slug": "golden-triangle-with-bharatpur-birding",
         "summary": "Add time for birdwatching at Keoladeo National Park.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -403,14 +459,18 @@
         "slug": "golden-triangle-wildlife-and-birding",
         "summary": "Plan a route with both safari and birdwatching stops.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -432,14 +492,18 @@
         "slug": "golden-triangle-with-udaipur",
         "summary": "Extend your trip to Udaipur for lakes and palace architecture.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -451,14 +515,18 @@
         "slug": "golden-triangle-with-jodhpur",
         "summary": "Add Jodhpur’s fort and old city to your itinerary.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -470,14 +538,18 @@
         "slug": "golden-triangle-with-pushkar",
         "summary": "Add a stop in Pushkar to explore its lakeside lanes and markets.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -489,14 +561,18 @@
         "slug": "golden-triangle-with-varanasi",
         "summary": "Extend your trip to Varanasi to explore its ghats and old city.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -518,14 +594,18 @@
         "slug": "jaipur-heritage-tour",
         "summary": "Explore Jaipur’s royal architecture and old-city markets.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -537,14 +617,18 @@
         "slug": "jodhpur-fort-and-old-city-tour",
         "summary": "Discover Mehrangarh Fort and the lanes of Jodhpur’s old city.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -556,14 +640,18 @@
         "slug": "udaipur-city-tour",
         "summary": "Explore Udaipur’s lakeside neighbourhoods and palace heritage.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -575,14 +663,18 @@
         "slug": "jaisalmer-heritage-walk",
         "summary": "Discover sandstone havelis and historic lanes in Jaisalmer.",
         "description": "",
+        "location": "",
         "duration": null,
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [],
         "itinerary": [],
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -604,9 +696,12 @@
         "slug": "heritage-walking-tour",
         "summary": "Discover Jaipur's historic streets and local markets.",
         "description": "Explore the old city of Jaipur with a local guide. Discover its architecture, traditional markets, and cultural stories.",
+        "location": "",
         "duration": "3 hours",
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [
           "Guided walk through the old city",
           "Explore traditional markets",
@@ -616,6 +711,7 @@
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""
@@ -627,9 +723,12 @@
         "slug": "private-city-tour",
         "summary": "Explore Jaipur with your own private guide.",
         "description": "Enjoy a personalised sightseeing experience in Jaipur with an itinerary planned around your interests.",
+        "location": "",
         "duration": "Full day",
+        "groupSize": "",
         "image": null,
         "imageAlt": "",
+        "gallery": [],
         "highlights": [
           "Private local guide",
           "Personalised itinerary",
@@ -639,6 +738,7 @@
         "inclusions": [],
         "exclusions": [],
         "faqs": [],
+        "mapEmbedUrl": "",
         "seo": {
           "title": "",
           "description": ""

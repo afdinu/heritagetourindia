@@ -15,7 +15,7 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/app/layout.tsx [app-r
 }),
 "[project]/data/service-areas.json (json)", ((__turbopack_context__) => {
 
-__turbopack_context__.v(JSON.parse("[{\"name\":\"Delhi Tour Guide\",\"city\":\"delhi\",\"description\":\"Discover Delhi’s historic neighbourhoods, monuments and markets with a local guide.\",\"image\":\"assets/img/home-1/tour/tour-1.jpg\",\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Old Delhi Walking Tour\",\"slug\":\"old-delhi-walking-tour\",\"summary\":\"Explore the lanes, bazaars, and food streets of Old Delhi with a local guide.\",\"description\":\"Discover Old Delhi on a three-hour guided walk through Chandni Chowk. Explore the lanes around Jama Masjid, pass the food shops of Paranthe Wali Gali, and finish near Khari Baoli spice market. Along the way, your guide will share stories about the neighbourhood’s architecture, food traditions, and everyday life.\",\"location\":\"Chandni Chowk, Old Delhi\",\"duration\":\"3 hours\",\"groupSize\":\"Up to 6 guests\",\"image\":\"assets/img/tours/old-delhi/chandni-chowk.webp\",\"imageAlt\":\"Shops and pedestrians in Chandni Chowk, Old Delhi\",\"gallery\":[{\"src\":\"assets/img/tours/old-delhi/jama-masjid.webp\",\"alt\":\"Red sandstone facade of Jama Masjid in Delhi\"},{\"src\":\"assets/img/tours/old-delhi/chandni-chowk.webp\",\"alt\":\"Market street in Chandni Chowk\"},{\"src\":\"assets/img/tours/old-delhi/heritage-lane.webp\",\"alt\":\"Historic lane in Old Delhi\"},{\"src\":\"assets/img/tours/old-delhi/khari-baoli.webp\",\"alt\":\"Spice stalls in Khari Baoli market\"},{\"src\":\"assets/img/tours/old-delhi/paranthe-wali-gali.webp\",\"alt\":\"Food shops along Paranthe Wali Gali\"},{\"src\":\"assets/img/tours/old-delhi/market-shops.webp\",\"alt\":\"Traditional shops in an Old Delhi bazaar\"}],\"highlights\":[\"Hear stories about Jama Masjid and the surrounding neighbourhood\",\"Walk through the bazaars of Chandni Chowk\",\"Discover the food shops of Paranthe Wali Gali\",\"Explore the spice stalls of Khari Baoli\"],\"itinerary\":[{\"label\":\"Stop 1\",\"title\":\"Jama Masjid\",\"description\":\"Meet your guide near Jama Masjid and get an introduction to Old Delhi and its Mughal history.\"},{\"label\":\"Stop 2\",\"title\":\"Chandni Chowk\",\"description\":\"Walk through the main bazaar and nearby lanes. Learn how the neighbourhood’s shops and markets developed.\"},{\"label\":\"Stop 3\",\"title\":\"Paranthe Wali Gali\",\"description\":\"See the shops along this food lane and take an optional snack break.\"},{\"label\":\"Stop 4\",\"title\":\"Khari Baoli Spice Market\",\"description\":\"Browse spice stalls and hear how traders source and sell their goods.\"}],\"inclusions\":[\"Local tour guide\",\"Guided walk through Old Delhi\"],\"exclusions\":[\"Hotel pickup and drop-off\",\"Food and drinks\",\"Entry fees, where applicable\",\"Personal purchases\"],\"faqs\":[{\"question\":\"How long is the Old Delhi Walking Tour?\",\"answer\":\"Allow about three hours. The pace may vary with market crowds and any stops you choose to make.\"},{\"question\":\"Where does the tour start?\",\"answer\":\"The sample route starts near Jama Masjid. Ask for the exact meeting point when enquiring.\"},{\"question\":\"Is food included?\",\"answer\":\"Food and drinks are paid for separately. You can ask your guide about places to stop for a snack.\"}],\"mapEmbedUrl\":\"https://www.google.com/maps?q=Chandni+Chowk+Delhi&output=embed\",\"seo\":{\"title\":\"Old Delhi Walking Tour with a Local Guide\",\"description\":\"Explore Chandni Chowk, Jama Masjid, and Khari Baoli on a three-hour Old Delhi walking tour with Heritage Tour Guide India.\"},\"draft\":false},{\"name\":\"New Delhi Sightseeing Tour\",\"slug\":\"new-delhi-sightseeing-tour\",\"summary\":\"Explore New Delhi’s landmarks, avenues and public spaces.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Humayun’s Tomb Guided Tour\",\"slug\":\"humayuns-tomb-guided-tour\",\"summary\":\"Discover the garden tomb and its Mughal architecture.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Qutub Minar Guided Tour\",\"slug\":\"qutub-minar-guided-tour\",\"summary\":\"Explore the Qutub complex and its historic monuments.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Agra Tour Guide\",\"city\":\"agra\",\"description\":\"Explore the Taj Mahal, Agra Fort and Agra’s Mughal heritage with a local guide.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Taj Mahal Guided Tour\",\"slug\":\"taj-mahal-guided-tour\",\"summary\":\"Explore the Taj Mahal and learn the story behind its design.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Agra Fort Guided Tour\",\"slug\":\"agra-fort-guided-tour\",\"summary\":\"Discover the fort’s courtyards, palaces and Mughal history.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Taj Mahal and Agra Fort Tour\",\"slug\":\"taj-mahal-and-agra-fort-tour\",\"summary\":\"Visit two of Agra’s best-known monuments with a local guide.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Fatehpur Sikri Guided Tour\",\"slug\":\"fatehpur-sikri-guided-tour\",\"summary\":\"Explore the courtyards and gateways of the former Mughal capital.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Golden Triangle Tour Guide\",\"city\":\"golden-triangle\",\"description\":\"Explore Delhi, Agra and Jaipur on a guided journey through three historic cities.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Classic Golden Triangle Tour\",\"slug\":\"classic-golden-triangle-tour\",\"summary\":\"Visit landmarks across Delhi, Agra and Jaipur.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Private Golden Triangle Tour\",\"slug\":\"private-golden-triangle-tour\",\"summary\":\"Plan a private route through Delhi, Agra and Jaipur.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle Heritage Tour\",\"slug\":\"golden-triangle-heritage-tour\",\"summary\":\"Focus on historic monuments, royal architecture and local stories.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle Culture Tour\",\"slug\":\"golden-triangle-culture-tour\",\"summary\":\"Build a trip around local markets, crafts and traditions.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Golden Triangle Tour with Wildlife\",\"city\":\"golden-triangle-with-wildlife\",\"description\":\"Combine guided sightseeing in Delhi, Agra and Jaipur with a wildlife stop.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Golden Triangle with Ranthambore\",\"slug\":\"golden-triangle-with-ranthambore\",\"summary\":\"Add a Ranthambore safari stop to your Golden Triangle itinerary.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Sariska\",\"slug\":\"golden-triangle-with-sariska\",\"summary\":\"Add a visit to Sariska to your route through Rajasthan.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Bharatpur Birding\",\"slug\":\"golden-triangle-with-bharatpur-birding\",\"summary\":\"Add time for birdwatching at Keoladeo National Park.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle Wildlife and Birding Tour\",\"slug\":\"golden-triangle-wildlife-and-birding\",\"summary\":\"Plan a route with both safari and birdwatching stops.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Golden Triangle Tour with Extensions\",\"city\":\"golden-triangle-with-extensions\",\"description\":\"Extend your Delhi, Agra and Jaipur trip with additional destinations.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Golden Triangle with Udaipur\",\"slug\":\"golden-triangle-with-udaipur\",\"summary\":\"Extend your trip to Udaipur for lakes and palace architecture.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Jodhpur\",\"slug\":\"golden-triangle-with-jodhpur\",\"summary\":\"Add Jodhpur’s fort and old city to your itinerary.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Pushkar\",\"slug\":\"golden-triangle-with-pushkar\",\"summary\":\"Add a stop in Pushkar to explore its lakeside lanes and markets.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Varanasi\",\"slug\":\"golden-triangle-with-varanasi\",\"summary\":\"Extend your trip to Varanasi to explore its ghats and old city.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Rajasthan Tour Guide\",\"city\":\"rajasthan\",\"description\":\"Explore Rajasthan’s forts, palaces, markets and historic cities with a local guide.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Jaipur Heritage Tour\",\"slug\":\"jaipur-heritage-tour\",\"summary\":\"Explore Jaipur’s royal architecture and old-city markets.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Jodhpur Fort and Old City Tour\",\"slug\":\"jodhpur-fort-and-old-city-tour\",\"summary\":\"Discover Mehrangarh Fort and the lanes of Jodhpur’s old city.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Udaipur City Tour\",\"slug\":\"udaipur-city-tour\",\"summary\":\"Explore Udaipur’s lakeside neighbourhoods and palace heritage.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Jaisalmer Heritage Walk\",\"slug\":\"jaisalmer-heritage-walk\",\"summary\":\"Discover sandstone havelis and historic lanes in Jaisalmer.\",\"description\":\"\",\"duration\":null,\"image\":null,\"imageAlt\":\"\",\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Jaipur\",\"city\":\"jaipur\",\"description\":\"Explore Jaipur with an experienced local tour guide.\",\"image\":\"assets/img/home-1/tour/tour-1.jpg\",\"imageAlt\":\"\",\"showOnMainGrid\":false,\"services\":[{\"name\":\"Heritage Walking Tour\",\"slug\":\"heritage-walking-tour\",\"summary\":\"Discover Jaipur's historic streets and local markets.\",\"description\":\"Explore the old city of Jaipur with a local guide. Discover its architecture, traditional markets, and cultural stories.\",\"duration\":\"3 hours\",\"image\":null,\"imageAlt\":\"\",\"highlights\":[\"Guided walk through the old city\",\"Explore traditional markets\",\"Learn about local history\"],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":false},{\"name\":\"Private City Tour\",\"slug\":\"private-city-tour\",\"summary\":\"Explore Jaipur with your own private guide.\",\"description\":\"Enjoy a personalised sightseeing experience in Jaipur with an itinerary planned around your interests.\",\"duration\":\"Full day\",\"image\":null,\"imageAlt\":\"\",\"highlights\":[\"Private local guide\",\"Personalised itinerary\",\"Flexible sightseeing schedule\"],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":false}]}]"));}),
+__turbopack_context__.v(JSON.parse("[{\"name\":\"Delhi Tour Guide\",\"city\":\"delhi\",\"description\":\"Discover Delhi’s historic neighbourhoods, monuments and markets with a local guide.\",\"image\":\"assets/img/home-1/tour/tour-1.jpg\",\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Old Delhi Walking Tour\",\"slug\":\"old-delhi-walking-tour\",\"summary\":\"Explore the lanes, bazaars, and food streets of Old Delhi with a local guide.\",\"description\":\"Discover Old Delhi on a three-hour guided walk through Chandni Chowk. Explore the lanes around Jama Masjid, pass the food shops of Paranthe Wali Gali, and finish near Khari Baoli spice market. Along the way, your guide will share stories about the neighbourhood’s architecture, food traditions, and everyday life.\",\"location\":\"Chandni Chowk, Old Delhi\",\"duration\":\"3 hours\",\"groupSize\":\"Up to 6 guests\",\"image\":\"assets/img/tours/old-delhi/chandni-chowk.webp\",\"imageAlt\":\"Shops and pedestrians in Chandni Chowk, Old Delhi\",\"gallery\":[{\"src\":\"assets/img/tours/old-delhi/jama-masjid.webp\",\"alt\":\"Red sandstone facade of Jama Masjid in Delhi\"},{\"src\":\"assets/img/tours/old-delhi/chandni-chowk.webp\",\"alt\":\"Market street in Chandni Chowk\"},{\"src\":\"assets/img/tours/old-delhi/heritage-lane.webp\",\"alt\":\"Historic lane in Old Delhi\"},{\"src\":\"assets/img/tours/old-delhi/khari-baoli.webp\",\"alt\":\"Spice stalls in Khari Baoli market\"},{\"src\":\"assets/img/tours/old-delhi/paranthe-wali-gali.webp\",\"alt\":\"Food shops along Paranthe Wali Gali\"},{\"src\":\"assets/img/tours/old-delhi/market-shops.webp\",\"alt\":\"Traditional shops in an Old Delhi bazaar\"}],\"highlights\":[\"Hear stories about Jama Masjid and the surrounding neighbourhood\",\"Walk through the bazaars of Chandni Chowk\",\"Discover the food shops of Paranthe Wali Gali\",\"Explore the spice stalls of Khari Baoli\"],\"itinerary\":[{\"label\":\"Stop 1\",\"title\":\"Jama Masjid\",\"description\":\"Meet your guide near Jama Masjid and get an introduction to Old Delhi and its Mughal history.\"},{\"label\":\"Stop 2\",\"title\":\"Chandni Chowk\",\"description\":\"Walk through the main bazaar and nearby lanes. Learn how the neighbourhood’s shops and markets developed.\"},{\"label\":\"Stop 3\",\"title\":\"Paranthe Wali Gali\",\"description\":\"See the shops along this food lane and take an optional snack break.\"},{\"label\":\"Stop 4\",\"title\":\"Khari Baoli Spice Market\",\"description\":\"Browse spice stalls and hear how traders source and sell their goods.\"}],\"inclusions\":[\"Local tour guide\",\"Guided walk through Old Delhi\"],\"exclusions\":[\"Hotel pickup and drop-off\",\"Food and drinks\",\"Entry fees, where applicable\",\"Personal purchases\"],\"faqs\":[{\"question\":\"How long is the Old Delhi Walking Tour?\",\"answer\":\"Allow about three hours. The pace may vary with market crowds and any stops you choose to make.\"},{\"question\":\"Where does the tour start?\",\"answer\":\"The sample route starts near Jama Masjid. Ask for the exact meeting point when enquiring.\"},{\"question\":\"Is food included?\",\"answer\":\"Food and drinks are paid for separately. You can ask your guide about places to stop for a snack.\"}],\"mapEmbedUrl\":\"https://www.google.com/maps?q=Chandni+Chowk+Delhi&output=embed\",\"seo\":{\"title\":\"Old Delhi Walking Tour with a Local Guide\",\"description\":\"Explore Chandni Chowk, Jama Masjid, and Khari Baoli on a three-hour Old Delhi walking tour with Heritage Tour Guide India.\"},\"draft\":false},{\"name\":\"New Delhi Sightseeing Tour\",\"slug\":\"new-delhi-sightseeing-tour\",\"summary\":\"Explore New Delhi’s landmarks, avenues and public spaces.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Humayun’s Tomb Guided Tour\",\"slug\":\"humayuns-tomb-guided-tour\",\"summary\":\"Discover the garden tomb and its Mughal architecture.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Qutub Minar Guided Tour\",\"slug\":\"qutub-minar-guided-tour\",\"summary\":\"Explore the Qutub complex and its historic monuments.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Agra Tour Guide\",\"city\":\"agra\",\"description\":\"Explore the Taj Mahal, Agra Fort and Agra’s Mughal heritage with a local guide.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Taj Mahal Guided Tour\",\"slug\":\"taj-mahal-guided-tour\",\"summary\":\"Explore the Taj Mahal and learn the story behind its design.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Agra Fort Guided Tour\",\"slug\":\"agra-fort-guided-tour\",\"summary\":\"Discover the fort’s courtyards, palaces and Mughal history.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Taj Mahal and Agra Fort Tour\",\"slug\":\"taj-mahal-and-agra-fort-tour\",\"summary\":\"Visit two of Agra’s best-known monuments with a local guide.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Fatehpur Sikri Guided Tour\",\"slug\":\"fatehpur-sikri-guided-tour\",\"summary\":\"Explore the courtyards and gateways of the former Mughal capital.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Golden Triangle Tour Guide\",\"city\":\"golden-triangle\",\"description\":\"Explore Delhi, Agra and Jaipur on a guided journey through three historic cities.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Classic Golden Triangle Tour\",\"slug\":\"classic-golden-triangle-tour\",\"summary\":\"Visit landmarks across Delhi, Agra and Jaipur.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Private Golden Triangle Tour\",\"slug\":\"private-golden-triangle-tour\",\"summary\":\"Plan a private route through Delhi, Agra and Jaipur.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle Heritage Tour\",\"slug\":\"golden-triangle-heritage-tour\",\"summary\":\"Focus on historic monuments, royal architecture and local stories.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle Culture Tour\",\"slug\":\"golden-triangle-culture-tour\",\"summary\":\"Build a trip around local markets, crafts and traditions.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Golden Triangle Tour with Wildlife\",\"city\":\"golden-triangle-with-wildlife\",\"description\":\"Combine guided sightseeing in Delhi, Agra and Jaipur with a wildlife stop.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Golden Triangle with Ranthambore\",\"slug\":\"golden-triangle-with-ranthambore\",\"summary\":\"Add a Ranthambore safari stop to your Golden Triangle itinerary.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Sariska\",\"slug\":\"golden-triangle-with-sariska\",\"summary\":\"Add a visit to Sariska to your route through Rajasthan.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Bharatpur Birding\",\"slug\":\"golden-triangle-with-bharatpur-birding\",\"summary\":\"Add time for birdwatching at Keoladeo National Park.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle Wildlife and Birding Tour\",\"slug\":\"golden-triangle-wildlife-and-birding\",\"summary\":\"Plan a route with both safari and birdwatching stops.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Golden Triangle Tour with Extensions\",\"city\":\"golden-triangle-with-extensions\",\"description\":\"Extend your Delhi, Agra and Jaipur trip with additional destinations.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Golden Triangle with Udaipur\",\"slug\":\"golden-triangle-with-udaipur\",\"summary\":\"Extend your trip to Udaipur for lakes and palace architecture.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Jodhpur\",\"slug\":\"golden-triangle-with-jodhpur\",\"summary\":\"Add Jodhpur’s fort and old city to your itinerary.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Pushkar\",\"slug\":\"golden-triangle-with-pushkar\",\"summary\":\"Add a stop in Pushkar to explore its lakeside lanes and markets.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Golden Triangle with Varanasi\",\"slug\":\"golden-triangle-with-varanasi\",\"summary\":\"Extend your trip to Varanasi to explore its ghats and old city.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Rajasthan Tour Guide\",\"city\":\"rajasthan\",\"description\":\"Explore Rajasthan’s forts, palaces, markets and historic cities with a local guide.\",\"image\":null,\"imageAlt\":\"\",\"showOnMainGrid\":true,\"services\":[{\"name\":\"Jaipur Heritage Tour\",\"slug\":\"jaipur-heritage-tour\",\"summary\":\"Explore Jaipur’s royal architecture and old-city markets.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Jodhpur Fort and Old City Tour\",\"slug\":\"jodhpur-fort-and-old-city-tour\",\"summary\":\"Discover Mehrangarh Fort and the lanes of Jodhpur’s old city.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Udaipur City Tour\",\"slug\":\"udaipur-city-tour\",\"summary\":\"Explore Udaipur’s lakeside neighbourhoods and palace heritage.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true},{\"name\":\"Jaisalmer Heritage Walk\",\"slug\":\"jaisalmer-heritage-walk\",\"summary\":\"Discover sandstone havelis and historic lanes in Jaisalmer.\",\"description\":\"\",\"location\":\"\",\"duration\":null,\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":true}]},{\"name\":\"Jaipur\",\"city\":\"jaipur\",\"description\":\"Explore Jaipur with an experienced local tour guide.\",\"image\":\"assets/img/home-1/tour/tour-1.jpg\",\"imageAlt\":\"\",\"showOnMainGrid\":false,\"services\":[{\"name\":\"Heritage Walking Tour\",\"slug\":\"heritage-walking-tour\",\"summary\":\"Discover Jaipur's historic streets and local markets.\",\"description\":\"Explore the old city of Jaipur with a local guide. Discover its architecture, traditional markets, and cultural stories.\",\"location\":\"\",\"duration\":\"3 hours\",\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[\"Guided walk through the old city\",\"Explore traditional markets\",\"Learn about local history\"],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":false},{\"name\":\"Private City Tour\",\"slug\":\"private-city-tour\",\"summary\":\"Explore Jaipur with your own private guide.\",\"description\":\"Enjoy a personalised sightseeing experience in Jaipur with an itinerary planned around your interests.\",\"location\":\"\",\"duration\":\"Full day\",\"groupSize\":\"\",\"image\":null,\"imageAlt\":\"\",\"gallery\":[],\"highlights\":[\"Private local guide\",\"Personalised itinerary\",\"Flexible sightseeing schedule\"],\"itinerary\":[],\"inclusions\":[],\"exclusions\":[],\"faqs\":[],\"mapEmbedUrl\":\"\",\"seo\":{\"title\":\"\",\"description\":\"\"},\"draft\":false}]}]"));}),
 "[project]/components/Contact.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -693,7 +693,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$layout$2f$RoavioLayout$2e$ts
 ;
 ;
 ;
-// import serviceAreas from "@/data/serviceAreas.json";
+// --------------------------------------------------
+// CONSTANTS
+// --------------------------------------------------
 const phone = "+917737244759";
 const whatsapp = "917737244759";
 const galleryColumns = [
@@ -704,6 +706,9 @@ const galleryColumns = [
     "col-xl-3",
     "col-xl-3"
 ];
+// --------------------------------------------------
+// HELPER FUNCTIONS
+// --------------------------------------------------
 function assetPath(path) {
     return `/${path.replace(/^\/+/, "")}`;
 }
@@ -711,7 +716,9 @@ async function getTour(params) {
     const { city, slug } = await params;
     const area = __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$service$2d$areas$2e$json__$28$json$29$__["default"].find((entry)=>entry.city === city);
     const tour = area?.services.find((entry)=>entry.slug === slug);
-    if (!tour) (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["notFound"])();
+    if (!area || !tour) {
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["notFound"])();
+    }
     return {
         area,
         tour
@@ -724,6 +731,9 @@ async function generateMetadata({ params }) {
         description: tour.seo?.description || tour.summary || tour.description
     };
 }
+// --------------------------------------------------
+// REUSABLE TOUR LIST COMPONENT
+// --------------------------------------------------
 function TourList({ title, items = [], icon = "fa-check" }) {
     if (!items.length) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -733,7 +743,7 @@ function TourList({ title, items = [], icon = "fa-check" }) {
                 children: title
             }, void 0, false, {
                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                lineNumber: 48,
+                lineNumber: 115,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -745,7 +755,7 @@ function TourList({ title, items = [], icon = "fa-check" }) {
                                 "aria-hidden": "true"
                             }, void 0, false, {
                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                lineNumber: 52,
+                                lineNumber: 120,
                                 columnNumber: 13
                             }, this),
                             " ",
@@ -753,18 +763,18 @@ function TourList({ title, items = [], icon = "fa-check" }) {
                         ]
                     }, item, true, {
                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                        lineNumber: 51,
+                        lineNumber: 119,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                lineNumber: 49,
+                lineNumber: 117,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-        lineNumber: 47,
+        lineNumber: 114,
         columnNumber: 5
     }, this);
 }
@@ -800,12 +810,12 @@ async function TourDetails({ params }) {
                                             children: "Home"
                                         }, void 0, false, {
                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                            lineNumber: 84,
-                                            columnNumber: 19
+                                            lineNumber: 175,
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 174,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -814,12 +824,12 @@ async function TourDetails({ params }) {
                                             children: "Tour Areas"
                                         }, void 0, false, {
                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                            lineNumber: 85,
-                                            columnNumber: 19
+                                            lineNumber: 179,
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 178,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -828,12 +838,12 @@ async function TourDetails({ params }) {
                                             children: area.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                            lineNumber: 86,
-                                            columnNumber: 19
+                                            lineNumber: 183,
+                                            columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 182,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -842,13 +852,13 @@ async function TourDetails({ params }) {
                                         children: tour.name
                                     }, void 0, false, {
                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 186,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                lineNumber: 83,
+                                lineNumber: 170,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -859,12 +869,12 @@ async function TourDetails({ params }) {
                                     children: tour.name
                                 }, void 0, false, {
                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                    lineNumber: 93,
+                                    lineNumber: 195,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                lineNumber: 92,
+                                lineNumber: 194,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -876,15 +886,15 @@ async function TourDetails({ params }) {
                                                 className: "fa-solid fa-location-dot"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                lineNumber: 100,
-                                                columnNumber: 21
+                                                lineNumber: 206,
+                                                columnNumber: 19
                                             }, this),
                                             " ",
                                             tour.location
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 205,
                                         columnNumber: 17
                                     }, this),
                                     tour.duration && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -893,15 +903,15 @@ async function TourDetails({ params }) {
                                                 className: "fa-regular fa-clock"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                lineNumber: 103,
-                                                columnNumber: 21
+                                                lineNumber: 213,
+                                                columnNumber: 19
                                             }, this),
                                             " ",
                                             tour.duration
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 212,
                                         columnNumber: 17
                                     }, this),
                                     tour.groupSize && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -910,37 +920,37 @@ async function TourDetails({ params }) {
                                                 className: "fa-solid fa-users"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                lineNumber: 106,
-                                                columnNumber: 21
+                                                lineNumber: 220,
+                                                columnNumber: 19
                                             }, this),
                                             " ",
                                             tour.groupSize
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 219,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                lineNumber: 98,
+                                lineNumber: 203,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                        lineNumber: 82,
+                        lineNumber: 169,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                    lineNumber: 81,
+                    lineNumber: 168,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                lineNumber: 80,
+                lineNumber: 167,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -963,22 +973,22 @@ async function TourDetails({ params }) {
                                                 loading: index === 0 ? "eager" : "lazy"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 251,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                            lineNumber: 127,
+                                            lineNumber: 250,
                                             columnNumber: 21
                                         }, this)
                                     }, `${photo.src}-${index}`, false, {
                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                        lineNumber: 119,
+                                        lineNumber: 240,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                lineNumber: 117,
+                                lineNumber: 238,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -995,7 +1005,7 @@ async function TourDetails({ params }) {
                                                         children: "Tour Overview"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 273,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1003,7 +1013,7 @@ async function TourDetails({ params }) {
                                                         children: tour.description || tour.summary
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 145,
+                                                        lineNumber: 275,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1016,12 +1026,12 @@ async function TourDetails({ params }) {
                                                                     items: tour.inclusions
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                    lineNumber: 152,
+                                                                    lineNumber: 284,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                lineNumber: 151,
+                                                                lineNumber: 283,
                                                                 columnNumber: 25
                                                             }, this),
                                                             tour.exclusions?.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1032,18 +1042,18 @@ async function TourDetails({ params }) {
                                                                     icon: "fa-xmark"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                    lineNumber: 157,
+                                                                    lineNumber: 293,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                lineNumber: 156,
+                                                                lineNumber: 292,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 281,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(TourList, {
@@ -1051,7 +1061,7 @@ async function TourDetails({ params }) {
                                                         items: tour.highlights
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 162,
+                                                        lineNumber: 304,
                                                         columnNumber: 21
                                                     }, this),
                                                     tour.itinerary?.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1061,7 +1071,7 @@ async function TourDetails({ params }) {
                                                                 children: "Itinerary"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                lineNumber: 166,
+                                                                lineNumber: 313,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1077,7 +1087,7 @@ async function TourDetails({ params }) {
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                                lineNumber: 170,
+                                                                                lineNumber: 321,
                                                                                 columnNumber: 31
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1085,24 +1095,24 @@ async function TourDetails({ params }) {
                                                                                 children: item.description
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                                lineNumber: 174,
+                                                                                lineNumber: 328,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         ]
                                                                     }, `${item.title}-${index}`, true, {
                                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                        lineNumber: 169,
+                                                                        lineNumber: 317,
                                                                         columnNumber: 29
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                lineNumber: 167,
+                                                                lineNumber: 315,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 165,
+                                                        lineNumber: 312,
                                                         columnNumber: 23
                                                     }, this),
                                                     tour.faqs?.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1112,7 +1122,7 @@ async function TourDetails({ params }) {
                                                                 children: "Frequently Asked Questions"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                lineNumber: 183,
+                                                                lineNumber: 341,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1125,32 +1135,32 @@ async function TourDetails({ params }) {
                                                                                 children: question
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                                lineNumber: 187,
-                                                                                columnNumber: 31
+                                                                                lineNumber: 350,
+                                                                                columnNumber: 33
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 className: "accordion-body",
                                                                                 children: answer
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                                lineNumber: 188,
-                                                                                columnNumber: 31
+                                                                                lineNumber: 354,
+                                                                                columnNumber: 33
                                                                             }, this)
                                                                         ]
                                                                     }, question, true, {
                                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                        lineNumber: 186,
-                                                                        columnNumber: 29
+                                                                        lineNumber: 346,
+                                                                        columnNumber: 31
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                lineNumber: 184,
+                                                                lineNumber: 343,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 182,
+                                                        lineNumber: 340,
                                                         columnNumber: 23
                                                     }, this),
                                                     tour.mapEmbedUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1160,7 +1170,7 @@ async function TourDetails({ params }) {
                                                                 children: "Tour Map"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                lineNumber: 197,
+                                                                lineNumber: 368,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1177,29 +1187,29 @@ async function TourDetails({ params }) {
                                                                     allowFullScreen: true
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                    lineNumber: 199,
+                                                                    lineNumber: 371,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                lineNumber: 198,
+                                                                lineNumber: 370,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 196,
+                                                        lineNumber: 367,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                lineNumber: 143,
+                                                lineNumber: 271,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 270,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1216,7 +1226,7 @@ async function TourDetails({ params }) {
                                                                     children: "Tour Enquiry"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                    lineNumber: 218,
+                                                                    lineNumber: 396,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1224,7 +1234,7 @@ async function TourDetails({ params }) {
                                                                     children: "Ask about available dates, the meeting point, and options for your group."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                    lineNumber: 219,
+                                                                    lineNumber: 398,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1238,7 +1248,7 @@ async function TourDetails({ params }) {
                                                                             "aria-hidden": "true"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                            lineNumber: 229,
+                                                                            lineNumber: 409,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         " ",
@@ -1246,13 +1256,13 @@ async function TourDetails({ params }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                    lineNumber: 223,
+                                                                    lineNumber: 403,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                            lineNumber: 217,
+                                                            lineNumber: 395,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1262,7 +1272,7 @@ async function TourDetails({ params }) {
                                                                     children: "Need Help?"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                    lineNumber: 235,
+                                                                    lineNumber: 421,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1274,7 +1284,7 @@ async function TourDetails({ params }) {
                                                                                 "aria-hidden": "true"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                                lineNumber: 238,
+                                                                                lineNumber: 425,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             " ",
@@ -1283,18 +1293,18 @@ async function TourDetails({ params }) {
                                                                                 children: "+91 77372 44759"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                                lineNumber: 239,
-                                                                                columnNumber: 34
+                                                                                lineNumber: 430,
+                                                                                columnNumber: 29
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                        lineNumber: 237,
+                                                                        lineNumber: 424,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                    lineNumber: 236,
+                                                                    lineNumber: 423,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1302,56 +1312,56 @@ async function TourDetails({ params }) {
                                                                     children: "View more tours"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                    lineNumber: 242,
+                                                                    lineNumber: 436,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                            lineNumber: 234,
+                                                            lineNumber: 420,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                    lineNumber: 216,
+                                                    lineNumber: 391,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                lineNumber: 215,
+                                                lineNumber: 390,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                            lineNumber: 214,
+                                            lineNumber: 389,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                    lineNumber: 141,
+                                    lineNumber: 266,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                lineNumber: 140,
+                                lineNumber: 265,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                        lineNumber: 115,
+                        lineNumber: 233,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                    lineNumber: 114,
+                    lineNumber: 232,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                lineNumber: 113,
+                lineNumber: 231,
                 columnNumber: 7
             }, this),
             relatedTours.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1366,12 +1376,12 @@ async function TourDetails({ params }) {
                                 children: "Related Tours"
                             }, void 0, false, {
                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                lineNumber: 257,
+                                lineNumber: 459,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                            lineNumber: 256,
+                            lineNumber: 458,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1397,17 +1407,17 @@ async function TourDetails({ params }) {
                                                         loading: "lazy"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 272,
+                                                        lineNumber: 486,
                                                         columnNumber: 29
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                    lineNumber: 271,
+                                                    lineNumber: 481,
                                                     columnNumber: 27
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                lineNumber: 270,
+                                                lineNumber: 480,
                                                 columnNumber: 25
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1422,17 +1432,17 @@ async function TourDetails({ params }) {
                                                                 className: "fa-solid fa-star"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                                lineNumber: 279,
+                                                                lineNumber: 502,
                                                                 columnNumber: 29
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                            lineNumber: 278,
+                                                            lineNumber: 498,
                                                             columnNumber: 27
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 277,
+                                                        lineNumber: 497,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1442,12 +1452,12 @@ async function TourDetails({ params }) {
                                                             children: related.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                            lineNumber: 282,
-                                                            columnNumber: 46
+                                                            lineNumber: 507,
+                                                            columnNumber: 27
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 282,
+                                                        lineNumber: 506,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1456,52 +1466,52 @@ async function TourDetails({ params }) {
                                                         children: "View Details"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                        lineNumber: 283,
+                                                        lineNumber: 512,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                                lineNumber: 276,
+                                                lineNumber: 495,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                        lineNumber: 268,
+                                        lineNumber: 477,
                                         columnNumber: 21
                                     }, this)
                                 }, related.slug, false, {
                                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                                    lineNumber: 267,
+                                    lineNumber: 473,
                                     columnNumber: 19
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                            lineNumber: 260,
+                            lineNumber: 462,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                    lineNumber: 255,
+                    lineNumber: 456,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                lineNumber: 254,
+                lineNumber: 455,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Contact$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Contact1"], {}, void 0, false, {
                 fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-                lineNumber: 294,
+                lineNumber: 532,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/tour-areas/[city]/[slug]/page.tsx",
-        lineNumber: 79,
+        lineNumber: 164,
         columnNumber: 5
     }, this);
 }

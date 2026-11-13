@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/news-grid/layout,_N_T_/news-grid/page,_N_T_/news-grid"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/news-grid/__PAGE__",
+    "/news-grid",
+    "/_index",
+    "/_head"
+  ]
+}
