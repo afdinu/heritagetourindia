@@ -39,7 +39,7 @@ export default function TourEnquiryForm({
         </label>
         <button type="submit">Submit</button>
       </fieldset>
-      {!action && <p>Online enquiries are unavailable. Please call us to enquire.</p>}
+      {/* {!action && <p>Online enquiries are unavailable. Please call us to enquire.</p>} */}
     </form>
   );
 }

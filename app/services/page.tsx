@@ -32,7 +32,7 @@ export default function TourGrid() {
               <li>
                 <Link href="/">Home</Link>
               </li>
-              <li className="style-2">Tour Areas</li>
+              <li className="style-2">Services</li>
             </ul>
           </div>
         </div>

@@ -162,20 +162,20 @@ export default async function TourDetails({
               className="breadcrumb-items wow fadeInUp"
               data-wow-delay=".5s"
             >
-              <li>
+              {/* <li>
                 <Link href="/">Home</Link>
-              </li>
+              </li> */}
 
-              <li>
+              {/* <li>
                 <Link href={areaHref}>{area.name}</Link>
-              </li>
+              </li> */}
 
-              <li
+              {/* <li
                 className="style-2 style-3"
                 aria-current="page"
               >
                 {tour.name}
-              </li>
+              </li> */}
             </ul>
 
             <div className="breadcrumb-sub-title">
@@ -230,8 +230,8 @@ export default async function TourDetails({
                   <div className="tour-left-content">
 
                     <h3>Tour Overview</h3>
-
-                    <p className="mt-3 mb-4">
+                  
+                    <p className="mt-3 mb-4" style={{ whiteSpace: "pre-line" }}>
                       {tour.description || tour.summary}
                     </p>
 
@@ -461,6 +461,10 @@ export default async function TourDetails({
                             className="star"
                             aria-hidden="true"
                           >
+                            <i className="fa-solid fa-star" />
+                            <i className="fa-solid fa-star" />
+                            <i className="fa-solid fa-star" />
+                            <i className="fa-solid fa-star" />
                             <i className="fa-solid fa-star" />
                           </div>
                         </div>

@@ -1,52 +1,78 @@
 import Link from "next/link";
-// import tourCards from '@/data/tour-areas'
-// import tourCards from "../data/service-areas.json";
+
+type TourCard = {
+  image: string;
+  title: string;
+  href: `/services/${string}`;
+  imageStyle?: string;
+  contentStyle?: string;
+};
+
+const tourCards: [TourCard, TourCard, TourCard, TourCard, TourCard, TourCard] = [
+  {
+    image: "/assets/img/home-1/tour/Delhi1.jpeg",
+    title: "Delhi Tour Guide",
+    href: "/services/delhi-tours-guide",
+  },
+  {
+    image: "/assets/img/home-1/tour/agra1.jpeg",
+    title: "Agra Tours Guide",
+    href: "/services/agra-tours-guide",
+    imageStyle: "style-3",
+  },
+  {
+    image: "/assets/img/home-1/tour/golden-triangle-tour.jpeg",
+    title: "Golden Triangle Tours Guide",
+    href: "/services/golden-triangle",
+    imageStyle: "style-3",
+  },
+  {
+    image: "/assets/img/home-1/tour/golden-triangle-wildlife-tour-package.webp",
+    title: "Golden Triangle Tours Guide With Wildlife",
+    href: "/services/golden-triangle-with-wildlife",
+    imageStyle: "style-2",
+  },
+  {
+    image: "/assets/img/home-1/tour/golden-triangle-tour-with-extension.jpeg",
+    title: "Golden Triangle Tours Guide With Extension",
+    href: "/services/golden-triangle-with-extensions",
+    imageStyle: "style-3",
+    contentStyle: "style-4",
+  },
+  {
+    image: "/assets/img/home-1/tour/rajathan-tours.jpeg",
+    title: "Rajasthan Tour Guide",
+    href: "/services/rajasthan-tours-guide",
+    imageStyle: "style-3",
+    contentStyle: "style-5",
+  },
+];
+
+function TourCardImage({ card }: { card: TourCard }) {
+  return (
+    <div className={`tour-image ${card.imageStyle ?? ""}`}>
+      <Link
+        href={card.href}
+        className="d-block"
+        aria-label={card.title}
+        tabIndex={-1}
+      >
+        <img src={card.image} alt="" />
+      </Link>
+
+      <div className={`tour-content ${card.contentStyle ?? ""}`}>
+        <h3>
+          <Link href={card.href}>{card.title}</Link>
+        </h3>
+      </div>
+    </div>
+  );
+}
+
 export const Tour1 = () => {
-  const tourCards = [
-    {
-      image: "assets/img/home-1/tour/Delhi1.jpeg",
-      title: "Delhi Tour Guide",
-      // location: "Bol, Croatia",
-      // tours: "50+ tours",
-    },
-    {
-      image: "assets/img/home-1/tour/agra1.jpeg",
-      title: "Agra Tours Guide",
-      // location: "Bol, Croatia",
-      // tours: "50+ tours",
-      imageStyle: "style-3",
-    },
-    {
-      image: "assets/img/home-1/tour/golden-triangle-tour.jpeg",
-      title: "Golden Triangle Tours Guide",
-      // location: "Whitewater Rafting",
-      // tours: "50+ tours",
-      imageStyle: "style-3",
-    },
-    {
-      image: "assets/img/home-1/tour/golden-triangle-wildlife-tour-package.webp",
-      title: "Golden Triangle Tours Guide With Wildlife",
-      // location: "Kerkira, Greece",
-      // tours: "50+ tours",
-      imageStyle: "style-2",
-    },
-    {
-      image: "assets/img/home-1/tour/golden-triangle-tour-with-extension.jpeg",
-      title: "Golden Triangle Tours Guide With Extension",
-      // location: "Bangkok, Thailand",
-      // tours: "50+ tours",
-      imageStyle: "style-3",
-      contentStyle: "style-4",
-    },
-    {
-      image: "assets/img/home-1/tour/rajathan-tours.jpeg",
-      title: "Rajasthan Tour Guide",
-      // location: "São Paulo, Brazil",
-      // tours: "50+ tours",
-      imageStyle: "style-3",
-      contentStyle: "style-5",
-    },
-  ];
+  const [delhi, agra, goldenTriangle, wildlife, extension, rajasthan] =
+    tourCards;
+
   return (
     <section className="tour-section section-padding pt-0 fix">
       <div className="container custom-container">
@@ -58,70 +84,28 @@ export const Tour1 = () => {
                 data-wow-delay=".3s"
               >
                 <div className="tour-card-item">
-                  <div
-                    className={`tour-image ${tourCards[0].imageStyle || ""}`}
-                  >
-                    <img src={tourCards[0].image} alt="img" />
-                    {/* <span>{tourCards[0].tours}</span> */}
-                    <div
-                      className={`tour-content ${
-                        tourCards[0].contentStyle || ""
-                      }`}
-                    >
-                      <h3>
-                        <Link href="/tour-details">{tourCards[0].title}</Link>
-                      </h3>
-                      {/* <p>{tourCards[0].location}</p> */}
-                    </div>
-                  </div>
+                  <TourCardImage card={delhi} />
                 </div>
               </div>
+
               <div className="col-xl-6 col-lg-6">
                 <div
                   className="tour-card-item wow fadeInRight"
                   data-wow-delay=".3s"
                 >
-                  <div
-                    className={`tour-image ${tourCards[1].imageStyle || ""}`}
-                  >
-                    <img src={tourCards[1].image} alt="img" />
-                    {/* <span>{tourCards[1].tours}</span> */}
-                    <div
-                      className={`tour-content ${
-                        tourCards[1].contentStyle || ""
-                      }`}
-                    >
-                      <h3>
-                        <Link href="/tour-details">{tourCards[1].title}</Link>
-                      </h3>
-                      {/* <p>{tourCards[1].location}</p> */}
-                    </div>
-                  </div>
+                  <TourCardImage card={agra} />
                 </div>
+
                 <div
                   className="tour-card-item mt-1 wow fadeInRight"
                   data-wow-delay=".5s"
                 >
-                  <div
-                    className={`tour-image ${tourCards[2].imageStyle || ""}`}
-                  >
-                    <img src={tourCards[2].image} alt="img" />
-                    {/* <span>{tourCards[2].tours}</span> */}
-                    <div
-                      className={`tour-content ${
-                        tourCards[2].contentStyle || ""
-                      }`}
-                    >
-                      <h3>
-                        <Link href="/tour-details">{tourCards[2].title}</Link>
-                      </h3>
-                      {/* <p>{tourCards[2].location}</p> */}
-                    </div>
-                  </div>
+                  <TourCardImage card={goldenTriangle} />
                 </div>
               </div>
             </div>
           </div>
+
           <div className="col-xl-7">
             <div className="row g-1">
               <div
@@ -129,66 +113,23 @@ export const Tour1 = () => {
                 data-wow-delay=".3s"
               >
                 <div className="tour-card-item">
-                  <div
-                    className={`tour-image ${tourCards[3].imageStyle || ""}`}
-                  >
-                    <img src={tourCards[3].image} alt="img" />
-                    {/* <span>{tourCards[3].tours}</span> */}
-                    <div
-                      className={`tour-content ${
-                        tourCards[3].contentStyle || ""
-                      }`}
-                    >
-                      <h3>
-                        <Link href="/tour-details">{tourCards[3].title}</Link>
-                      </h3>
-                      {/* <p>{tourCards[3].location}</p> */}
-                    </div>
-                  </div>
+                  <TourCardImage card={wildlife} />
                 </div>
               </div>
+
               <div className="col-xl-4 col-lg-6">
                 <div
                   className="tour-card-item wow fadeInRight"
                   data-wow-delay=".3s"
                 >
-                  <div
-                    className={`tour-image ${tourCards[4].imageStyle || ""}`}
-                  >
-                    <img src={tourCards[4].image} alt="img" />
-                    {/* <span>{tourCards[4].tours}</span> */}
-                    <div
-                      className={`tour-content ${
-                        tourCards[4].contentStyle || ""
-                      }`}
-                    >
-                      <h3>
-                        <Link href="/tour-details">{tourCards[4].title}</Link>
-                      </h3>
-                      {/* <p>{tourCards[4].location}</p> */}
-                    </div>
-                  </div>
+                  <TourCardImage card={extension} />
                 </div>
+
                 <div
                   className="tour-card-item mt-1 wow fadeInRight"
                   data-wow-delay=".5s"
                 >
-                  <div
-                    className={`tour-image ${tourCards[5].imageStyle || ""}`}
-                  >
-                    <img src={tourCards[5].image} alt="img" />
-                    {/* <span>{tourCards[5].tours}</span> */}
-                    <div
-                      className={`tour-content ${
-                        tourCards[5].contentStyle || ""
-                      }`}
-                    >
-                      <h3>
-                        <Link href="/tour-details">{tourCards[5].title}</Link>
-                      </h3>
-                      {/* <p>{tourCards[5].location}</p> */}
-                    </div>
-                  </div>
+                  <TourCardImage card={rajasthan} />
                 </div>
               </div>
             </div>

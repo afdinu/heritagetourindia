@@ -11772,6 +11772,8 @@ span {
 }
 
 .team-image-item .team-image img {
+  aspect-ratio: 1;
+  object-fit: cover;
   border-radius: 100%;
   transition: all 1.5s ease-out;
   transform: scale(1.02);
@@ -12513,6 +12515,11 @@ span {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+}
+
+.tour-card-item .tour-image > a {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 1600px) {

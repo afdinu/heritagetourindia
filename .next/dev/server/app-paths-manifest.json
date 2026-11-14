@@ -1,16 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/destination-details/page": "app/destination-details/page.js",
+  "/about/page": "app/about/page.js",
   "/news-details/page": "app/news-details/page.js",
-  "/news-grid/page": "app/news-grid/page.js",
-  "/news/page": "app/news/page.js",
   "/page": "app/page.js",
   "/services/[city]/[slug]/page": "app/services/[city]/[slug]/page.js",
   "/services/[city]/page": "app/services/[city]/page.js",
-  "/services/page": "app/services/page.js",
-  "/tour-areas/[city]/[slug]/page": "app/tour-areas/[city]/[slug]/page.js",
-  "/tour-areas/[city]/page": "app/tour-areas/[city]/page.js",
-  "/tour-areas/page": "app/tour-areas/page.js",
-  "/tour-details/page": "app/tour-details/page.js"
+  "/services/page": "app/services/page.js"
 }
