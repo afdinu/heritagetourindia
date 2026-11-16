@@ -1,8 +1,6 @@
 {
   "app": {
     "[project]/app/_not-found/page": [],
-    "[project]/app/about/page": [],
-    "[project]/app/news-details/page": [],
     "[project]/app/page": [],
     "[project]/app/services/[city]/[slug]/page": [],
     "[project]/app/services/[city]/page": [],

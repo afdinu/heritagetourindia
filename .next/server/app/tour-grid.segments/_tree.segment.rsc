@@ -15,4 +15,4 @@
 :HL["assets/img/home-1/tour/tour-14.jpg","image"]
 :HL["assets/img/home-1/tour/tour-15.jpg","image"]
 :HL["assets/img/home-1/tour/tour-16.jpg","image"]
-0:{"buildId":"3o0-7lThVN0D6ClcXjrtz","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"tour-grid","paramType":null,"paramKey":"tour-grid","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"H6nA-57G0HRQu97WjW-1n","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"tour-grid","paramType":null,"paramKey":"tour-grid","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

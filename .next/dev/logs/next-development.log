@@ -1,199 +1,180 @@
-[00:00:01.573] Server  LOG     ✓ Ready in 1319ms
-[00:00:12.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.653] Browser WARN    MutationObserver is not supported by your browser.
-[00:00:12.653] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:02:36.664] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:02:36.664] Browser WARN    MutationObserver is not supported by your browser.
-[00:02:36.664] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:02:36.664] Browser WARN    MutationObserver is not supported by your browser.
-[00:02:36.664] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:02:42.266] Browser WARN    MutationObserver is not supported by your browser.
-[00:02:42.266] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:02:42.266] Browser WARN    MutationObserver is not supported by your browser.
-[00:02:42.266] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:03:23.825] Browser WARN    MutationObserver is not supported by your browser.
-[00:03:23.825] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:03:23.825] Browser WARN    MutationObserver is not supported by your browser.
-[00:03:23.825] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:03:35.588] Browser WARN    MutationObserver is not supported by your browser.
-[00:03:35.588] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:03:35.588] Browser WARN    MutationObserver is not supported by your browser.
-[00:03:35.588] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:28:55.819] Browser WARN    MutationObserver is not supported by your browser.
-[00:28:55.819] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:28:55.819] Browser WARN    MutationObserver is not supported by your browser.
-[00:28:55.819] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:14.734] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:14.734] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:14.734] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:14.734] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:17.505] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:17.505] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:17.505] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:17.505] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:20.525] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:20.526] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:20.526] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:20.526] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:22.293] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:22.293] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:22.293] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:22.293] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:30.358] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:30.358] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:30:30.358] Browser WARN    MutationObserver is not supported by your browser.
-[00:30:30.358] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:32:18.135] Browser WARN    MutationObserver is not supported by your browser.
-[00:32:18.135] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:32:18.136] Browser WARN    MutationObserver is not supported by your browser.
-[00:32:18.136] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:35:20.145] Browser WARN    MutationObserver is not supported by your browser.
-[00:35:20.145] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:35:20.145] Browser WARN    MutationObserver is not supported by your browser.
-[00:35:20.145] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:41:33.611] Server  LOG     ✓ Compiled in 115ms
-[00:41:40.380] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:41:40.635] Browser WARN    MutationObserver is not supported by your browser.
-[00:41:40.635] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:42:33.833] Server  LOG     ✓ Compiled in 14ms
-[00:45:07.812] Browser WARN    MutationObserver is not supported by your browser.
-[00:45:07.812] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:45:07.812] Browser WARN    MutationObserver is not supported by your browser.
-[00:45:07.812] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:45:13.068] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:45:13.068] Browser WARN    MutationObserver is not supported by your browser.
-[00:45:13.068] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:45:13.069] Browser WARN    MutationObserver is not supported by your browser.
-[00:45:13.069] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:45:54.400] Browser WARN    MutationObserver is not supported by your browser.
-[00:45:54.400] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:45:54.400] Browser WARN    MutationObserver is not supported by your browser.
-[00:45:54.400] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:50:25.471] Server  LOG     ✓ Compiled in 67ms
-[00:51:03.811] Browser WARN    MutationObserver is not supported by your browser.
-[00:51:03.811] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:51:03.811] Browser WARN    MutationObserver is not supported by your browser.
-[00:51:03.811] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:54:25.357] Browser ERROR   ./data/service-areas.json
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/data/service-areas.json (json)
+[00:00:01.571] Server  LOG     ✓ Ready in 1332ms
+[00:00:29.686] Server  WARN    ⚠ Cross origin request detected from 10.86.119.87 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:29.928] Browser WARN    MutationObserver is not supported by your browser.
+[00:00:29.928] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:04:29.582] Browser WARN    MutationObserver is not supported by your browser.
+[00:04:29.582] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:05:38.978] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
 
-Caused by:
-- Unable to make a module from invalid JSON: trailing comma at line 548 column 5
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <HomePage>
+        <RoavioLayout>
+          <ImageView>
+          <VideoPopup>
+          <MouseCursor>
+          <Header>
+          ...
+            <Hero1>
+            <div>
+            <Tour1>
+              <section className="tour-secti...">
+                <div className="container ...">
+                  <div className="row g-1">
+                    <div className="col-xl-5">
+                      <div className="row g-1">
+                        <div className="col-xl-6 c..." data-wow-delay=".3s">
+                          <div className="tour-card-...">
+                            <TourCardImage>
+                              <div className={"tour-image "}>
+                                <LinkComponent>
+                                  <LinkComponent href="/services/..." className="d-block" aria-label="Delhi Tour..." ...>
+>                                   <a
+>                                     className="d-block"
+>                                     aria-label="Delhi Tour Guide"
+>                                     tabIndex={-1}
+>                                     ref={function}
+>                                     onClick={function onClick}
+>                                     onMouseEnter={function onMouseEnter}
+>                                     onTouchStart={function onTouchStart}
+>                                     href="/services/delhi-tours-guide"
+>                                   >
+                                      <img>
+                                      <div className={"tour-con..."}>
+                                        <h3>
+                                          <LinkComponent>
+                                            <LinkComponent href="/services/...">
+>                                             <a
+>                                               ref={function}
+>                                               onClick={function onClick}
+>                                               onMouseEnter={function onMouseEnter}
+>                                               onTouchStart={function onTouchStart}
+>                                               href="/services/delhi-tours-guide"
+>                                             >
+                        ...
+                    ...
+            ...
 
-Debug info:
-- An error occurred while generating the chunk item [project]/data/service-areas.json (json)
-- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
-- Unable to make a module from invalid JSON: trailing comma at line 548 column 5
-    at [1].services
-     544 |   "draft": false,
-     545 |   "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
-     546 | },
-     547 | 
-         |     v
-     548 +     ],
-         |     ^
-     549 |     "breadcrumbImage": ""
-     550 |   },
-     551 |   {
-     552 |     "name": "Golden Triangle Tour Guide",
-
-Import trace:
-  Server Component:
-    ./data/service-areas.json
-    ./app/services/page.tsx
-[00:54:35.075] Server  LOG     ✓ Compiled in 20ms
-[00:54:42.700] Browser WARN    MutationObserver is not supported by your browser.
-[00:54:42.700] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:54:42.700] Browser WARN    MutationObserver is not supported by your browser.
-[00:54:42.700] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:54:46.109] Browser WARN    MutationObserver is not supported by your browser.
-[00:54:46.109] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:54:46.109] Browser WARN    MutationObserver is not supported by your browser.
-[00:54:46.109] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:57:51.238] Browser WARN    MutationObserver is not supported by your browser.
-[00:57:51.238] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[00:57:51.238] Browser WARN    MutationObserver is not supported by your browser.
-[00:57:51.238] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[01:00:25.789] Server  LOG     ✓ Compiled in 69ms
-[01:03:27.173] Browser WARN    MutationObserver is not supported by your browser.
-[01:03:27.173] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[01:03:27.173] Browser WARN    MutationObserver is not supported by your browser.
-[01:03:27.173] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[01:03:41.149] Browser WARN    MutationObserver is not supported by your browser.
-[01:03:41.149] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[01:03:41.149] Browser WARN    MutationObserver is not supported by your browser.
-[01:03:41.149] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[01:05:09.762] Browser WARN    MutationObserver is not supported by your browser.
-[01:05:09.762] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[01:05:09.762] Browser WARN    MutationObserver is not supported by your browser.
-[01:05:09.762] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[09:56:23.797] Browser WARN    MutationObserver is not supported by your browser.
-[09:56:23.797] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[09:56:23.798] Browser WARN    MutationObserver is not supported by your browser.
-[09:56:23.798] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[09:58:52.324] Browser WARN    MutationObserver is not supported by your browser.
-[09:58:52.324] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[09:58:52.324] Browser WARN    MutationObserver is not supported by your browser.
-[09:58:52.324] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[09:59:43.924] Browser WARN    MutationObserver is not supported by your browser.
-[09:59:43.924] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[09:59:43.924] Browser WARN    MutationObserver is not supported by your browser.
-[09:59:43.924] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:02:12.737] Server  LOG     ✓ Compiled in 229ms
-[10:03:55.398] Server  LOG     ✓ Compiled in 269ms
-[10:08:28.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:08:28.949] Browser WARN    MutationObserver is not supported by your browser.
-[10:08:28.949] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:11:57.249] Server  LOG     ✓ Compiled in 80ms
-[10:12:10.793] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[10:12:10.794] Browser WARN    MutationObserver is not supported by your browser.
-[10:12:10.794] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:12:10.794] Browser WARN    MutationObserver is not supported by your browser.
-[10:12:10.794] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:12:14.625] Browser WARN    MutationObserver is not supported by your browser.
-[10:12:14.625] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:12:14.625] Browser WARN    MutationObserver is not supported by your browser.
-[10:12:14.625] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:12:18.873] Browser WARN    MutationObserver is not supported by your browser.
-[10:12:18.873] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:12:18.873] Browser WARN    MutationObserver is not supported by your browser.
-[10:12:18.873] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:13:47.543] Browser WARN    MutationObserver is not supported by your browser.
-[10:13:47.543] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:13:47.543] Browser WARN    MutationObserver is not supported by your browser.
-[10:13:47.543] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:13:50.519] Browser WARN    MutationObserver is not supported by your browser.
-[10:13:50.519] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:13:50.519] Browser WARN    MutationObserver is not supported by your browser.
-[10:13:50.519] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:14:42.209] Browser WARN    MutationObserver is not supported by your browser.
-[10:14:42.210] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:14:42.210] Browser WARN    MutationObserver is not supported by your browser.
-[10:14:42.210] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:15:57.577] Browser WARN    MutationObserver is not supported by your browser.
-[10:15:57.577] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:15:57.577] Browser WARN    MutationObserver is not supported by your browser.
-[10:15:57.577] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:17:21.163] Browser WARN    MutationObserver is not supported by your browser.
-[10:17:21.163] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:17:21.163] Browser WARN    MutationObserver is not supported by your browser.
-[10:17:21.163] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:19:38.059] Server  LOG     ✓ Compiled in 89ms
-[10:23:55.163] Browser WARN    MutationObserver is not supported by your browser.
-[10:23:55.163] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:23:55.163] Browser WARN    MutationObserver is not supported by your browser.
-[10:23:55.163] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:27:50.666] Server  LOG     ✓ Compiled in 593ms
-[10:27:55.277] Browser WARN    MutationObserver is not supported by your browser.
-[10:27:55.277] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:27:55.277] Browser WARN    MutationObserver is not supported by your browser.
-[10:27:55.277] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:33:26.093] Server  LOG     ✓ Compiled in 195ms
-[10:33:59.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:34:02.156] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:34:02.622] Browser WARN    MutationObserver is not supported by your browser.
-[10:34:02.623] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
-[10:36:00.160] Server  LOG     ✓ Compiled in 321ms
-[10:36:19.884] Server  LOG     ✓ Finished filesystem cache database compaction in 16.3s
-[10:38:57.518] Server  LOG     ✓ Compiled in 181ms
+[00:05:38.978] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:06:49.843] Server  LOG     ✓ Compiled in 170ms
+[00:07:52.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:52.186] Browser WARN    MutationObserver is not supported by your browser.
+[00:07:52.186] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:08:45.281] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:45.281] Browser WARN    MutationObserver is not supported by your browser.
+[00:08:45.281] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:08:45.281] Browser WARN    MutationObserver is not supported by your browser.
+[00:08:45.281] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:08:50.483] Browser WARN    MutationObserver is not supported by your browser.
+[00:08:50.483] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:08:50.483] Browser WARN    MutationObserver is not supported by your browser.
+[00:08:50.483] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:08:58.519] Browser WARN    MutationObserver is not supported by your browser.
+[00:08:58.519] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:08:58.519] Browser WARN    MutationObserver is not supported by your browser.
+[00:08:58.519] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:09:02.289] Browser WARN    MutationObserver is not supported by your browser.
+[00:09:02.289] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:09:02.289] Browser WARN    MutationObserver is not supported by your browser.
+[00:09:02.289] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:14:33.895] Server  LOG     ✓ Compiled in 170ms
+[00:14:41.755] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:41.921] Browser WARN    MutationObserver is not supported by your browser.
+[00:14:41.921] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:16:17.340] Server  LOG     ✓ Compiled in 294ms
+[00:18:01.678] Server  LOG     ✓ Compiled in 90ms
+[00:18:06.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:06.665] Browser WARN    MutationObserver is not supported by your browser.
+[00:18:06.665] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:19:17.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:17.737] Browser WARN    MutationObserver is not supported by your browser.
+[00:19:17.737] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:20:03.889] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:20:03.889] Browser WARN    MutationObserver is not supported by your browser.
+[00:20:03.889] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:20:03.889] Browser WARN    MutationObserver is not supported by your browser.
+[00:20:03.889] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:20:07.164] Browser WARN    MutationObserver is not supported by your browser.
+[00:20:07.164] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:20:07.164] Browser WARN    MutationObserver is not supported by your browser.
+[00:20:07.164] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:20:09.343] Browser WARN    MutationObserver is not supported by your browser.
+[00:20:09.343] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:20:09.343] Browser WARN    MutationObserver is not supported by your browser.
+[00:20:09.343] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:21:25.432] Server  LOG     ✓ Compiled in 186ms
+[00:38:39.665] Server  LOG     ✓ Compiled in 165ms
+[00:44:22.012] Server  LOG     ✓ Compiled in 86ms
+[00:44:30.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:30.818] Browser WARN    MutationObserver is not supported by your browser.
+[00:44:30.818] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:56:30.769] Server  LOG     ✓ Compiled in 61ms
+[00:56:42.153] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:56:42.153] Browser WARN    MutationObserver is not supported by your browser.
+[00:56:42.153] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[00:56:42.153] Browser WARN    MutationObserver is not supported by your browser.
+[00:56:42.153] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:07.746] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:07.746] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:07.746] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:07.746] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:12.215] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:12.519] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:12.519] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:17.606] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:04:17.606] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:17.606] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:17.606] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:17.606] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:30.857] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:30.857] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:30.857] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:30.857] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:34.239] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:34.239] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:34.239] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:34.239] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:04:37.291] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:37.647] Browser WARN    MutationObserver is not supported by your browser.
+[01:04:37.647] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:05:05.635] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:05.979] Browser WARN    MutationObserver is not supported by your browser.
+[01:05:05.979] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:11:20.488] Server  LOG     ✓ Compiled in 126ms
+[01:11:27.661] Browser WARN    MutationObserver is not supported by your browser.
+[01:11:27.661] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:11:27.661] Browser WARN    MutationObserver is not supported by your browser.
+[01:11:27.661] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:11:32.515] Browser WARN    MutationObserver is not supported by your browser.
+[01:11:32.515] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:11:32.515] Browser WARN    MutationObserver is not supported by your browser.
+[01:11:32.515] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:12:55.639] Server  LOG     ✓ Compiled in 124ms
+[01:13:27.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:28.238] Browser WARN    MutationObserver is not supported by your browser.
+[01:13:28.238] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:13:32.242] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:32.873] Browser WARN    MutationObserver is not supported by your browser.
+[01:13:32.873] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:17:46.579] Server  LOG     ✓ Compiled in 87ms
+[01:17:56.867] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:17:56.867] Browser WARN    MutationObserver is not supported by your browser.
+[01:17:56.867] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:17:56.867] Browser WARN    MutationObserver is not supported by your browser.
+[01:17:56.867] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:18:01.335] Browser WARN    MutationObserver is not supported by your browser.
+[01:18:01.335] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:19:10.383] Server  LOG     ✓ Compiled in 93ms
+[01:19:14.816] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:19:14.816] Browser WARN    MutationObserver is not supported by your browser.
+[01:19:14.816] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:19:14.816] Browser WARN    MutationObserver is not supported by your browser.
+[01:19:14.816] Browser WARN    WOW.js cannot detect dom mutations, please call .sync() after loading new content.
+[01:20:18.446] Server  LOG     ✓ Compiled in 54ms
+[01:22:53.366] Server  LOG     ✓ Compiled in 81ms
+[01:25:24.743] Server  LOG     ✓ Compiled in 111ms
+[01:26:38.190] Server  LOG     ✓ Compiled in 83ms

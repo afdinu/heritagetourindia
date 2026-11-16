@@ -18,4 +18,4 @@
 :HL["assets/img/home-1/news/news-19.jpg","image"]
 :HL["/assets/img/home-1/Taj_Mahal_frontal_with_garden.webp","image"]
 :HL["/assets/img/logo/htj-logo.png","image"]
-0:{"buildId":"3o0-7lThVN0D6ClcXjrtz","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"news","paramType":null,"paramKey":"news","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"H6nA-57G0HRQu97WjW-1n","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"news","paramType":null,"paramKey":"news","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

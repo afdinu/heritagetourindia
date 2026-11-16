@@ -24,4 +24,4 @@
 :HL["assets/img/home-2/news/01.jpg","image"]
 :HL["assets/img/home-2/news/news-2.jpg","image"]
 :HL["assets/img/home-2/news/news-3.jpg","image"]
-0:{"buildId":"3o0-7lThVN0D6ClcXjrtz","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"index-2","paramType":null,"paramKey":"index-2","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"H6nA-57G0HRQu97WjW-1n","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"index-2","paramType":null,"paramKey":"index-2","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

@@ -18,4 +18,4 @@
 :HL["assets/img/home-3/cta/shape.png","image"]
 :HL["assets/img/home-3/cta/shape-2.png","image"]
 :HL["assets/img/home-3/cta/01.jpg","image"]
-0:{"buildId":"3o0-7lThVN0D6ClcXjrtz","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"index-3","paramType":null,"paramKey":"index-3","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"H6nA-57G0HRQu97WjW-1n","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"index-3","paramType":null,"paramKey":"index-3","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

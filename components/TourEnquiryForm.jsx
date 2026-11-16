@@ -20,7 +20,7 @@ export default function TourEnquiryForm({
         <span className={styles.label}>Selected tour</span>
         <textarea name="tour" rows={2} value={tourName} readOnly />
       </label>
-      <fieldset disabled={!action}>
+      <fieldset >
         <label>
           <span className={styles.label}>Name</span>
           <input name="name" autoComplete="name" placeholder="Name" required maxLength={120} />
