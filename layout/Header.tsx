@@ -86,14 +86,14 @@ const Header1 = ({
                 </div>
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
-                <div className="search-widget">
+                {/* <div className="search-widget">
                   <form action="#">
                     <button type="submit">
                       <i className="fa-solid fa-magnifying-glass" />
                     </button>
                     <input type="text" placeholder="Search" />
                   </form>
-                </div>
+                </div> */}
                 <div className="header-button">
                   <Link href="/contact" className="theme-btn">
                     Book Now
@@ -438,6 +438,9 @@ const Nav = ({ style }: { style?: string }) => {
             </Link>
             <ul className="submenu">
               <li>
+                <Link href="/services/jaipur-sightseeing">Jaipur Sightseeing</Link>
+              </li>
+              <li>
                 <Link href="/services/delhi-tours-guide">Delhi Tours Guide</Link>
               </li>
               <li>
@@ -729,6 +732,9 @@ const MobileMenu = ({
                           <i className="fa-solid fa-chevron-down" />
                         </a>
                         <ul className="submenu" style={activeLi("tour")}>
+                           <li>
+                <Link href="/services/jaipur-sightseeing">Jaipur Sightseeing</Link>
+              </li>
                           <li>
                 <Link href="/services/delhi-tours-guide">Delhi Tours Guide</Link>
               </li>

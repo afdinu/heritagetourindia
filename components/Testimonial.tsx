@@ -9,7 +9,7 @@ export const Testimonial1 = () => {
     {
       quote:
         "Booking with this agency was the best decision for our Bali trip! from flights to accommodations!",
-      clientImage: "assets/img/home-1/testimonial/client.png",
+      clientImage: "/assets/img/home-1/testimonial/client.png",
       clientName: "Michael Thompson",
       clientTitle: "World traveler",
       icon: "flaticon-left-quote",
@@ -17,7 +17,7 @@ export const Testimonial1 = () => {
     {
       quote:
         "Booking with this agency was the best decision for our Bali trip! from flights to accommodations!",
-      clientImage: "assets/img/home-1/testimonial/client.png",
+      clientImage: "/assets/img/home-1/testimonial/client.png",
       clientName: "Michael Thompson",
       clientTitle: "World traveler",
       icon: "flaticon-left-quote",
@@ -25,7 +25,7 @@ export const Testimonial1 = () => {
     {
       quote:
         "Booking with this agency was the best decision for our Bali trip! from flights to accommodations!",
-      clientImage: "assets/img/home-1/testimonial/client.png",
+      clientImage: "/assets/img/home-1/testimonial/client.png",
       clientName: "Michael Thompson",
       clientTitle: "World traveler",
       icon: "flaticon-left-quote",
@@ -33,7 +33,7 @@ export const Testimonial1 = () => {
     {
       quote:
         "Booking with this agency was the best decision for our Bali trip! from flights to accommodations!",
-      clientImage: "assets/img/home-1/testimonial/client.png",
+      clientImage: "/assets/img/home-1/testimonial/client.png",
       clientName: "Michael Thompson",
       clientTitle: "World traveler",
       icon: "flaticon-left-quote",
@@ -41,22 +41,22 @@ export const Testimonial1 = () => {
   ];
   const testimonialImages = [
     {
-      image: "assets/img/home-1/testimonial/01.jpg",
+      image: "/assets/img/home-1/testimonial/01.jpg",
       colClass: "col-xl-7 col-md-6",
       animation: "img-custom-anim-left",
     },
     {
-      image: "assets/img/home-1/testimonial/02.jpg",
+      image: "/assets/img/home-1/testimonial/02.jpg",
       colClass: "col-xl-5 col-md-6",
       animation: "img-custom-anim-right",
     },
     {
-      image: "assets/img/home-1/testimonial/03.jpg",
+      image: "/assets/img/home-1/testimonial/03.jpg",
       colClass: "col-xl-5 col-md-6",
       animation: "img-custom-anim-left",
     },
     {
-      image: "assets/img/home-1/testimonial/04.jpg",
+      image: "/assets/img/home-1/testimonial/04.jpg",
       colClass: "col-xl-7 col-md-6",
       animation: "img-custom-anim-right",
       videoUrl: "https://www.youtube.com/watch?v=Cn4G2lZ_g2I",
@@ -65,7 +65,7 @@ export const Testimonial1 = () => {
   return (
     <section
       className="testimonial-section section-padding fix bg-cover"
-      style={{ backgroundImage: "url(assets/img/home-1/testimonial/bg.jpg)" }}
+      style={{ backgroundImage: "url(/assets/img/home-1/testimonial/bg.jpg)" }}
     >
       <div className="container">
         <div className="section-title text-center">

@@ -10874,12 +10874,7 @@ span {
     height: 100%;
   }
 }
-@media (max-width: 575px) {
-  .team-image-item .team-image img {
-    width: initial;
-    height: initial;
-  }
-}
+
 .team-image-item .team-content {
   margin-top: 30px;
 }
@@ -11685,11 +11680,12 @@ span {
   overflow: hidden;
   position: relative;
 }
-@media (max-width: 767px) {
-  .activities-wrapper .activities-card-item .activities-image {
-    height: 300px;
-  }
+.activities-wrapper .activities-card-item .activities-image a{
+display:inline-block;
+height:100%;
+    width:100%;
 }
+
 .activities-wrapper .activities-card-item .activities-image::after {
   position: absolute;
   width: 200%;
@@ -11703,10 +11699,12 @@ span {
 }
 .activities-wrapper .activities-card-item .activities-image img {
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 10px;
   transform: scale(1.02);
   transition: all 1.5s ease-out;
+  aspect-ratio: 3/4;
+  object-fit: cover;
 }
 .activities-wrapper .activities-card-item .activities-content {
   text-align: center;

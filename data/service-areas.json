@@ -1,5 +1,426 @@
 [
- 
+ {
+  "name": "Jaipur Sightseeing",
+  "city": "jaipur-sightseeing",
+  "description": "Explore Jaipur’s forts, palaces, stepwells and traditional markets with a private local guide.",
+  "image": "https://images.pexels.com/photos/34649656/pexels-photo-34649656.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "imageAlt": "Hawa Mahal in Jaipur Rajasthan",
+  "showOnMainGrid": true,
+  "services": [
+    {
+      "name": "Jaipur Full Day Tour with Guide & Car",
+      "slug": "jaipur-full-day-tour-with-guide-and-car",
+      "summary": "Explore Jaipur’s iconic forts, palaces and bazaars on a private full day guided sightseeing tour. ₹3,500 for 1–3 people; car included.",
+      "description": "Discover Jaipur with a private tour guide on this full day sightseeing experience. Visit historic landmarks, enjoy photo stops and browse traditional markets. Travel with a provided car and driver. Optional elephant village and lunch stops can be arranged according to your preferences and available time.",
+      "location": "Jaipur, Rajasthan, India",
+      "duration": "Full day",
+      "groupSize": "1–3 people",
+      "priceINR": 3500,
+      "priceLabel": "₹3,500 per group (1–3 people)",
+      "image": "https://images.pexels.com/photos/15344913/pexels-photo-15344913.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Hawa Mahal facade in Jaipur",
+      "gallery": [
+        {
+          "src": "https://images.pexels.com/photos/15344913/pexels-photo-15344913.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Hawa Mahal pink sandstone facade"
+        },
+        {
+          "src": "https://images.pexels.com/photos/33210292/pexels-photo-33210292.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Colourful courtyard at Jaipur City Palace"
+        },
+        {
+          "src": "https://images.pexels.com/photos/34147167/pexels-photo-34147167.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Historic domes and spires in Jaipur"
+        }
+      ],
+      "highlights": [
+        "Private full day guided Jaipur sightseeing",
+        "Visit Amber Fort and Hawa Mahal",
+        "See Panna Meena ka Kund and Jal Mahal",
+        "Explore the Pink City and traditional markets",
+        "Private car and driver",
+        "Optional elephant village and lunch stops"
+      ],
+      "itinerary": [
+        {
+          "label": "Stop 1",
+          "title": "Meet Your Guide",
+          "description": "Meet your guide and driver at the agreed pickup point to begin your Jaipur sightseeing experience."
+        },
+        {
+          "label": "Stop 2",
+          "title": "Hawa Mahal (Palace of Winds)",
+          "description": "Admire the famous pink sandstone facade and learn about its royal history."
+        },
+        {
+          "label": "Stop 3",
+          "title": "City Palace",
+          "description": "Explore Jaipur’s royal palace complex and its architectural heritage."
+        },
+        {
+          "label": "Stop 4",
+          "title": "Jantar Mantar",
+          "description": "Discover the historic astronomical observatory and its instruments."
+        },
+        {
+          "label": "Stop 5",
+          "title": "Amber Fort (Amer Fort)",
+          "description": "Explore the hilltop fort and its courtyards, gateways and palaces."
+        },
+        {
+          "label": "Stop 6",
+          "title": "Panna Meena ka Kund (Stepwell)",
+          "description": "Stop at the geometric historic stepwell near Amer."
+        },
+        {
+          "label": "Stop 7",
+          "title": "Elephant Village (optional visit)",
+          "description": "Optional stop at an elephant village, subject to your preference and available time; activities are not included in the tour price."
+        },
+        {
+          "label": "Stop 8",
+          "title": "Lunch Break (at your choice)",
+          "description": "Pause for lunch at a restaurant of your choice; meals are paid separately."
+        },
+        {
+          "label": "Stop 9",
+          "title": "Jal Mahal (Water Palace)",
+          "description": "Enjoy a lakeside view and photo stop at Jal Mahal."
+        },
+        {
+          "label": "Stop 10",
+          "title": "Pink City",
+          "description": "See Jaipur’s historic pink-painted streets and architecture."
+        },
+        {
+          "label": "Stop 11",
+          "title": "Traditional Markets",
+          "description": "Browse local bazaars for textiles, handicrafts and souvenirs."
+        },
+        {
+          "label": "Stop 12",
+          "title": "Royal Gaitor (Gaitore Ki Chhatriyan)",
+          "description": "Visit the elegant royal cenotaphs known for their carved architecture."
+        },
+        {
+          "label": "Stop 13",
+          "title": "Tour Ends",
+          "description": "Return to your hotel after the sightseeing tour."
+        }
+      ],
+      "inclusions": [
+        "Services of a private tour guide",
+        "Private car with driver for the tour"
+      ],
+      "exclusions": [
+        "Monument entrance and camera fees",
+        "Lunch, food and drinks",
+        "Elephant village activities and any optional experiences",
+        "Personal expenses",
+        "Anything not expressly listed under inclusions"
+      ],
+      "faqs": [
+        {
+          "question": "What is the price of the Jaipur Full Day Tour with Guide & Car?",
+          "answer": "The listed tour price is ₹3,500 for a group of 1–3 people."
+        },
+        {
+          "question": "Is a car included?",
+          "answer": "Yes, this package includes a car and driver."
+        },
+        {
+          "question": "Are monument tickets and lunch included?",
+          "answer": "No. Entrance fees, meals and optional activities are not included."
+        },
+        {
+          "question": "Can I visit the elephant village?",
+          "answer": "An optional visit can be arranged based on your preference and available time. Any activities are paid separately."
+        },
+        {
+          "question": "Where does the tour finish?",
+          "answer": "The tour returns to your hotel."
+        }
+      ],
+      "mapEmbedUrl": "https://www.google.com/maps?q=Jaipur+Rajasthan+India&output=embed",
+      "seo": {
+        "title": "Jaipur Full Day Tour with Guide & Car | Heritage Tour India",
+        "description": "Book a full day Jaipur sightseeing tour with a private guide. Car included. From ₹3,500 for 1–3 people. Explore forts, palaces and markets."
+      },
+      "draft": false,
+      "breadcrumbImage": "https://images.pexels.com/photos/10390193/pexels-photo-10390193.jpeg?auto=compress&cs=tinysrgb&w=1920"
+    },
+    {
+      "name": "Jaipur Full Day Tour with Guide – Own Car",
+      "slug": "jaipur-full-day-tour-with-guide-own-car",
+      "summary": "Explore Jaipur’s iconic forts, palaces and bazaars on a private full day guided sightseeing tour. ₹1,200 for 1–6 people; bring your own car.",
+      "description": "Discover Jaipur with a private tour guide on this full day sightseeing experience. Visit historic landmarks, enjoy photo stops and browse traditional markets. Travel in your own car; this option includes guide services only. Optional elephant village and lunch stops can be arranged according to your preferences and available time.",
+      "location": "Jaipur, Rajasthan, India",
+      "duration": "Full day",
+      "groupSize": "1–6 people",
+      "priceINR": 1200,
+      "priceLabel": "₹1,200 per group (1–6 people)",
+      "image": "https://images.pexels.com/photos/34669538/pexels-photo-34669538.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "City Palace Jaipur traditional architecture",
+      "gallery": [
+        {
+          "src": "https://images.pexels.com/photos/12323903/pexels-photo-12323903.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "View from the courtyard of Hawa Mahal"
+        },
+        {
+          "src": "https://images.pexels.com/photos/34637459/pexels-photo-34637459.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Historic arched garden view in Jaipur"
+        },
+        {
+          "src": "https://images.pexels.com/photos/34637452/pexels-photo-34637452.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Traditional Rajasthani courtyard in Jaipur"
+        }
+      ],
+      "highlights": [
+        "Private full day guided Jaipur sightseeing",
+        "Visit Amber Fort and Hawa Mahal",
+        "See Panna Meena ka Kund and Jal Mahal",
+        "Explore the Pink City and traditional markets",
+        "Use of your own car (vehicle and driver not provided)",
+        "Optional elephant village and lunch stops"
+      ],
+      "itinerary": [
+        {
+          "label": "Stop 1",
+          "title": "Meet Your Guide",
+          "description": "Meet your guide at the agreed pickup point and begin sightseeing in your own vehicle."
+        },
+        {
+          "label": "Stop 2",
+          "title": "Hawa Mahal (Palace of Winds)",
+          "description": "Admire the famous pink sandstone facade and learn about its royal history."
+        },
+        {
+          "label": "Stop 3",
+          "title": "City Palace",
+          "description": "Explore Jaipur’s royal palace complex and its architectural heritage."
+        },
+        {
+          "label": "Stop 4",
+          "title": "Jantar Mantar",
+          "description": "Discover the historic astronomical observatory and its instruments."
+        },
+        {
+          "label": "Stop 5",
+          "title": "Amber Fort (Amer Fort)",
+          "description": "Explore the hilltop fort and its courtyards, gateways and palaces."
+        },
+        {
+          "label": "Stop 6",
+          "title": "Panna Meena ka Kund (Stepwell)",
+          "description": "Stop at the geometric historic stepwell near Amer."
+        },
+        {
+          "label": "Stop 7",
+          "title": "Elephant Village (optional visit)",
+          "description": "Optional stop at an elephant village, subject to your preference and available time; activities are not included in the tour price."
+        },
+        {
+          "label": "Stop 8",
+          "title": "Lunch Break (at your choice)",
+          "description": "Pause for lunch at a restaurant of your choice; meals are paid separately."
+        },
+        {
+          "label": "Stop 9",
+          "title": "Jal Mahal (Water Palace)",
+          "description": "Enjoy a lakeside view and photo stop at Jal Mahal."
+        },
+        {
+          "label": "Stop 10",
+          "title": "Pink City",
+          "description": "See Jaipur’s historic pink-painted streets and architecture."
+        },
+        {
+          "label": "Stop 11",
+          "title": "Traditional Markets",
+          "description": "Browse local bazaars for textiles, handicrafts and souvenirs."
+        },
+        {
+          "label": "Stop 12",
+          "title": "Royal Gaitor (Gaitore Ki Chhatriyan)",
+          "description": "Visit the elegant royal cenotaphs known for their carved architecture."
+        },
+        {
+          "label": "Stop 13",
+          "title": "Tour Ends",
+          "description": "Finish the tour at the agreed pickup point in your own vehicle."
+        }
+      ],
+      "inclusions": [
+        "Services of a private tour guide"
+      ],
+      "exclusions": [
+        "Monument entrance and camera fees",
+        "Lunch, food and drinks",
+        "Elephant village activities and any optional experiences",
+        "Personal expenses",
+        "Anything not expressly listed under inclusions",
+        "Vehicle, fuel, parking and driver costs"
+      ],
+      "faqs": [
+        {
+          "question": "What is the price of the Jaipur Full Day Tour with Guide – Own Car?",
+          "answer": "The listed tour price is ₹1,200 for a group of 1–6 people."
+        },
+        {
+          "question": "Is a car included?",
+          "answer": "No. You must provide your own car; the package includes guide services."
+        },
+        {
+          "question": "Are monument tickets and lunch included?",
+          "answer": "No. Entrance fees, meals and optional activities are not included."
+        },
+        {
+          "question": "Can I visit the elephant village?",
+          "answer": "An optional visit can be arranged based on your preference and available time. Any activities are paid separately."
+        },
+        {
+          "question": "Where does the tour finish?",
+          "answer": "The tour ends at the agreed pickup point."
+        }
+      ],
+      "mapEmbedUrl": "https://www.google.com/maps?q=Jaipur+Rajasthan+India&output=embed",
+      "seo": {
+        "title": "Jaipur Full Day Tour with Guide – Own Car | Heritage Tour India",
+        "description": "Book a full day Jaipur sightseeing tour with a private guide. Bring your own car. From ₹1,200 for 1–6 people. Explore forts, palaces and markets."
+      },
+      "draft": false,
+      "breadcrumbImage": "https://images.pexels.com/photos/11949717/pexels-photo-11949717.jpeg?auto=compress&cs=tinysrgb&w=1920"
+    },
+    {
+      "name": "Jaipur Half Day Tour with Guide & Car",
+      "slug": "jaipur-half-day-tour-with-guide-and-car",
+      "summary": "Explore Jaipur’s iconic forts, palaces and bazaars on a private half day guided sightseeing tour. ₹2,500 for 1–3 people; car included.",
+      "description": "Discover Jaipur with a private tour guide on this half day sightseeing experience. Visit historic landmarks, enjoy photo stops and browse traditional markets. Travel with a provided car and driver. Optional elephant village and lunch stops can be arranged according to your preferences and available time.",
+      "location": "Jaipur, Rajasthan, India",
+      "duration": "Half day",
+      "groupSize": "1–3 people",
+      "priceINR": 2500,
+      "priceLabel": "₹2,500 per group (1–3 people)",
+      "image": "https://images.pexels.com/photos/35251927/pexels-photo-35251927.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Amber Fort and Maota Lake in Jaipur",
+      "gallery": [
+        {
+          "src": "https://images.pexels.com/photos/14915404/pexels-photo-14915404.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Hawa Mahal windows beneath a blue sky"
+        },
+        {
+          "src": "https://images.pexels.com/photos/34649657/pexels-photo-34649657.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Traditional palace facade in Jaipur"
+        },
+        {
+          "src": "https://images.pexels.com/photos/34649675/pexels-photo-34649675.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Historic domed pavilion in Jaipur"
+        }
+      ],
+      "highlights": [
+        "Private half day guided Jaipur sightseeing",
+        "Visit Amber Fort and Hawa Mahal",
+        "See Panna Meena ka Kund and Jal Mahal",
+        "Explore the Pink City and traditional markets",
+        "Private car and driver",
+        "Optional elephant village and lunch stops"
+      ],
+      "itinerary": [
+        {
+          "label": "Stop 1",
+          "title": "Meet Your Guide",
+          "description": "Meet your guide and driver at the agreed pickup point to begin your Jaipur sightseeing experience."
+        },
+        {
+          "label": "Stop 2",
+          "title": "Hawa Mahal (Palace of Winds)",
+          "description": "Admire the famous pink sandstone facade and learn about its royal history."
+        },
+        {
+          "label": "Stop 3",
+          "title": "Amber Fort (Amer Fort)",
+          "description": "Explore the hilltop fort and its courtyards, gateways and palaces."
+        },
+        {
+          "label": "Stop 4",
+          "title": "Panna Meena ka Kund (Stepwell)",
+          "description": "Stop at the geometric historic stepwell near Amer."
+        },
+        {
+          "label": "Stop 5",
+          "title": "Elephant Village (optional visit)",
+          "description": "Optional stop at an elephant village, subject to your preference and available time; activities are not included in the tour price."
+        },
+        {
+          "label": "Stop 6",
+          "title": "Lunch Break (at your choice)",
+          "description": "Pause for lunch at a restaurant of your choice; meals are paid separately."
+        },
+        {
+          "label": "Stop 7",
+          "title": "Jal Mahal (Water Palace)",
+          "description": "Enjoy a lakeside view and photo stop at Jal Mahal."
+        },
+        {
+          "label": "Stop 8",
+          "title": "Pink City",
+          "description": "See Jaipur’s historic pink-painted streets and architecture."
+        },
+        {
+          "label": "Stop 9",
+          "title": "Traditional Markets",
+          "description": "Browse local bazaars for textiles, handicrafts and souvenirs."
+        },
+        {
+          "label": "Stop 10",
+          "title": "Tour Ends",
+          "description": "Return to your hotel after the sightseeing tour."
+        }
+      ],
+      "inclusions": [
+        "Services of a private tour guide",
+        "Private car with driver for the tour"
+      ],
+      "exclusions": [
+        "Monument entrance and camera fees",
+        "Lunch, food and drinks",
+        "Elephant village activities and any optional experiences",
+        "Personal expenses",
+        "Anything not expressly listed under inclusions"
+      ],
+      "faqs": [
+        {
+          "question": "What is the price of the Jaipur Half Day Tour with Guide & Car?",
+          "answer": "The listed tour price is ₹2,500 for a group of 1–3 people."
+        },
+        {
+          "question": "Is a car included?",
+          "answer": "Yes, this package includes a car and driver."
+        },
+        {
+          "question": "Are monument tickets and lunch included?",
+          "answer": "No. Entrance fees, meals and optional activities are not included."
+        },
+        {
+          "question": "Can I visit the elephant village?",
+          "answer": "An optional visit can be arranged based on your preference and available time. Any activities are paid separately."
+        },
+        {
+          "question": "Where does the tour finish?",
+          "answer": "The tour returns to your hotel."
+        }
+      ],
+      "mapEmbedUrl": "https://www.google.com/maps?q=Jaipur+Rajasthan+India&output=embed",
+      "seo": {
+        "title": "Jaipur Half Day Tour with Guide & Car | Heritage Tour India",
+        "description": "Book a half day Jaipur sightseeing tour with a private guide. Car included. From ₹2,500 for 1–3 people. Explore forts, palaces and markets."
+      },
+      "draft": false,
+      "breadcrumbImage": "https://images.pexels.com/photos/10390197/pexels-photo-10390197.jpeg?auto=compress&cs=tinysrgb&w=1920"
+    }
+  ],
+  "breadcrumbImage": "https://images.pexels.com/photos/15053777/pexels-photo-15053777.jpeg?auto=compress&cs=tinysrgb&w=1920"
+},
  {
   "name": "Delhi Tours Guide",
   "city": "delhi-tours-guide",

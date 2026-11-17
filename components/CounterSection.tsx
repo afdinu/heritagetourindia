@@ -25,7 +25,7 @@ const counters = [
   return (
     <section
       className="counter-section section-padding fix bg-cover"
-      style={{ backgroundImage: "url(assets/img/home-1/tour/amber-fort-background.webp)" }}
+      style={{ backgroundImage: "url(/assets/img/home-1/tour/amber-fort-background.webp)" }}
     >
       <div className="container">
         <div className="counter-wrapper">

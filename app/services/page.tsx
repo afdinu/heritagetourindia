@@ -1,11 +1,13 @@
+// import areas from "../../data/service-areas.json";
 import serviceAreas from "../../data/service-areas.json";
+
 import { Contact1 } from "@/components/Contact";
 import RoavioLayout from "@/layout/RoavioLayout";
+
 import Link from "next/link";
 
 const phoneNumber = "+917737244759";
 const whatsappNumber = "917737244759";
-
 function assetPath(path: string): string {
   if (/^https?:\/\//i.test(path)) {
     return path;
@@ -15,17 +17,14 @@ function assetPath(path: string): string {
 }
 
 export default function TourGrid() {
-  const tours = serviceAreas.filter(
-    (area) => area.showOnMainGrid !== false
-  );
+  const tours = serviceAreas.filter((area) => area.showOnMainGrid !== false);
 
   return (
     <RoavioLayout>
       <div
         className="breadcrumb-wrapper-2 style-tour-page bg-cover"
         style={{
-          backgroundImage:
-            "url(/assets/img/inner-page/breadcrumb/bg-4.jpg)",
+          backgroundImage: "url(/assets/img/inner-page/breadcrumb/bg-4.jpg)",
         }}
       >
         <div className="container">
@@ -36,16 +35,11 @@ export default function TourGrid() {
               </h1>
             </div>
 
-            <ul
-              className="breadcrumb-items wow fadeInUp"
-              data-wow-delay=".5s"
-            >
+            <ul className="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
               <li>
                 <Link href="/">Home</Link>
               </li>
-              <li className="style-2" aria-current="page">
-                Services
-              </li>
+              <li className="style-2">Services</li>
             </ul>
           </div>
         </div>
@@ -54,9 +48,7 @@ export default function TourGrid() {
       <section className="tour-grid-section section-padding fix">
         <div className="container">
           <div className="section-title text-center">
-            <h2 className="text-anim">
-              Explore India with a Local Tour Guide
-            </h2>
+            <h2 className="text-anim">Explore India with a Local Tour Guide</h2>
             <p className="wow fadeInUp" data-wow-delay=".5s">
               Choose a guided tour in Delhi, Agra, or Rajasthan, or plan a
               Golden Triangle trip with a wildlife safari or extra stops.
@@ -69,7 +61,6 @@ export default function TourGrid() {
               const image = tour.image
                 ? assetPath(tour.image)
                 : null;
-
               const message = encodeURIComponent(
                 `Hello Heritage Tour Guide India, I’m interested in ${tour.name}. Could you share the tour options?`
               );
@@ -78,7 +69,7 @@ export default function TourGrid() {
                 <div
                   key={tour.city}
                   className="col-xl-4 col-lg-6 col-md-6 d-flex wow fadeInUp"
-                  data-wow-delay={`${((index % 3) + 1) * 200}ms`}
+                  data-wow-delay={`${(index % 3 + 1) * 200}ms`}
                 >
                   <article className="tour-place-item w-100 d-flex flex-column">
                     {image && (
@@ -92,10 +83,7 @@ export default function TourGrid() {
                             src={image}
                             alt={tour.imageAlt || ""}
                             className="w-100"
-                            style={{
-                              aspectRatio: "4 / 3",
-                              objectFit: "cover",
-                            }}
+                            style={{ aspectRatio: "4 / 3", objectFit: "cover" }}
                             loading="lazy"
                           />
                         </Link>
@@ -134,10 +122,7 @@ export default function TourGrid() {
                             rel="noopener noreferrer"
                             aria-label={`WhatsApp about ${tour.name}`}
                           >
-                            <i
-                              className="fa-brands fa-whatsapp"
-                              aria-hidden="true"
-                            />
+                            <i className="fa-brands fa-whatsapp" aria-hidden="true" />
                           </a>
 
                           <a
@@ -145,10 +130,7 @@ export default function TourGrid() {
                             className="btn btn-outline-dark"
                             aria-label={`Call about ${tour.name}`}
                           >
-                            <i
-                              className="fa-solid fa-phone"
-                              aria-hidden="true"
-                            />
+                            <i className="fa-solid fa-phone" aria-hidden="true" />
                           </a>
                         </div>
                       </div>
