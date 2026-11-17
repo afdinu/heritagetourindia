@@ -7,10 +7,6 @@ import { Contact1 } from "@/components/Contact";
 import TourEnquiryForm from "@/components/TourEnquiryForm";
 import RoavioLayout from "@/layout/RoavioLayout";
 
-// --------------------------------------------------
-// TYPES
-// --------------------------------------------------
-
 type ServiceArea = (typeof serviceAreas)[number];
 type Tour = ServiceArea["services"][number];
 
@@ -34,28 +30,27 @@ type GalleryPhoto = {
   alt?: string;
 };
 
-// --------------------------------------------------
-// CONSTANTS
-// --------------------------------------------------
-
 const phone = "+917737244759";
-function assetPath(path: string): string {
-  return `/${path.replace(/^\/+/, "")}`;
+
+function assetPath(path?: string | null): string | null {
+  const imagePath = path?.trim();
+
+  if (!imagePath) return null;
+
+  if (/^(https?:)?\/\//i.test(imagePath)) {
+    return imagePath;
+  }
+
+  return `/${imagePath.replace(/^\/+/, "")}`;
 }
 
 async function getTour(
   params: Promise<TourParams>
-): Promise<{
-  area: ServiceArea;
-  tour: Tour;
-}> {
+): Promise<{ area: ServiceArea; tour: Tour }> {
   const { city, slug } = await params;
 
   const area = serviceAreas.find((entry) => entry.city === city);
-
-  const tour = area?.services.find(
-    (entry) => entry.slug === slug
-  );
+  const tour = area?.services.find((entry) => entry.slug === slug);
 
   if (!area || !tour) {
     notFound();
@@ -63,10 +58,6 @@ async function getTour(
 
   return { area, tour };
 }
-
-// --------------------------------------------------
-// SEO METADATA
-// --------------------------------------------------
 
 export async function generateMetadata({
   params,
@@ -77,17 +68,12 @@ export async function generateMetadata({
     title:
       tour.seo?.title ||
       `${tour.name} | Heritage Tour Guide India`,
-
     description:
       tour.seo?.description ||
       tour.summary ||
       tour.description,
   };
 }
-
-// --------------------------------------------------
-// REUSABLE TOUR LIST COMPONENT
-// --------------------------------------------------
 
 function TourList({
   title,
@@ -101,12 +87,9 @@ function TourList({
       <h3>{title}</h3>
 
       <ul className="list">
-        {items.map((item) => (
-          <li key={item}>
-            <i
-              className={`fa-solid ${icon}`}
-              aria-hidden="true"
-            />{" "}
+        {items.map((item, index) => (
+          <li key={`${item}-${index}`}>
+            <i className={`fa-solid ${icon}`} aria-hidden="true" />{" "}
             {item}
           </li>
         ))}
@@ -115,74 +98,66 @@ function TourList({
   );
 }
 
-// --------------------------------------------------
-// MAIN TOUR DETAILS PAGE
-// --------------------------------------------------
-
 export default async function TourDetails({
   params,
 }: TourPageProps) {
   const { area, tour } = await getTour(params);
 
-  const areaHref = `/tour-areas/${area.city}`;
+  const areaHref = `/services/${area.city}`;
 
-  const cover = tour.image || area.image;
+  const tourImage = assetPath(tour.image);
+  const cover = tourImage || assetPath(area.image);
+  const coverAlt = tourImage ? tour.imageAlt : area.imageAlt;
 
-  const coverAlt = tour.image
-    ? tour.imageAlt
-    : area.imageAlt;
+  const gallery: GalleryPhoto[] = [];
 
-  const gallery: GalleryPhoto[] = tour.gallery?.length
-    ? tour.gallery
-    : cover
-      ? [{ src: cover, alt: coverAlt || "" }]
-      : [];
+  for (const photo of tour.gallery ?? []) {
+    const src = assetPath(photo.src);
+
+    if (src) {
+      gallery.push({
+        src,
+        alt: photo.alt || "",
+      });
+    }
+  }
+
+  if (gallery.length === 0 && cover) {
+    gallery.push({
+      src: cover,
+      alt: coverAlt || "",
+    });
+  }
 
   const relatedTours = area.services
     .filter((entry) => entry.slug !== tour.slug)
     .slice(0, 3);
 
-  const breadcrumbImage = tour.breadcrumbImage || area.breadcrumbImage;
+  const breadcrumbImage =
+    assetPath(tour.breadcrumbImage) ||
+    assetPath(area.breadcrumbImage);
 
   return (
     <RoavioLayout>
       {/* BREADCRUMB SECTION */}
-
       <div
-        className={breadcrumbImage
-          ? "breadcrumb-wrapper-2 style-tour-page bg-cover"
-          : "breadcrumb-wrapper fix"}
-        style={breadcrumbImage ? {
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(${JSON.stringify(assetPath(breadcrumbImage))})`,
-        } : undefined}
+        className={
+          breadcrumbImage
+            ? "breadcrumb-wrapper-2 style-tour-page bg-cover"
+            : "breadcrumb-wrapper fix"
+        }
+        style={
+          breadcrumbImage
+            ? {
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(${JSON.stringify(breadcrumbImage)})`,
+              }
+            : undefined
+        }
       >
         <div className="container">
           <div className="page-heading style-2">
-            <ul
-              className="breadcrumb-items wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              {/* <li>
-                <Link href="/">Home</Link>
-              </li> */}
-
-              {/* <li>
-                <Link href={areaHref}>{area.name}</Link>
-              </li> */}
-
-              {/* <li
-                className="style-2 style-3"
-                aria-current="page"
-              >
-                {tour.name}
-              </li> */}
-            </ul>
-
             <div className="breadcrumb-sub-title">
-              <h1
-                className="wow fadeInUp"
-                data-wow-delay=".3s"
-              >
+              <h1 className="wow fadeInUp" data-wow-delay=".3s">
                 {tour.name}
               </h1>
             </div>
@@ -190,21 +165,30 @@ export default async function TourDetails({
             <ul className={breadcrumbImage ? "list text-white" : "list"}>
               {tour.location && (
                 <li>
-                  <i className="fa-solid fa-location-dot" />{" "}
+                  <i
+                    className="fa-solid fa-location-dot"
+                    aria-hidden="true"
+                  />{" "}
                   {tour.location}
                 </li>
               )}
 
               {tour.duration && (
                 <li>
-                  <i className="fa-regular fa-clock" />{" "}
+                  <i
+                    className="fa-regular fa-clock"
+                    aria-hidden="true"
+                  />{" "}
                   {tour.duration}
                 </li>
               )}
 
               {tour.groupSize && (
                 <li>
-                  <i className="fa-solid fa-users" />{" "}
+                  <i
+                    className="fa-solid fa-users"
+                    aria-hidden="true"
+                  />{" "}
                   {tour.groupSize}
                 </li>
               )}
@@ -214,28 +198,22 @@ export default async function TourDetails({
       </div>
 
       {/* TOUR DETAILS SECTION */}
-
       <section className="tour-details-section section-padding pt-0 fix">
         <div className="container">
           <div className="tour-details-wrappers">
-
-            {/* TOUR CONTENT */}
-
             <div className="tour-details-content">
               <div className="row g-4">
-
                 {/* LEFT CONTENT */}
-
                 <div className="col-lg-8 col-12">
                   <div className="tour-left-content">
-
                     <h3>Tour Overview</h3>
-                  
-                    <p className="mt-3 mb-4" style={{ whiteSpace: "pre-line" }}>
+
+                    <p
+                      className="mt-3 mb-4"
+                      style={{ whiteSpace: "pre-line" }}
+                    >
                       {tour.description || tour.summary}
                     </p>
-
-                    {/* TOUR HIGHLIGHTS */}
 
                     <TourList
                       title="Top Highlights"
@@ -243,7 +221,6 @@ export default async function TourDetails({
                     />
 
                     {/* ITINERARY */}
-
                     {tour.itinerary?.length > 0 && (
                       <div className="mb-4">
                         <h3>Itinerary</h3>
@@ -255,9 +232,7 @@ export default async function TourDetails({
                               key={`${item.title}-${index}`}
                             >
                               <summary className="accordion-button">
-                                {item.label
-                                  ? `${item.label} · `
-                                  : ""}
+                                {item.label ? `${item.label} · ` : ""}
                                 {item.title}
                               </summary>
 
@@ -271,7 +246,6 @@ export default async function TourDetails({
                     )}
 
                     {/* INCLUSIONS AND EXCLUSIONS */}
-
                     <div className="row g-4">
                       {tour.inclusions?.length > 0 && (
                         <div className="col-md-6">
@@ -294,35 +268,39 @@ export default async function TourDetails({
                     </div>
 
                     {/* FREQUENTLY ASKED QUESTIONS */}
-
                     {tour.faqs?.length > 0 && (
                       <div className="mb-4">
                         <h3>Frequently Asked Questions</h3>
 
                         <div className="accordion-one mt-3">
-                          {tour.faqs.map(
-                            ({ question, answer }) => (
-                              <details
-                                className="accordion-item mb-2"
-                                key={question}
-                              >
-                                <summary className="accordion-button">
-                                  {question}
-                                </summary>
+                          {tour.faqs.map(({ question, answer }, index) => (
+                            <details
+                              className="accordion-item mb-2"
+                              key={`${question}-${index}`}
+                            >
+                              <summary className="accordion-button">
+                                {question}
+                              </summary>
 
-                                <div className="accordion-body">
-                                  {answer}
-                                </div>
-                              </details>
-                            )
-                          )}
+                              <div className="accordion-body">
+                                {answer}
+                              </div>
+                            </details>
+                          ))}
                         </div>
                       </div>
                     )}
 
+                    {/* TOUR GALLERY */}
                     {gallery.length > 0 && (
-                      <section className="mb-4" aria-labelledby="tour-gallery">
-                        <h3 id="tour-gallery" className="mb-3">Tour Gallery</h3>
+                      <section
+                        className="mb-4"
+                        aria-labelledby="tour-gallery"
+                      >
+                        <h3 id="tour-gallery" className="mb-3">
+                          Tour Gallery
+                        </h3>
+
                         <div className="row g-3">
                           {gallery.map((photo, index) => (
                             <div
@@ -330,10 +308,13 @@ export default async function TourDetails({
                               className="col-12 col-sm-6 col-xl-4"
                             >
                               <img
-                                src={assetPath(photo.src)}
+                                src={photo.src}
                                 alt={photo.alt || ""}
                                 className="d-block w-100 rounded"
-                                style={{ aspectRatio: "4 / 3", objectFit: "cover" }}
+                                style={{
+                                  aspectRatio: "4 / 3",
+                                  objectFit: "cover",
+                                }}
                                 loading="lazy"
                               />
                             </div>
@@ -343,7 +324,6 @@ export default async function TourDetails({
                     )}
 
                     {/* TOUR MAP */}
-
                     {tour.mapEmbedUrl && (
                       <div className="map-items">
                         <h3>Tour Map</h3>
@@ -361,23 +341,18 @@ export default async function TourDetails({
                         </div>
                       </div>
                     )}
-
                   </div>
                 </div>
 
                 {/* RIGHT SIDEBAR */}
-
                 <div className="col-lg-4 col-12">
                   <div className="tour-details-side">
                     <div className="tour-details-sidebar sticky-style">
-
                       <TourEnquiryForm
                         tourName={tour.name}
                         tourPath={`${areaHref}/${tour.slug}`}
-                        action={process.env.TOUR_ENQUIRY_FORM_ACTION?.trim()}
+                        
                       />
-
-                      {/* CONTACT INFORMATION */}
 
                       <div className="widget-contact">
                         <h3>Need Help?</h3>
@@ -387,36 +362,28 @@ export default async function TourDetails({
                             <i
                               className="fa-solid fa-phone"
                               aria-hidden="true"
-                            />
-                            {" "}
+                            />{" "}
                             <a href={`tel:${phone}`}>
                               +91 77372 44759
                             </a>
                           </li>
                         </ul>
 
-                        <Link href={areaHref}>
-                          View more tours
-                        </Link>
+                        <Link href={areaHref}>View more tours</Link>
                       </div>
-
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
       </section>
 
       {/* RELATED TOURS SECTION */}
-
       {relatedTours.length > 0 && (
         <section className="tour-grid-section section-padding pt-0 fix">
           <div className="container">
-
             <div className="section-title text-center">
               <h2 className="text-anim">Related Tours</h2>
             </div>
@@ -425,9 +392,9 @@ export default async function TourDetails({
               {relatedTours.map((related) => {
                 const href = `${areaHref}/${related.slug}`;
 
-                const image = related.image || area.image;
-
-                const alt = related.image
+                const relatedImage = assetPath(related.image);
+                const image = relatedImage || assetPath(area.image);
+                const alt = relatedImage
                   ? related.imageAlt
                   : area.imageAlt;
 
@@ -437,7 +404,6 @@ export default async function TourDetails({
                     className="col-xl-4 col-md-6"
                   >
                     <article className="tour-place-item">
-
                       {image && (
                         <div className="tour-place-image">
                           <Link
@@ -446,7 +412,7 @@ export default async function TourDetails({
                             aria-label={`View ${related.name}`}
                           >
                             <img
-                              src={assetPath(image)}
+                              src={image}
                               alt={alt || ""}
                               loading="lazy"
                             />
@@ -455,12 +421,8 @@ export default async function TourDetails({
                       )}
 
                       <div className="tour-place-content">
-
                         <div className="rating-item mb-1">
-                          <div
-                            className="star"
-                            aria-hidden="true"
-                          >
+                          <div className="star" aria-hidden="true">
                             <i className="fa-solid fa-star" />
                             <i className="fa-solid fa-star" />
                             <i className="fa-solid fa-star" />
@@ -470,33 +432,23 @@ export default async function TourDetails({
                         </div>
 
                         <h3 className="mb-2">
-                          <Link href={href}>
-                            {related.name}
-                          </Link>
+                          <Link href={href}>{related.name}</Link>
                         </h3>
 
-                        <Link
-                          href={href}
-                          className="btn btn-dark"
-                        >
+                        <Link href={href} className="btn btn-dark">
                           View Details
                         </Link>
-
                       </div>
                     </article>
                   </div>
                 );
               })}
             </div>
-
           </div>
         </section>
       )}
 
-      {/* CONTACT SECTION */}
-
       <Contact1 />
-
     </RoavioLayout>
   );
 }

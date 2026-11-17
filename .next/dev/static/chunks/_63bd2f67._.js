@@ -2541,7 +2541,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Counter$2e$tsx
 const Hero1 = ()=>{
     const heroSlides = [
         {
-            bgImage: "assets/img/home-1/hero/slider-2.webp",
+            bgImage: "/assets/img/home-1/hero/slider-2.webp",
             title: "Explore India with a Local Tour Guide",
             description: "Visit famous places and learn about India’s history and culture with a guide by your side.",
             buttonText: "Book Your Guide",
@@ -2557,7 +2557,7 @@ const Hero1 = ()=>{
             ]
         },
         {
-            bgImage: "assets/img/home-1/hero/slider-3.webp",
+            bgImage: "/assets/img/home-1/hero/slider-3.webp",
             title: "Discover Delhi, Agra & Jaipur",
             description: "Enjoy guided tours of historic monuments, royal palaces, and local markets.",
             buttonText: "View Our Tours",
@@ -2573,7 +2573,7 @@ const Hero1 = ()=>{
             ]
         },
         {
-            bgImage: "assets/img/home-1/hero/slider-3.webp",
+            bgImage: "/assets/img/home-1/hero/slider-3.webp",
             title: "Plan a Tour Your Way",
             description: "Choose the places you want to visit. We’ll help you plan a guided tour that suits your time and interests.",
             buttonText: "Plan Your Tour",
@@ -2655,7 +2655,7 @@ const Hero1 = ()=>{
                                                                 columnNumber: 25
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                href: "/destination-details",
+                                                                href: "/services",
                                                                 className: "theme-btn",
                                                                 "data-animation": "fadeInUp",
                                                                 "data-delay": "1.3s",

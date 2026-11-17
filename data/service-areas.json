@@ -1,443 +1,485 @@
 [
  
-  {
-    "name": "Delhi Tours Guide",
-    "city": "delhi-tours-guide",
-    "description": "Discover Delhi’s historic neighbourhoods, monuments and markets with a local guide.",
-    "image": "/assets/img/home-1/tour/delhi-tours-guide.webp",
-    "imageAlt": "",
-    "showOnMainGrid": true,
-    "services": [
-      {
-  "name": "Delhi Sightseeing Tour With Tour Guide",
-  "slug": "delhi-sightseeing-tour-with-tour-guide",
-  "summary": "Discover the culture, history, monuments, and bustling markets of Old and New Delhi on a private sightseeing tour with a professional guide.",
-  "description": "Discover the highlights of the heart of India on this private Delhi Sightseeing Tour With Tour Guide. Learn about and admire the culture and history of Old and New Delhi. Benefit from the services of an expert tour guide to feel like a local on the city's most bustling streets. Travel in a comfortable private air-conditioned car. Guide services are available in English, Spanish, German, Italian, and French.",
-  "location": "Old & New Delhi",
-  "duration": "7–8 hours",
-  "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "India Gate in New Delhi at sunset",
-  "gallery": [
+ {
+  "name": "Delhi Tours Guide",
+  "city": "delhi-tours-guide",
+  "description": "Discover Delhi’s historic neighbourhoods, monuments and markets with a local guide.",
+  "image": "https://images.pexels.com/photos/30378592/pexels-photo-30378592.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "imageAlt": "India Gate in New Delhi under a clear sky",
+  "showOnMainGrid": true,
+  "services": [
     {
-      "src": "assets/img/tours/old-delhi/jama-masjid.webp",
-      "alt": "Red sandstone facade of Jama Masjid in Old Delhi"
+      "name": "Delhi Sightseeing Tour With Tour Guide",
+      "slug": "delhi-sightseeing-tour-with-tour-guide",
+      "summary": "Discover the culture, history, monuments, and bustling markets of Old and New Delhi on a private sightseeing tour with a professional guide.",
+      "description": "Discover the highlights of the heart of India on this private Delhi Sightseeing Tour With Tour Guide. Learn about and admire the culture and history of Old and New Delhi. Benefit from the services of an expert tour guide to feel like a local on the city's most bustling streets. Travel in a comfortable private air-conditioned car. Guide services are available in English, Spanish, German, Italian, and French.",
+      "location": "Old & New Delhi",
+      "duration": "7–8 hours",
+      "groupSize": "Private tour",
+      "image": "https://images.pexels.com/photos/30378592/pexels-photo-30378592.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "India Gate in New Delhi on a sunny day",
+      "gallery": [
+        {
+          "src": "https://images.pexels.com/photos/13472791/pexels-photo-13472791.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Domes and minaret of Jama Masjid in Delhi"
+        },
+        {
+          "src": "https://images.pexels.com/photos/33976900/pexels-photo-33976900.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Vendors and shoppers in a busy Old Delhi market"
+        },
+        {
+          "src": "https://images.pexels.com/photos/30378592/pexels-photo-30378592.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Visitors at India Gate in New Delhi"
+        }
+      ],
+      "highlights": [
+        "Explore Delhi's UNESCO World Heritage Sites.",
+        "Swing by the Presidential House and Parliament.",
+        "Enjoy insights into the sites from a private tour guide.",
+        "Explore both sections of India's capital, New and Old Delhi.",
+        "Admire the 17th-century Jama Masjid.",
+        "Immerse yourself in local culture at the Sikh temple Gurudwara Bangla Sahib.",
+        "Enjoy a rickshaw ride through the vibrant streets of Chandni Chowk market."
+      ],
+      "itinerary": [
+        {
+          "label": "Stop 1",
+          "title": "Pickup and Welcome",
+          "description": "Your tour guide and chauffeur will meet and greet you at 9 am or your preferred time at your given location. Begin exploring India's capital in a comfortable private air-conditioned car."
+        },
+        {
+          "label": "Stop 2",
+          "title": "Jama Masjid",
+          "description": "Explore Jama Masjid, built at the height of Mughal power, and learn about the history and architecture of Old Delhi."
+        },
+        {
+          "label": "Stop 3",
+          "title": "Chandni Chowk Rickshaw Ride",
+          "description": "Explore Old Delhi's colourful bazaars on a rickshaw ride through the bustling streets of Chandni Chowk."
+        },
+        {
+          "label": "Stop 4",
+          "title": "Red Fort Photo Stop",
+          "description": "Stop for photographs at Red Fort."
+        },
+        {
+          "label": "Stop 5",
+          "title": "Raj Ghat",
+          "description": "Visit Raj Ghat and pay homage to Mahatma Gandhi, the father of the Indian nation."
+        },
+        {
+          "label": "Stop 6",
+          "title": "India Gate, Presidential Residence and Parliament House",
+          "description": "Drive around New Delhi for photographs at India Gate, the Presidential Residence (Rashtrapati Bhavan), and Parliament House."
+        },
+        {
+          "label": "Stop 7",
+          "title": "Gurudwara Bangla Sahib",
+          "description": "Visit Gurudwara Bangla Sahib, a Sikh temple known for its community kitchen, and immerse yourself in local culture."
+        },
+        {
+          "label": "Stop 8",
+          "title": "Agrasen ki Baoli",
+          "description": "Explore Agrasen ki Baoli, an old and beautiful stepwell in Delhi."
+        },
+        {
+          "label": "Stop 9",
+          "title": "Qutub Minar",
+          "description": "Admire Qutub Minar, the historic brick victory tower whose construction began in the 12th century."
+        },
+        {
+          "label": "Stop 10",
+          "title": "Return Transfer",
+          "description": "After your sightseeing tour, your chauffeur will drive you back to your given location."
+        }
+      ],
+      "inclusions": [
+        "Transportation by private air-conditioned car",
+        "Experienced licensed driver",
+        "Services of a professional tour guide",
+        "Packaged drinking water bottles in the car",
+        "Car parking and airport parking",
+        "Toll taxes, fuel, and driver allowance"
+      ],
+      "exclusions": [
+        "Lunch and dinner",
+        "Any optional trip",
+        "Anything not specified under the inclusions"
+      ],
+      "faqs": [
+        {
+          "question": "How long is the Delhi Sightseeing Tour With Tour Guide?",
+          "answer": "The tour lasts approximately 7–8 hours and covers Old and New Delhi."
+        },
+        {
+          "question": "Where and when does the tour start?",
+          "answer": "Your tour guide and chauffeur will meet you at your given location at 9 am or your preferred time. You will be driven back to your given location after the tour."
+        },
+        {
+          "question": "Which languages are available for the guided tour?",
+          "answer": "Tour guide services are available in English, Spanish, German, Italian, and French."
+        },
+        {
+          "question": "Is transportation included?",
+          "answer": "Yes. The tour includes a private air-conditioned car, an experienced licensed driver, parking, toll taxes, fuel, and driver allowance."
+        },
+        {
+          "question": "Are meals included?",
+          "answer": "Lunch and dinner are excluded. Packaged drinking water bottles are provided in the car."
+        }
+      ],
+      "mapEmbedUrl": "https://www.google.com/maps?q=Delhi+India&output=embed",
+      "seo": {
+        "title": "Delhi Sightseeing Tour With Tour Guide | Old & New Delhi",
+        "description": "Explore Old and New Delhi on a private 7–8 hour sightseeing tour with a professional guide, AC car, Chandni Chowk rickshaw ride, and historic landmarks."
+      },
+      "draft": false,
+      "breadcrumbImage": "https://images.pexels.com/photos/30378592/pexels-photo-30378592.jpeg?auto=compress&cs=tinysrgb&w=1920"
     },
     {
-      "src": "assets/img/tours/old-delhi/chandni-chowk.webp",
-      "alt": "Colourful market street in Chandni Chowk, Old Delhi"
+      "name": "Delhi Temple Tour With Tour Guide",
+      "slug": "delhi-temple-tour-with-tour-guide",
+      "summary": "Explore the temples of Old and New Delhi on a private guided tour and discover India's diverse religious traditions.",
+      "description": "Join an enthralling journey exploring Delhi's incredible temples with a professional tour guide. Visit Lotus Temple, Akshardham Temple, Digambar Lal Jain Temple, and Gurudwara Bangla Sahib to learn about India's diverse religious traditions, architecture, and spirituality. Travel in a comfortable private air-conditioned car. Guide services are available in English, Spanish, German, Italian, and French.",
+      "location": "Old & New Delhi Temples",
+      "duration": "6–7 hours",
+      "groupSize": "Private tour",
+      "image": "https://images.pexels.com/photos/1098460/pexels-photo-1098460.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Lotus Temple in New Delhi viewed from below",
+      "gallery": [
+        {
+          "src": "https://images.pexels.com/photos/1098460/pexels-photo-1098460.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Petal-shaped architecture of Lotus Temple in New Delhi"
+        },
+        {
+          "src": "https://images.pexels.com/photos/14114397/pexels-photo-14114397.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Lotus Temple surrounded by gardens and palm trees"
+        },
+        {
+          "src": "https://images.pexels.com/photos/4727066/pexels-photo-4727066.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Lotus Temple in New Delhi at sunset"
+        }
+      ],
+      "highlights": [
+        "Enjoy comfortable transfers in a private air-conditioned car.",
+        "Discover the sites with insights from a private professional tour guide.",
+        "Admire Lotus Temple, a Baháʼí House of Worship.",
+        "Visit some of Delhi's most remarkable temples with a tour guide.",
+        "Learn about the spirituality and traditions of Hinduism, Sikhism, Jainism, and the Baháʼí Faith."
+      ],
+      "itinerary": [
+        {
+          "label": "Stop 1",
+          "title": "Pickup and Welcome",
+          "description": "Your tour guide and chauffeur will meet and greet you at 9 am or your preferred time at your given location. Begin exploring Delhi's temples in a comfortable private air-conditioned car."
+        },
+        {
+          "label": "Stop 2",
+          "title": "Digambar Lal Jain Temple",
+          "description": "Visit Digambar Lal Jain Temple and learn about Jainism, its spiritual traditions, and the goal of liberation from the cycle of rebirth. Hear stories from your guide about this historic temple, also known for its Jain Birds Hospital."
+        },
+        {
+          "label": "Stop 3",
+          "title": "Akshardham Temple",
+          "description": "Explore this Hindu spiritual complex and admire its intricate architecture. Your guide will introduce you to the Indian traditions, architectural heritage, and spiritual messages reflected throughout the complex."
+        },
+        {
+          "label": "Stop 4",
+          "title": "Gurudwara Bangla Sahib",
+          "description": "Visit this prominent Sikh shrine dedicated to the memory of Guru Har Krishan, the eighth Sikh Guru. Learn about its prayer hall, sacred pool, museum, library, and community kitchen."
+        },
+        {
+          "label": "Stop 5",
+          "title": "Lotus Temple",
+          "description": "Admire Lotus Temple and learn about the Baháʼí Faith, which teaches the unity of all people and the essential worth of all religions. This House of Worship welcomes everyone regardless of nationality, religion, race, or gender."
+        },
+        {
+          "label": "Stop 6",
+          "title": "Return Transfer",
+          "description": "After your Delhi Temple Tour With Tour Guide, your chauffeur will drive you back to your given location."
+        }
+      ],
+      "inclusions": [
+        "Transportation by private air-conditioned car",
+        "Experienced licensed driver",
+        "Services of a professional tour guide",
+        "Packaged drinking water bottles in the car",
+        "Car parking and airport parking",
+        "Toll taxes, fuel, and driver allowance"
+      ],
+      "exclusions": [
+        "Lunch and dinner",
+        "Any optional trip",
+        "Monument entrance fees and camera fees",
+        "Anything not specified under the inclusions"
+      ],
+      "faqs": [
+        {
+          "question": "How long is the Delhi Temple Tour With Tour Guide?",
+          "answer": "The tour lasts approximately 6–7 hours and covers temples in Old and New Delhi."
+        },
+        {
+          "question": "Which temples are included in the tour?",
+          "answer": "The tour visits Digambar Lal Jain Temple, Akshardham Temple, Gurudwara Bangla Sahib, and Lotus Temple."
+        },
+        {
+          "question": "Where and when does the tour start?",
+          "answer": "Your tour guide and chauffeur will meet you at your given location at 9 am or your preferred time. You will be driven back to your given location after the tour."
+        },
+        {
+          "question": "Which languages are available for the guided tour?",
+          "answer": "Tour guide services are available in English, Spanish, German, Italian, and French."
+        },
+        {
+          "question": "Is transportation included?",
+          "answer": "Yes. The tour includes a private air-conditioned car, an experienced licensed driver, parking, toll taxes, fuel, and driver allowance."
+        },
+        {
+          "question": "Are meals and entrance fees included?",
+          "answer": "Lunch, dinner, monument entrance fees, camera fees, and optional trips are excluded. Packaged drinking water bottles are provided in the car."
+        }
+      ],
+      "mapEmbedUrl": "https://www.google.com/maps?q=Delhi+India&output=embed",
+      "seo": {
+        "title": "Delhi Temple Tour With Tour Guide | Old & New Delhi",
+        "description": "Explore Lotus Temple, Akshardham, Digambar Lal Jain Temple, and Bangla Sahib on a private 6–7 hour Delhi temple tour with a guide and AC car."
+      },
+      "draft": false,
+      "breadcrumbImage": "https://images.pexels.com/photos/4727066/pexels-photo-4727066.jpeg?auto=compress&cs=tinysrgb&w=1920"
+    },
+    {
+      "name": "Delhi Food Tour With Tour Guide",
+      "slug": "delhi-food-tour-with-tour-guide",
+      "summary": "Discover Delhi's street food, colourful markets, and local culture on a private guided tour with food tastings and a Chandni Chowk rickshaw ride.",
+      "description": "Experience local Indian food through the vibrant streets of Old Delhi on this Delhi Food Tour With Tour Guide. Visit hand-picked street vendors to taste local specialties, enjoy a rickshaw ride, and learn about the culture and history of Old and New Delhi. Explore with an expert tour guide and travel in a comfortable private air-conditioned car. Guide services are available in English, Spanish, German, Italian, and French.",
+      "location": "Old & New Delhi",
+      "duration": "4–6 hours",
+      "groupSize": "Private tour",
+      "image": "https://images.pexels.com/photos/33428723/pexels-photo-33428723.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Indian paratha served with yoghurt and pickles",
+      "gallery": [
+        {
+          "src": "https://images.pexels.com/photos/33428723/pexels-photo-33428723.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Indian paratha with yoghurt and pickles on a blue plate"
+        },
+        {
+          "src": "https://images.pexels.com/photos/20408462/pexels-photo-20408462.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Indian flatbread served with accompaniments on a white plate"
+        },
+        {
+          "src": "https://images.pexels.com/photos/33976900/pexels-photo-33976900.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Busy market street in Old Delhi"
+        }
+      ],
+      "highlights": [
+        "Explore Old Delhi's colourful streets.",
+        "Swing by the Presidential House and Parliament.",
+        "Enjoy insights into the sites from a private professional tour guide.",
+        "Explore both sections of India's capital, New and Old Delhi.",
+        "Stop for photographs at the 17th-century Jama Masjid.",
+        "Visit hand-picked street vendors to taste local specialties.",
+        "Immerse yourself in local culture at Gurudwara Bangla Sahib.",
+        "Enjoy a rickshaw ride through the vibrant streets of Chandni Chowk market."
+      ],
+      "itinerary": [
+        {
+          "label": "Stop 1",
+          "title": "Pickup and Welcome",
+          "description": "Your tour guide and chauffeur will meet and greet you at 9 am or your preferred time at your given location. Begin exploring India's capital in a comfortable private air-conditioned car and learn about its rich variety of cuisine."
+        },
+        {
+          "label": "Stop 2",
+          "title": "Old Delhi Street Food and Aloo Poori",
+          "description": "Explore the vibrant streets of Old Delhi and visit selected food vendors. Taste Aloo Poori, a local specialty featuring fried wheat bread served with potatoes prepared with Indian spices."
+        },
+        {
+          "label": "Stop 3",
+          "title": "Matar Kulcha",
+          "description": "Try Matar Kulcha, a popular Delhi street food made with dried white peas and served with a soft white flatbread called kulcha."
+        },
+        {
+          "label": "Stop 4",
+          "title": "Stuffed Parathas",
+          "description": "Enjoy Indian stuffed flatbreads and learn about fillings such as spiced mashed potatoes, dal, cauliflower, mixed vegetables, radish, and paneer."
+        },
+        {
+          "label": "Stop 5",
+          "title": "Refreshing Lassi",
+          "description": "After the savoury food, enjoy lassi, a yoghurt-based drink blended with water and sugar or spices. Sweet and salty varieties are available."
+        },
+        {
+          "label": "Stop 6",
+          "title": "Return Transfer",
+          "description": "After your Delhi Food Tour With Tour Guide, your chauffeur will drive you back to your given location."
+        }
+      ],
+      "inclusions": [
+        "Rickshaw ride",
+        "Street food tasting",
+        "Transportation by private air-conditioned car",
+        "Experienced licensed driver",
+        "Services of a professional tour guide",
+        "Packaged drinking water bottles in the car",
+        "Car parking and airport parking",
+        "Toll taxes, fuel, and driver allowance"
+      ],
+      "exclusions": [
+        "Lunch and dinner",
+        "Any optional trip",
+        "Monument entrance fees and camera fees",
+        "Anything not specified under the inclusions"
+      ],
+      "faqs": [
+        {
+          "question": "How long is the Delhi Food Tour With Tour Guide?",
+          "answer": "The tour lasts approximately 4–6 hours and covers Old and New Delhi, with street food tastings in Old Delhi."
+        },
+        {
+          "question": "Which foods will I try?",
+          "answer": "The itinerary includes Aloo Poori, Matar Kulcha, stuffed parathas, and lassi."
+        },
+        {
+          "question": "Where and when does the tour start?",
+          "answer": "Your tour guide and chauffeur will meet you at your given location at 9 am or your preferred time. You will be driven back to your given location after the tour."
+        },
+        {
+          "question": "Which languages are available for the guided tour?",
+          "answer": "Tour guide services are available in English, Spanish, German, Italian, and French."
+        },
+        {
+          "question": "Are food tastings and the rickshaw ride included?",
+          "answer": "Yes. Street food tastings and a rickshaw ride are included. Lunch, dinner, and optional trips are excluded."
+        },
+        {
+          "question": "Is transportation included?",
+          "answer": "Yes. The tour includes a private air-conditioned car, an experienced licensed driver, parking, toll taxes, fuel, and driver allowance. Packaged drinking water bottles are provided in the car."
+        },
+        {
+          "question": "Are monument entrance fees included?",
+          "answer": "Monument entrance fees and camera fees are excluded."
+        }
+      ],
+      "mapEmbedUrl": "https://www.google.com/maps?q=Delhi+India&output=embed",
+      "seo": {
+        "title": "Delhi Food Tour With Tour Guide | Old & New Delhi",
+        "description": "Taste Old Delhi's street food on a private 4–6 hour tour with a professional guide, food tastings, a Chandni Chowk rickshaw ride, and AC car transfers."
+      },
+      "draft": false,
+      "breadcrumbImage": "https://images.pexels.com/photos/33428723/pexels-photo-33428723.jpeg?auto=compress&cs=tinysrgb&w=1920"
+    },
+    {
+      "name": "Delhi Shopping Tour With Tour Guide",
+      "slug": "delhi-shopping-tour-with-tour-guide",
+      "summary": "Explore the markets of Old and New Delhi with a private shopping guide, from Chandni Chowk's bustling lanes to Khan Market and Indian handicraft bazaars.",
+      "description": "Discover Delhi's shopping scene on a private Delhi Shopping Tour With Tour Guide, including hotel transfers in an air-conditioned car. Explore Chandni Chowk's wholesale market, browse the boutiques of Khan Market, and search for Indian handicrafts at Dilli Haat or Village Arts and Crafts Bazaar. Your expert guide will share stories about the markets and help you experience shopping like a local. The tour can be customised to your preferences, interests, and budget, with walking, tuk-tuk, or luxury car options and durations ranging from half a day to two days. The standard tour lasts 7–8 hours. Guide services are available in English, Spanish, German, Italian, and French.",
+      "location": "Old & New Delhi",
+      "duration": "7–8 hours",
+      "groupSize": "Private tour",
+      "image": "https://images.pexels.com/photos/33976900/pexels-photo-33976900.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "imageAlt": "Shoppers and vendors in a bustling Old Delhi market",
+      "gallery": [
+        {
+          "src": "https://images.pexels.com/photos/33976900/pexels-photo-33976900.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Busy street market in Old Delhi"
+        },
+        {
+          "src": "https://images.pexels.com/photos/29389859/pexels-photo-29389859.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Traditional handcrafted jewellery displayed at a Delhi market stall"
+        },
+        {
+          "src": "https://images.pexels.com/photos/6326468/pexels-photo-6326468.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          "alt": "Shops and pedestrians along a narrow market street in New Delhi"
+        }
+      ],
+      "highlights": [
+        "Visit some of Delhi's most famous markets.",
+        "Refresh yourself with bottled drinking water provided in the car.",
+        "Enjoy a shopping experience that lets you explore like a local.",
+        "Benefit from a private expert shopping guide.",
+        "Enjoy a rickshaw ride through the vibrant streets of Chandni Chowk market.",
+        "Customise the tour to suit your preferences, interests, and budget."
+      ],
+      "itinerary": [
+        {
+          "label": "Stop 1",
+          "title": "Pickup and Welcome",
+          "description": "Your tour guide and chauffeur will meet and greet you at 9 am or your preferred time at your given location. Begin exploring Delhi's markets in a comfortable private air-conditioned car."
+        },
+        {
+          "label": "Stop 2",
+          "title": "Chandni Chowk",
+          "description": "Explore one of Old Delhi's oldest and busiest markets, known for its narrow lanes, wholesale shops, and lively streets. Hear stories about its Mughal origins and its design by Princess Jahanara Begum. Browse the shops and enjoy a rickshaw ride through the colourful market."
+        },
+        {
+          "label": "Stop 3",
+          "title": "Khan Market",
+          "description": "Discover Khan Market, known for its fashion boutiques, bookstores, opticians, homeware shops, and cafés. Explore its shopping options with your private guide."
+        },
+        {
+          "label": "Stop 4",
+          "title": "Dilli Haat or Village Arts and Crafts Bazaar",
+          "description": "Browse arts and handicrafts from across India at Dilli Haat or Village Arts and Crafts Bazaar. Explore the stalls and look for items that match your interests and shopping preferences."
+        },
+        {
+          "label": "Stop 5",
+          "title": "Return Transfer",
+          "description": "After your Delhi Shopping Tour With Tour Guide, your chauffeur will drive you back to your given location."
+        }
+      ],
+      "inclusions": [
+        "Transportation by private air-conditioned car",
+        "Experienced licensed driver",
+        "Services of a professional tour guide",
+        "Packaged drinking water bottles in the car",
+        "Car parking and airport parking",
+        "Toll taxes, fuel, and driver allowance"
+      ],
+      "exclusions": [
+        "Lunch and dinner",
+        "Any optional trip",
+        "Anything not specified under the inclusions"
+      ],
+      "faqs": [
+        {
+          "question": "How long is the Delhi Shopping Tour With Tour Guide?",
+          "answer": "The standard tour lasts approximately 7–8 hours. Customised options are also available for half-day, full-day, and two-day tours."
+        },
+        {
+          "question": "Which markets will I visit?",
+          "answer": "The itinerary covers Chandni Chowk, Khan Market, and Dilli Haat or Village Arts and Crafts Bazaar. The tour can be customised to suit your shopping interests."
+        },
+        {
+          "question": "Can I customise the shopping tour?",
+          "answer": "Yes. The tour can be tailored to your preferences, interests, and budget. Walking, tuk-tuk, and luxury car options are available, along with different tour durations."
+        },
+        {
+          "question": "Where and when does the tour start?",
+          "answer": "Your tour guide and chauffeur will meet you at your given location at 9 am or your preferred time. You will be driven back to your given location after the tour."
+        },
+        {
+          "question": "Which languages are available for the guided tour?",
+          "answer": "Tour guide services are available in English, Spanish, German, Italian, and French."
+        },
+        {
+          "question": "Is transportation included?",
+          "answer": "The standard tour includes a private air-conditioned car, an experienced licensed driver, parking, toll taxes, fuel, and driver allowance."
+        },
+        {
+          "question": "Are meals included?",
+          "answer": "Lunch and dinner are excluded. Packaged drinking water bottles are provided in the car."
+        }
+      ],
+      "mapEmbedUrl": "https://www.google.com/maps?q=Delhi+India&output=embed",
+      "seo": {
+        "title": "Delhi Shopping Tour With Tour Guide | Old & New Delhi",
+        "description": "Explore Chandni Chowk, Khan Market, and Indian handicraft bazaars on a private 7–8 hour Delhi shopping tour with an expert guide and AC car transfers."
+      },
+      "draft": false,
+      "breadcrumbImage": "https://images.pexels.com/photos/33976900/pexels-photo-33976900.jpeg?auto=compress&cs=tinysrgb&w=1920"
     }
   ],
-  "highlights": [
-    "Explore Delhi's UNESCO World Heritage Sites.",
-    "Swing by the Presidential House and Parliament.",
-    "Enjoy insights into the sites from a private tour guide.",
-    "Explore both sections of India's capital, New and Old Delhi.",
-    "Admire the 17th-century Jama Masjid.",
-    "Immerse yourself in local culture at the Sikh temple Gurudwara Bangla Sahib.",
-    "Enjoy a rickshaw ride through the vibrant streets of Chandni Chowk market."
-  ],
-  "itinerary": [
-    {
-      "label": "Stop 1",
-      "title": "Pickup and Welcome",
-      "description": "Your tour guide and chauffeur will meet and greet you at 9 am or your preferred time at your given location. Begin exploring India's capital in a comfortable private air-conditioned car."
-    },
-    {
-      "label": "Stop 2",
-      "title": "Jama Masjid",
-      "description": "Explore Jama Masjid, built at the height of Mughal power, and learn about the history and architecture of Old Delhi."
-    },
-    {
-      "label": "Stop 3",
-      "title": "Chandni Chowk Rickshaw Ride",
-      "description": "Explore Old Delhi's colourful bazaars on a rickshaw ride through the bustling streets of Chandni Chowk."
-    },
-    {
-      "label": "Stop 4",
-      "title": "Red Fort Photo Stop",
-      "description": "Stop for photographs at Red Fort."
-    },
-    {
-      "label": "Stop 5",
-      "title": "Raj Ghat",
-      "description": "Visit Raj Ghat and pay homage to Mahatma Gandhi, the father of the Indian nation."
-    },
-    {
-      "label": "Stop 6",
-      "title": "India Gate, Presidential Residence and Parliament House",
-      "description": "Drive around New Delhi for photographs at India Gate, the Presidential Residence (Rashtrapati Bhavan), and Parliament House."
-    },
-    {
-      "label": "Stop 7",
-      "title": "Gurudwara Bangla Sahib",
-      "description": "Visit Gurudwara Bangla Sahib, a Sikh temple known for its community kitchen, and immerse yourself in local culture."
-    },
-    {
-      "label": "Stop 8",
-      "title": "Agrasen ki Baoli",
-      "description": "Explore Agrasen ki Baoli, an old and beautiful stepwell in Delhi."
-    },
-    {
-      "label": "Stop 9",
-      "title": "Qutub Minar",
-      "description": "Admire Qutub Minar, the historic brick victory tower whose construction began in the 12th century."
-    },
-    {
-      "label": "Stop 10",
-      "title": "Return Transfer",
-      "description": "After your sightseeing tour, your chauffeur will drive you back to your given location."
-    }
-  ],
-  "inclusions": [
-    "Transportation by private air-conditioned car",
-    "Experienced licensed driver",
-    "Services of a professional tour guide",
-    "Packaged drinking water bottles in the car",
-    "Car parking and airport parking",
-    "Toll taxes, fuel, and driver allowance"
-  ],
-  "exclusions": [
-    "Lunch and dinner",
-    "Any optional trip",
-    "Anything not specified under the inclusions"
-  ],
-  "faqs": [
-    {
-      "question": "How long is the Delhi Sightseeing Tour With Tour Guide?",
-      "answer": "The tour lasts approximately 7–8 hours and covers Old and New Delhi."
-    },
-    {
-      "question": "Where and when does the tour start?",
-      "answer": "Your tour guide and chauffeur will meet you at your given location at 9 am or your preferred time. You will be driven back to your given location after the tour."
-    },
-    {
-      "question": "Which languages are available for the guided tour?",
-      "answer": "Tour guide services are available in English, Spanish, German, Italian, and French."
-    },
-    {
-      "question": "Is transportation included?",
-      "answer": "Yes. The tour includes a private air-conditioned car, an experienced licensed driver, parking, toll taxes, fuel, and driver allowance."
-    },
-    {
-      "question": "Are meals included?",
-      "answer": "Lunch and dinner are excluded. Packaged drinking water bottles are provided in the car."
-    }
-  ],
-  "mapEmbedUrl": "https://www.google.com/maps?q=Delhi+India&output=embed",
-  "seo": {
-    "title": "Delhi Sightseeing Tour With Tour Guide | Old & New Delhi",
-    "description": "Explore Old and New Delhi on a private 7–8 hour sightseeing tour with a professional guide, AC car, Chandni Chowk rickshaw ride, and historic landmarks."
-  },
-  "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/30378592/pexels-photo-30378592.jpeg?auto=compress&cs=tinysrgb&w=1920"
 },
-      {
-  "name": "Delhi Temple Tour With Tour Guide",
-  "slug": "delhi-temple-tour-with-tour-guide",
-  "summary": "Explore the temples of Old and New Delhi on a private guided tour and discover India's diverse religious traditions.",
-  "description": "Join an enthralling journey exploring Delhi's incredible temples with a professional tour guide. Visit Lotus Temple, Akshardham Temple, Digambar Lal Jain Temple, and Gurudwara Bangla Sahib to learn about India's diverse religious traditions, architecture, and spirituality. Travel in a comfortable private air-conditioned car. Guide services are available in English, Spanish, German, Italian, and French.",
-  "location": "Old & New Delhi Temples",
-  "duration": "6–7 hours",
-  "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "Lotus Temple, a Baháʼí House of Worship in New Delhi",
-  "gallery": [],
-  "highlights": [
-    "Enjoy comfortable transfers in a private air-conditioned car.",
-    "Discover the sites with insights from a private professional tour guide.",
-    "Admire Lotus Temple, a Baháʼí House of Worship.",
-    "Visit some of Delhi's most remarkable temples with a tour guide.",
-    "Learn about the spirituality and traditions of Hinduism, Sikhism, Jainism, and the Baháʼí Faith."
-  ],
-  "itinerary": [
-    {
-      "label": "Stop 1",
-      "title": "Pickup and Welcome",
-      "description": "Your tour guide and chauffeur will meet and greet you at 9 am or your preferred time at your given location. Begin exploring Delhi's temples in a comfortable private air-conditioned car."
-    },
-    {
-      "label": "Stop 2",
-      "title": "Digambar Lal Jain Temple",
-      "description": "Visit Digambar Lal Jain Temple and learn about Jainism, its spiritual traditions, and the goal of liberation from the cycle of rebirth. Hear stories from your guide about this historic temple, also known for its Jain Birds Hospital."
-    },
-    {
-      "label": "Stop 3",
-      "title": "Akshardham Temple",
-      "description": "Explore this Hindu spiritual complex and admire its intricate architecture. Your guide will introduce you to the Indian traditions, architectural heritage, and spiritual messages reflected throughout the complex."
-    },
-    {
-      "label": "Stop 4",
-      "title": "Gurudwara Bangla Sahib",
-      "description": "Visit this prominent Sikh shrine dedicated to the memory of Guru Har Krishan, the eighth Sikh Guru. Learn about its prayer hall, sacred pool, museum, library, and community kitchen."
-    },
-    {
-      "label": "Stop 5",
-      "title": "Lotus Temple",
-      "description": "Admire Lotus Temple and learn about the Baháʼí Faith, which teaches the unity of all people and the essential worth of all religions. This House of Worship welcomes everyone regardless of nationality, religion, race, or gender."
-    },
-    {
-      "label": "Stop 6",
-      "title": "Return Transfer",
-      "description": "After your Delhi Temple Tour With Tour Guide, your chauffeur will drive you back to your given location."
-    }
-  ],
-  "inclusions": [
-    "Transportation by private air-conditioned car",
-    "Experienced licensed driver",
-    "Services of a professional tour guide",
-    "Packaged drinking water bottles in the car",
-    "Car parking and airport parking",
-    "Toll taxes, fuel, and driver allowance"
-  ],
-  "exclusions": [
-    "Lunch and dinner",
-    "Any optional trip",
-    "Monument entrance fees and camera fees",
-    "Anything not specified under the inclusions"
-  ],
-  "faqs": [
-    {
-      "question": "How long is the Delhi Temple Tour With Tour Guide?",
-      "answer": "The tour lasts approximately 6–7 hours and covers temples in Old and New Delhi."
-    },
-    {
-      "question": "Which temples are included in the tour?",
-      "answer": "The tour visits Digambar Lal Jain Temple, Akshardham Temple, Gurudwara Bangla Sahib, and Lotus Temple."
-    },
-    {
-      "question": "Where and when does the tour start?",
-      "answer": "Your tour guide and chauffeur will meet you at your given location at 9 am or your preferred time. You will be driven back to your given location after the tour."
-    },
-    {
-      "question": "Which languages are available for the guided tour?",
-      "answer": "Tour guide services are available in English, Spanish, German, Italian, and French."
-    },
-    {
-      "question": "Is transportation included?",
-      "answer": "Yes. The tour includes a private air-conditioned car, an experienced licensed driver, parking, toll taxes, fuel, and driver allowance."
-    },
-    {
-      "question": "Are meals and entrance fees included?",
-      "answer": "Lunch, dinner, monument entrance fees, camera fees, and optional trips are excluded. Packaged drinking water bottles are provided in the car."
-    }
-  ],
-  "mapEmbedUrl": "https://www.google.com/maps?q=Delhi+India&output=embed",
-  "seo": {
-    "title": "Delhi Temple Tour With Tour Guide | Old & New Delhi",
-    "description": "Explore Lotus Temple, Akshardham, Digambar Lal Jain Temple, and Bangla Sahib on a private 6–7 hour Delhi temple tour with a guide and AC car."
-  },
-  "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
-},
-{
-  "name": "Delhi Food Tour With Tour Guide",
-  "slug": "delhi-food-tour-with-tour-guide",
-  "summary": "Discover Delhi's street food, colourful markets, and local culture on a private guided tour with food tastings and a Chandni Chowk rickshaw ride.",
-  "description": "Experience local Indian food through the vibrant streets of Old Delhi on this Delhi Food Tour With Tour Guide. Visit hand-picked street vendors to taste local specialties, enjoy a rickshaw ride, and learn about the culture and history of Old and New Delhi. Explore with an expert tour guide and travel in a comfortable private air-conditioned car. Guide services are available in English, Spanish, German, Italian, and French.",
-  "location": "Old & New Delhi",
-  "duration": "4–6 hours",
-  "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "Traditional Indian street food served in Old Delhi",
-  "gallery": [],
-  "highlights": [
-    "Explore Old Delhi's colourful streets.",
-    "Swing by the Presidential House and Parliament.",
-    "Enjoy insights into the sites from a private professional tour guide.",
-    "Explore both sections of India's capital, New and Old Delhi.",
-    "Stop for photographs at the 17th-century Jama Masjid.",
-    "Visit hand-picked street vendors to taste local specialties.",
-    "Immerse yourself in local culture at Gurudwara Bangla Sahib.",
-    "Enjoy a rickshaw ride through the vibrant streets of Chandni Chowk market."
-  ],
-  "itinerary": [
-    {
-      "label": "Stop 1",
-      "title": "Pickup and Welcome",
-      "description": "Your tour guide and chauffeur will meet and greet you at 9 am or your preferred time at your given location. Begin exploring India's capital in a comfortable private air-conditioned car and learn about its rich variety of cuisine."
-    },
-    {
-      "label": "Stop 2",
-      "title": "Old Delhi Street Food and Aloo Poori",
-      "description": "Explore the vibrant streets of Old Delhi and visit selected food vendors. Taste Aloo Poori, a local specialty featuring fried wheat bread served with potatoes prepared with Indian spices."
-    },
-    {
-      "label": "Stop 3",
-      "title": "Matar Kulcha",
-      "description": "Try Matar Kulcha, a popular Delhi street food made with dried white peas and served with a soft white flatbread called kulcha."
-    },
-    {
-      "label": "Stop 4",
-      "title": "Stuffed Parathas",
-      "description": "Enjoy Indian stuffed flatbreads and learn about fillings such as spiced mashed potatoes, dal, cauliflower, mixed vegetables, radish, and paneer."
-    },
-    {
-      "label": "Stop 5",
-      "title": "Refreshing Lassi",
-      "description": "After the savoury food, enjoy lassi, a yoghurt-based drink blended with water and sugar or spices. Sweet and salty varieties are available."
-    },
-    {
-      "label": "Stop 6",
-      "title": "Return Transfer",
-      "description": "After your Delhi Food Tour With Tour Guide, your chauffeur will drive you back to your given location."
-    }
-  ],
-  "inclusions": [
-    "Rickshaw ride",
-    "Street food tasting",
-    "Transportation by private air-conditioned car",
-    "Experienced licensed driver",
-    "Services of a professional tour guide",
-    "Packaged drinking water bottles in the car",
-    "Car parking and airport parking",
-    "Toll taxes, fuel, and driver allowance"
-  ],
-  "exclusions": [
-    "Lunch and dinner",
-    "Any optional trip",
-    "Monument entrance fees and camera fees",
-    "Anything not specified under the inclusions"
-  ],
-  "faqs": [
-    {
-      "question": "How long is the Delhi Food Tour With Tour Guide?",
-      "answer": "The tour lasts approximately 4–6 hours and covers Old and New Delhi, with street food tastings in Old Delhi."
-    },
-    {
-      "question": "Which foods will I try?",
-      "answer": "The itinerary includes Aloo Poori, Matar Kulcha, stuffed parathas, and lassi."
-    },
-    {
-      "question": "Where and when does the tour start?",
-      "answer": "Your tour guide and chauffeur will meet you at your given location at 9 am or your preferred time. You will be driven back to your given location after the tour."
-    },
-    {
-      "question": "Which languages are available for the guided tour?",
-      "answer": "Tour guide services are available in English, Spanish, German, Italian, and French."
-    },
-    {
-      "question": "Are food tastings and the rickshaw ride included?",
-      "answer": "Yes. Street food tastings and a rickshaw ride are included. Lunch, dinner, and optional trips are excluded."
-    },
-    {
-      "question": "Is transportation included?",
-      "answer": "Yes. The tour includes a private air-conditioned car, an experienced licensed driver, parking, toll taxes, fuel, and driver allowance. Packaged drinking water bottles are provided in the car."
-    },
-    {
-      "question": "Are monument entrance fees included?",
-      "answer": "Monument entrance fees and camera fees are excluded."
-    }
-  ],
-  "mapEmbedUrl": "https://www.google.com/maps?q=Delhi+India&output=embed",
-  "seo": {
-    "title": "Delhi Food Tour With Tour Guide | Old & New Delhi",
-    "description": "Taste Old Delhi's street food on a private 4–6 hour tour with a professional guide, food tastings, a Chandni Chowk rickshaw ride, and AC car transfers."
-  },
-  "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
-},
-{
-  "name": "Delhi Shopping Tour With Tour Guide",
-  "slug": "delhi-shopping-tour-with-tour-guide",
-  "summary": "Explore the markets of Old and New Delhi with a private shopping guide, from Chandni Chowk's bustling lanes to Khan Market and Indian handicraft bazaars.",
-  "description": "Discover Delhi's shopping scene on a private Delhi Shopping Tour With Tour Guide, including hotel transfers in an air-conditioned car. Explore Chandni Chowk's wholesale market, browse the boutiques of Khan Market, and search for Indian handicrafts at Dilli Haat or Village Arts and Crafts Bazaar. Your expert guide will share stories about the markets and help you experience shopping like a local. The tour can be customised to your preferences, interests, and budget, with walking, tuk-tuk, or luxury car options and durations ranging from half a day to two days. The standard tour lasts 7–8 hours. Guide services are available in English, Spanish, German, Italian, and French.",
-  "location": "Old & New Delhi",
-  "duration": "7–8 hours",
-  "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "Colourful shops and bustling market lanes in Chandni Chowk, Old Delhi",
-  "gallery": [],
-  "highlights": [
-    "Visit some of Delhi's most famous markets.",
-    "Refresh yourself with bottled drinking water provided in the car.",
-    "Enjoy a shopping experience that lets you explore like a local.",
-    "Benefit from a private expert shopping guide.",
-    "Enjoy a rickshaw ride through the vibrant streets of Chandni Chowk market.",
-    "Customise the tour to suit your preferences, interests, and budget."
-  ],
-  "itinerary": [
-    {
-      "label": "Stop 1",
-      "title": "Pickup and Welcome",
-      "description": "Your tour guide and chauffeur will meet and greet you at 9 am or your preferred time at your given location. Begin exploring Delhi's markets in a comfortable private air-conditioned car."
-    },
-    {
-      "label": "Stop 2",
-      "title": "Chandni Chowk",
-      "description": "Explore one of Old Delhi's oldest and busiest markets, known for its narrow lanes, wholesale shops, and lively streets. Hear stories about its Mughal origins and its design by Princess Jahanara Begum. Browse the shops and enjoy a rickshaw ride through the colourful market."
-    },
-    {
-      "label": "Stop 3",
-      "title": "Khan Market",
-      "description": "Discover Khan Market, known for its fashion boutiques, bookstores, opticians, homeware shops, and cafés. Explore its shopping options with your private guide."
-    },
-    {
-      "label": "Stop 4",
-      "title": "Dilli Haat or Village Arts and Crafts Bazaar",
-      "description": "Browse arts and handicrafts from across India at Dilli Haat or Village Arts and Crafts Bazaar. Explore the stalls and look for items that match your interests and shopping preferences."
-    },
-    {
-      "label": "Stop 5",
-      "title": "Return Transfer",
-      "description": "After your Delhi Shopping Tour With Tour Guide, your chauffeur will drive you back to your given location."
-    }
-  ],
-  "inclusions": [
-    "Transportation by private air-conditioned car",
-    "Experienced licensed driver",
-    "Services of a professional tour guide",
-    "Packaged drinking water bottles in the car",
-    "Car parking and airport parking",
-    "Toll taxes, fuel, and driver allowance"
-  ],
-  "exclusions": [
-    "Lunch and dinner",
-    "Any optional trip",
-    "Anything not specified under the inclusions"
-  ],
-  "faqs": [
-    {
-      "question": "How long is the Delhi Shopping Tour With Tour Guide?",
-      "answer": "The standard tour lasts approximately 7–8 hours. Customised options are also available for half-day, full-day, and two-day tours."
-    },
-    {
-      "question": "Which markets will I visit?",
-      "answer": "The itinerary covers Chandni Chowk, Khan Market, and Dilli Haat or Village Arts and Crafts Bazaar. The tour can be customised to suit your shopping interests."
-    },
-    {
-      "question": "Can I customise the shopping tour?",
-      "answer": "Yes. The tour can be tailored to your preferences, interests, and budget. Walking, tuk-tuk, and luxury car options are available, along with different tour durations."
-    },
-    {
-      "question": "Where and when does the tour start?",
-      "answer": "Your tour guide and chauffeur will meet you at your given location at 9 am or your preferred time. You will be driven back to your given location after the tour."
-    },
-    {
-      "question": "Which languages are available for the guided tour?",
-      "answer": "Tour guide services are available in English, Spanish, German, Italian, and French."
-    },
-    {
-      "question": "Is transportation included?",
-      "answer": "The standard tour includes a private air-conditioned car, an experienced licensed driver, parking, toll taxes, fuel, and driver allowance."
-    },
-    {
-      "question": "Are meals included?",
-      "answer": "Lunch and dinner are excluded. Packaged drinking water bottles are provided in the car."
-    }
-  ],
-  "mapEmbedUrl": "https://www.google.com/maps?q=Delhi+India&output=embed",
-  "seo": {
-    "title": "Delhi Shopping Tour With Tour Guide | Old & New Delhi",
-    "description": "Explore Chandni Chowk, Khan Market, and Indian handicraft bazaars on a private 7–8 hour Delhi shopping tour with an expert guide and AC car transfers."
-  },
-  "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
-}
-      
-    ],
-    "breadcrumbImage": ""
-  },
   {
     "name": "Agra Tours Guide",
     "city": "agra-tours-guide",
@@ -454,9 +496,22 @@
   "location": "Delhi – Agra – Delhi",
   "duration": "12–14 hours",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "The Taj Mahal and its reflecting pool in Agra",
-  "gallery": [],
+  "image": "https://images.pexels.com/photos/14533217/pexels-photo-14533217.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+"imageAlt": "The Taj Mahal in Agra reflected in its pool",
+"gallery": [
+  {
+    "src": "https://images.pexels.com/photos/14533217/pexels-photo-14533217.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "The Taj Mahal and its reflection in Agra"
+  },
+  {
+    "src": "https://images.pexels.com/photos/1022698/pexels-photo-1022698.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Red sandstone architecture of Agra Fort beneath a cloudy sky"
+  },
+  {
+    "src": "https://images.pexels.com/photos/35970975/pexels-photo-35970975.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Decorative arches along a corridor inside Agra Fort"
+  }
+],
   "highlights": [
     "Explore the UNESCO World Heritage Sites of the Taj Mahal and Agra Fort.",
     "Learn about the monuments with insights from a private professional tour guide.",
@@ -542,7 +597,7 @@
     "description": "Visit the Taj Mahal and Agra Fort on a private 12–14 hour tour from Delhi with a professional guide, AC car, and hotel or airport pickup and drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/14533217/pexels-photo-14533217.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 },
 {
   "name": "Taj Mahal Sunrise Tour With Tour Guide From Delhi",
@@ -552,9 +607,23 @@
   "location": "Delhi – Agra – Delhi",
   "duration": "12–14 hours",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "The Taj Mahal in Agra illuminated by the soft light of sunrise",
-  "gallery": [],
+  "image": "https://images.pexels.com/photos/30638767/pexels-photo-30638767.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+"imageAlt": "The Taj Mahal in Agra at sunrise",
+"gallery": [
+  {
+    "src": "https://images.pexels.com/photos/30638767/pexels-photo-30638767.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Sunrise view of the Taj Mahal in Agra"
+  },
+  {
+    "src": "https://images.pexels.com/photos/14533217/pexels-photo-14533217.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "The Taj Mahal reflected in water in the early morning"
+  },
+  {
+    "src": "https://images.pexels.com/photos/1022698/pexels-photo-1022698.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Red sandstone buildings of Agra Fort"
+  }
+],
+
   "highlights": [
     "Explore the UNESCO World Heritage Sites of the Taj Mahal and Agra Fort.",
     "Learn about the monuments with insights from a private professional tour guide.",
@@ -645,7 +714,7 @@
     "description": "Experience the Taj Mahal at sunrise and explore Agra Fort on a private 12–14 hour tour from Delhi with a professional guide, AC car, and return transfers."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/30638767/pexels-photo-30638767.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 },
 {
   "name": "2 Days Taj Mahal Sunrise and Sunset Tour",
@@ -655,9 +724,26 @@
   "location": "Delhi – Agra – Delhi",
   "duration": "2 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "The Taj Mahal viewed across the Yamuna River from Mehtab Bagh at sunset",
-  "gallery": [],
+  "image": "https://images.pexels.com/photos/14533217/pexels-photo-14533217.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+"imageAlt": "The Taj Mahal and its reflecting pool in Agra",
+"gallery": [
+  {
+    "src": "https://images.pexels.com/photos/30638767/pexels-photo-30638767.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "The Taj Mahal at sunrise"
+  },
+  {
+    "src": "https://images.pexels.com/photos/14533217/pexels-photo-14533217.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "The Taj Mahal reflected in its garden pool"
+  },
+  {
+    "src": "https://images.pexels.com/photos/1022698/pexels-photo-1022698.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Historic red sandstone buildings at Agra Fort"
+  },
+  {
+    "src": "https://images.pexels.com/photos/35970975/pexels-photo-35970975.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Intricate archways inside Agra Fort"
+  }
+],
   "highlights": [
     "Explore Agra's UNESCO World Heritage Sites.",
     "Discover Mughal history with insights from a private professional tour guide.",
@@ -770,7 +856,7 @@
     "description": "Enjoy Taj Mahal sunrise and sunset views on a private 2-day Delhi tour with Agra Fort, Baby Taj, Fatehpur Sikri, a guide, AC car, and hotel stay."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+"breadcrumbImage": "https://images.pexels.com/photos/14533217/pexels-photo-14533217.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 },
 {
   "name": "Taj Mahal Overnight Tour with Guide",
@@ -780,9 +866,26 @@
   "location": "Delhi – Agra – Delhi",
   "duration": "2 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "The Taj Mahal viewed from Mehtab Bagh across the Yamuna River at sunset",
-  "gallery": [],
+  "image": "https://images.pexels.com/photos/30638768/pexels-photo-30638768.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+"imageAlt": "The Taj Mahal in Agra at sunrise",
+"gallery": [
+  {
+    "src": "https://images.pexels.com/photos/19149640/pexels-photo-19149640.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "The Taj Mahal reflected in a pool at sunrise"
+  },
+  {
+    "src": "https://images.pexels.com/photos/19195952/pexels-photo-19195952.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Historic architecture of Agra Fort beneath a blue sky"
+  },
+  {
+    "src": "https://images.pexels.com/photos/6439906/pexels-photo-6439906.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Jodha Bai Mahal at Fatehpur Sikri"
+  },
+  {
+    "src": "https://images.pexels.com/photos/31372010/pexels-photo-31372010.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Buland Darwaza gateway at Fatehpur Sikri"
+  }
+],
   "highlights": [
     "Explore Agra's UNESCO World Heritage Sites.",
     "Learn about the monuments with insights from a private professional tour guide.",
@@ -893,7 +996,7 @@
     "description": "Enjoy a private 2-day Agra tour from Delhi with Taj Mahal sunrise and sunset views, Agra Fort, Baby Taj, Fatehpur Sikri, a guide, AC car, and hotel stay."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+"breadcrumbImage": "https://images.pexels.com/photos/36625834/pexels-photo-36625834.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 },
 {
   "name": "Private Same Day Taj Mahal Tour From Jaipur",
@@ -903,9 +1006,22 @@
   "location": "Jaipur – Agra – Jaipur",
   "duration": "12–14 hours",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "The Taj Mahal and its reflecting pool in Agra",
-  "gallery": [],
+  "image": "https://images.pexels.com/photos/12446203/pexels-photo-12446203.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+"imageAlt": "The Taj Mahal and its reflection in Agra",
+"gallery": [
+  {
+    "src": "https://images.pexels.com/photos/25399661/pexels-photo-25399661.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "The Taj Mahal and its reflecting pool framed by an archway"
+  },
+  {
+    "src": "https://images.pexels.com/photos/37126722/pexels-photo-37126722.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Entrance gateway of Agra Fort with visitors and greenery"
+  },
+  {
+    "src": "https://images.pexels.com/photos/30923849/pexels-photo-30923849.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Detailed red sandstone walls of Agra Fort"
+  }
+],
   "highlights": [
     "Explore the UNESCO World Heritage Sites of the Taj Mahal and Agra Fort.",
     "Learn about the monuments with insights from a private professional tour guide.",
@@ -996,7 +1112,7 @@
     "description": "Visit the Taj Mahal and Agra Fort on a private same-day tour from Jaipur with a professional guide, AC car, and hotel or airport pickup and drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+"breadcrumbImage": "https://images.pexels.com/photos/14909167/pexels-photo-14909167.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 }
 
     ],
@@ -1018,9 +1134,26 @@
     "location": "Delhi – Agra – Jaipur",
     "duration": "3 days",
     "groupSize": "Private tour",
-    "image": null,
-    "imageAlt": "The Taj Mahal at sunrise during a three-day Golden Triangle tour",
-    "gallery": [],
+    "image": "https://images.pexels.com/photos/37248607/pexels-photo-37248607.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+"imageAlt": "The Taj Mahal reflected in water at sunrise",
+"gallery": [
+  {
+    "src": "https://images.pexels.com/photos/19528150/pexels-photo-19528150.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Visitors in the courtyard of Jama Masjid in Old Delhi"
+  },
+  {
+    "src": "https://images.pexels.com/photos/29039296/pexels-photo-29039296.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Qutub Minar viewed across its gardens in Delhi"
+  },
+  {
+    "src": "https://images.pexels.com/photos/36470355/pexels-photo-36470355.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Courtyard of Amber Fort with surrounding hills in Jaipur"
+  },
+  {
+    "src": "https://images.pexels.com/photos/25109764/pexels-photo-25109764.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "The ornate facade of Hawa Mahal in Jaipur"
+  }
+],
     "highlights": [
       "Explore Delhi, Agra, and Jaipur on a private three-day tour.",
       "Discover local history with professional tour guides.",
@@ -1151,7 +1284,7 @@
       "description": "Explore Delhi, Agra and Jaipur on a private 3-day tour with guides, Taj Mahal sunrise. Jaipur drop-off; optional Delhi transfer."
     },
     "draft": false,
-    "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+"breadcrumbImage": "https://images.pexels.com/photos/6185650/pexels-photo-6185650.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
   },
   {
     "name": "4 Days Golden Triangle Tour with Tour Guide",
@@ -1161,9 +1294,26 @@
     "location": "Delhi – Agra – Jaipur",
     "duration": "4 days",
     "groupSize": "Private tour",
-    "image": null,
-    "imageAlt": "Amber Fort in Jaipur on a four-day Golden Triangle tour",
-    "gallery": [],
+    "image": "https://images.pexels.com/photos/37239516/pexels-photo-37239516.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+"imageAlt": "Amber Fort and the water below its walls in Jaipur",
+"gallery": [
+  {
+    "src": "https://images.pexels.com/photos/20083809/pexels-photo-20083809.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Visitors gathered in the courtyard of Jama Masjid in Delhi at dusk"
+  },
+  {
+    "src": "https://images.pexels.com/photos/9208716/pexels-photo-9208716.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Panoramic view of the Taj Mahal in Agra"
+  },
+  {
+    "src": "https://images.pexels.com/photos/20617835/pexels-photo-20617835.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Qutub Minar surrounded by greenery in New Delhi"
+  },
+  {
+    "src": "https://images.pexels.com/photos/17762635/pexels-photo-17762635.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Jal Mahal surrounded by Man Sagar Lake in Jaipur"
+  }
+],
     "highlights": [
       "Explore Delhi, Agra, and Jaipur on a private four-day tour.",
       "Discover local history with professional tour guides.",
@@ -1303,7 +1453,7 @@
       "description": "Explore Delhi, Agra and Jaipur on a private 4-day tour with guides, Taj Mahal sunrise. Jaipur drop-off; optional Delhi transfer."
     },
     "draft": false,
-    "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+"breadcrumbImage": "https://images.pexels.com/photos/6060943/pexels-photo-6060943.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
   },
   {
     "name": "5 Days Golden Triangle Tour with Tour Guide",
@@ -1313,9 +1463,26 @@
     "location": "Delhi – Agra – Jaipur",
     "duration": "5 days",
     "groupSize": "Private tour",
-    "image": null,
-    "imageAlt": "The Taj Mahal viewed across the Yamuna River from Mehtab Bagh at sunset",
-    "gallery": [],
+    "image": "https://images.pexels.com/photos/35794866/pexels-photo-35794866.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+"imageAlt": "Amber Fort overlooking the surrounding hills and Jaipur valley",
+"gallery": [
+  {
+    "src": "https://images.pexels.com/photos/37367262/pexels-photo-37367262.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Qutub Minar framed by green trees in Delhi"
+  },
+  {
+    "src": "https://images.pexels.com/photos/9529227/pexels-photo-9529227.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Historic red sandstone architecture and courtyard at Fatehpur Sikri"
+  },
+  {
+    "src": "https://images.pexels.com/photos/33210292/pexels-photo-33210292.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Colourful courtyard architecture at City Palace in Jaipur"
+  },
+  {
+    "src": "https://images.pexels.com/photos/38985966/pexels-photo-38985966.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Intricate windows and sandstone facade of Hawa Mahal in Jaipur"
+  }
+],
     "highlights": [
       "Explore Delhi, Agra, and Jaipur on a private five-day tour.",
       "Discover local history with professional tour guides.",
@@ -1476,7 +1643,7 @@
       "description": "Explore Delhi, Agra and Jaipur on a private 5-day tour with guides, Taj Mahal sunrise. Jaipur drop-off; optional Delhi transfer."
     },
     "draft": false,
-    "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+"breadcrumbImage": "https://images.pexels.com/photos/20076343/pexels-photo-20076343.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
   },
   {
     "name": "6 Days Golden Triangle Tour with Tour Guide",
@@ -1486,9 +1653,26 @@
     "location": "Delhi – Agra – Jaipur",
     "duration": "6 days",
     "groupSize": "Private tour",
-    "image": null,
-    "imageAlt": "The Taj Mahal at sunrise during a six-day Golden Triangle tour",
-    "gallery": [],
+   "image": "https://images.pexels.com/photos/36470556/pexels-photo-36470556.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+"imageAlt": "City Palace in Jaipur beneath a colourful sky",
+"gallery": [
+  {
+    "src": "https://images.pexels.com/photos/11974152/pexels-photo-11974152.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Visitors in the courtyard of Jama Masjid in Delhi"
+  },
+  {
+    "src": "https://images.pexels.com/photos/40868189/pexels-photo-40868189.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Intricate sandstone carvings inside Agra Fort"
+  },
+  {
+    "src": "https://images.pexels.com/photos/36449833/pexels-photo-36449833.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "The monumental Buland Darwaza gateway at Fatehpur Sikri"
+  },
+  {
+    "src": "https://images.pexels.com/photos/36470366/pexels-photo-36470366.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+    "alt": "Amber Fort gardens and surrounding hills viewed through an archway"
+  }
+],
     "highlights": [
       "Explore Delhi, Agra, and Jaipur on a private six-day tour.",
       "Enjoy an airport welcome and private hotel transfer on arrival in Delhi.",
@@ -1659,7 +1843,7 @@
       "description": "Explore Delhi, Agra and Jaipur on a private 6-day tour with guides, Taj Mahal sunrise. Jaipur drop-off; optional Delhi transfer."
     },
     "draft": false,
-    "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+"breadcrumbImage": "https://images.pexels.com/photos/36470358/pexels-photo-36470358.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
   },
   {
     "name": "Luxury Golden Triangle Tour India",
@@ -1669,9 +1853,24 @@
     "location": "Delhi – Agra – Fatehpur Sikri or Abhaneri – Jaipur",
     "duration": "6 days",
     "groupSize": "Private tour",
-    "image": null,
-    "imageAlt": "The Taj Mahal at sunrise on a private luxury Golden Triangle tour",
-    "gallery": [],
+   
+  "image": "https://images.pexels.com/photos/35035047/pexels-photo-35035047.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+  "imageAlt": "The Taj Mahal with its gardens and reflecting pool in Agra",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/30788084/pexels-photo-30788084.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "India Gate illuminated with tricolour lights at dusk in New Delhi"
+    },
+    {
+      "src": "https://images.pexels.com/photos/28133705/pexels-photo-28133705.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Historic courtyard and ornate architecture at Amber Fort in Jaipur"
+    },
+    {
+      "src": "https://images.pexels.com/photos/14915404/pexels-photo-14915404.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "The intricate facade of Hawa Mahal beneath a clear blue sky in Jaipur"
+    }
+  ],
+
     "highlights": [
       "Explore Delhi, Agra, and Jaipur on a private six-day luxury tour.",
       "Discover local history with professional private tour guides.",
@@ -1816,7 +2015,7 @@
       "description": "Discover Delhi, Agra and Jaipur with private guides, SUV travel and tailored sightseeing. Jaipur drop-off; optional Delhi transfer."
     },
     "draft": false,
-    "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/11525305/pexels-photo-11525305.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
   },
   {
     "name": "Luxury Golden Triangle Tour with Heritage Hotels",
@@ -1826,9 +2025,24 @@
     "location": "Delhi – Agra – Fatehpur Sikri or Abhaneri – Jaipur",
     "duration": "6 days",
     "groupSize": "Private tour",
-    "image": null,
-    "imageAlt": "Heritage architecture in Jaipur on a luxury Golden Triangle tour",
-    "gallery": [],
+    
+  "image": "https://images.pexels.com/photos/34669538/pexels-photo-34669538.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+  "imageAlt": "The ornate facade of City Palace showcasing Jaipur's royal heritage",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/6989252/pexels-photo-6989252.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "The white marble Taj Mahal beneath a clear blue sky in Agra"
+    },
+    {
+      "src": "https://images.pexels.com/photos/19782593/pexels-photo-19782593.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "The grand entrance gateway to the Taj Mahal complex in Agra"
+    },
+    {
+      "src": "https://images.pexels.com/photos/35995978/pexels-photo-35995978.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Hawa Mahal's distinctive pink facade under a blue sky in Jaipur"
+    }
+  ],
+
     "highlights": [
       "Explore Delhi, Agra, and Jaipur on a private six-day tour.",
       "Choose from suggested heritage and luxury hotels, booked separately.",
@@ -1974,7 +2188,7 @@
       "description": "Explore Delhi, Agra and Jaipur on a private 6-day tour with guides and heritage hotel suggestions. Jaipur drop-off. Accommodation booked separately."
     },
     "draft": false,
-    "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/31349433/pexels-photo-31349433.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
   }
     ],
     "breadcrumbImage": ""
@@ -1995,9 +2209,24 @@
   "location": "Delhi – Agra – Ranthambore – Jaipur",
   "duration": "4 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "A Bengal tiger in Ranthambore National Park during a Golden Triangle wildlife tour",
-  "gallery": [],
+  
+  "image": "https://images.pexels.com/photos/24735987/pexels-photo-24735987.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+  "imageAlt": "A Bengal tiger among trees in the forest at Ranthambore",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/1260801/pexels-photo-1260801.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "The Taj Mahal surrounded by morning mist in Agra"
+    },
+    {
+      "src": "https://images.pexels.com/photos/40761019/pexels-photo-40761019.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Architectural details of Qutub Minar beneath a clear blue sky in Delhi"
+    },
+    {
+      "src": "https://images.pexels.com/photos/29008497/pexels-photo-29008497.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "The intricate facade of Hawa Mahal in Jaipur"
+    }
+  ],
+
   "highlights": [
     "Experience the cultural heritage and wildlife of Delhi, Agra, Ranthambore, and Jaipur.",
     "Discover historic landmarks with professional private tour guides.",
@@ -2151,7 +2380,7 @@
     "description": "Explore Delhi, Agra, Ranthambore and Jaipur on a private 4-day tour with guides, Taj Mahal sunrise and a shared tiger safari. Tour ends in Jaipur."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/19927020/pexels-photo-19927020.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 },
 {
   "name": "5 Days Golden Triangle Tour with Ranthambore",
@@ -2161,9 +2390,24 @@
   "location": "Delhi – Agra – Ranthambore – Jaipur",
   "duration": "5 days",
   "groupSize": "Private tour with shared safari",
-  "image": null,
-  "imageAlt": "A Bengal tiger in its natural habitat in Ranthambore National Park",
-  "gallery": [],
+
+  "image": "https://images.pexels.com/photos/25785873/pexels-photo-25785873.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+  "imageAlt": "A Bengal tiger walking through the forest in Ranthambore",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/7582485/pexels-photo-7582485.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Black-and-white photograph of the Taj Mahal reflected in its pool in Agra"
+    },
+    {
+      "src": "https://images.pexels.com/photos/30032907/pexels-photo-30032907.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "India Gate viewed from below against a blue sky in New Delhi"
+    },
+    {
+      "src": "https://images.pexels.com/photos/15344913/pexels-photo-15344913.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Hawa Mahal showcasing traditional Rajasthani architecture in Jaipur"
+    }
+  ],
+
   "highlights": [
     "Explore Delhi, Agra, Ranthambore, and Jaipur over five days.",
     "Discover historic landmarks with professional private tour guides.",
@@ -2321,7 +2565,7 @@
     "description": "Explore Delhi, Agra, Ranthambore and Jaipur on a private 5-day tour with guides and a shared wildlife safari. Jaipur drop-off; hotels excluded."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/24735988/pexels-photo-24735988.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 },
 {
   "name": "6 Days Golden Triangle Tour with Ranthambore",
@@ -2331,9 +2575,24 @@
   "location": "Delhi – Agra – Ranthambore – Jaipur",
   "duration": "6 days",
   "groupSize": "Private tour with shared safaris",
-  "image": null,
-  "imageAlt": "A Bengal tiger in its natural habitat in Ranthambore National Park",
-  "gallery": [],
+  
+  "image": "https://images.pexels.com/photos/27960753/pexels-photo-27960753.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+  "imageAlt": "A Bengal tiger walking through grassland at Ranthambore",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/31238888/pexels-photo-31238888.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "The Taj Mahal in the early morning light in Agra"
+    },
+    {
+      "src": "https://images.pexels.com/photos/12323903/pexels-photo-12323903.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Hawa Mahal viewed from its courtyard in Jaipur"
+    },
+    {
+      "src": "https://images.pexels.com/photos/16744870/pexels-photo-16744870.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Decorative arches inside City Palace in Jaipur"
+    }
+  ],
+
   "highlights": [
     "Explore Delhi, Agra, Ranthambore, and Jaipur over six days.",
     "Enjoy an airport welcome and private hotel transfer in Delhi.",
@@ -2500,13 +2759,13 @@
       "answer": "City tour guide services are available in English, Spanish, German, Italian, and French."
     }
   ],
-  "mapEmbedUrl": "https://www.google.com/maps?q=Ranthambore+National+Park+Rajasthan+India&output=embed",
+"mapEmbedUrl": "https://www.google.com/maps?q=Ranthambore+National+Park+Rajasthan+India&output=embed",
   "seo": {
     "title": "6 Days Golden Triangle Tour with Ranthambore",
     "description": "Explore Delhi, Agra, Ranthambore and Jaipur on a private 6-day tour with guides and two shared safaris. Jaipur drop-off; hotel accommodation excluded."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/29211764/pexels-photo-29211764.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 },
 {
   "name": "7 Day Golden Triangle Tour with Ranthambore",
@@ -2516,9 +2775,24 @@
   "location": "Delhi – Agra – Ranthambore – Jaipur",
   "duration": "7 days",
   "groupSize": "Private tour with shared safaris",
-  "image": null,
-  "imageAlt": "A Bengal tiger in its natural habitat in Ranthambore National Park",
-  "gallery": [],
+ 
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Tiger_in_Ranthambore_National_Park%2C_Rajasthan.jpg",
+  "imageAlt": "A tiger resting in Ranthambore National Park, Rajasthan",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/62348/pexels-photo-62348.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Visitors admiring the Taj Mahal at sunrise in Agra"
+    },
+    {
+      "src": "https://images.pexels.com/photos/35748474/pexels-photo-35748474.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Detailed pink sandstone facade of Hawa Mahal in Jaipur"
+    },
+    {
+      "src": "https://images.pexels.com/photos/19149606/pexels-photo-19149606.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "An ornate archway at City Palace in Jaipur"
+    }
+  ],
+
   "highlights": [
     "Explore Delhi, Agra, Ranthambore, and Jaipur over seven days.",
     "Enjoy an airport welcome and private hotel transfer in Delhi.",
@@ -2692,13 +2966,13 @@
       "answer": "No. This itinerary ends in Jaipur and does not include a return transfer to Delhi."
     }
   ],
-  "mapEmbedUrl": "https://www.google.com/maps?q=Ranthambore+National+Park+Rajasthan+India&output=embed",
+"mapEmbedUrl": "https://www.google.com/maps?q=Ranthambore+National+Park+Rajasthan+India&output=embed",
   "seo": {
     "title": "7 Day Golden Triangle Tour with Ranthambore",
     "description": "Explore Delhi, Agra, Ranthambore and Jaipur on a private 7-day tour with guides and two shared safaris. Jaipur drop-off; hotel accommodation excluded."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/40082898/pexels-photo-40082898.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 },
 {
   "name": "8 Day Golden Triangle with Wildlife Tour",
@@ -2708,9 +2982,24 @@
   "location": "Delhi – Agra – Bharatpur – Ranthambore – Jaipur – Jhalana – Jaipur",
   "duration": "8 days",
   "groupSize": "Private tour with shared wildlife safaris",
-  "image": null,
-  "imageAlt": "A leopard in its natural habitat at Jhalana Leopard Conservation Reserve in Jaipur",
-  "gallery": [],
+  
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Leopard-Jhalana-01.jpg",
+  "imageAlt": "A leopard resting at Jhalana Leopard Safari in Jaipur",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/40234051/pexels-photo-40234051.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Blue boats on green water at Keoladeo National Park in Bharatpur"
+    },
+    {
+      "src": "https://images.pexels.com/photos/10493108/pexels-photo-10493108.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "The Taj Mahal seen through an architectural opening in Agra"
+    },
+    {
+      "src": "https://images.pexels.com/photos/40082900/pexels-photo-40082900.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900",
+      "alt": "Hawa Mahal beneath a clear sky in Jaipur"
+    }
+  ],
+
   "highlights": [
     "Explore Delhi, Agra, Bharatpur, Ranthambore, and Jaipur over eight days.",
     "Discover historic landmarks with professional private tour guides.",
@@ -2890,13 +3179,13 @@
       "answer": "No. This itinerary ends in Jaipur and does not include a return transfer to Delhi."
     }
   ],
-  "mapEmbedUrl": "https://www.google.com/maps?q=Ranthambore+National+Park+Rajasthan+India&output=embed",
+"mapEmbedUrl": "https://www.google.com/maps?q=Ranthambore+National+Park+Rajasthan+India&output=embed",
   "seo": {
     "title": "8 Day Golden Triangle with Wildlife Tour",
     "description": "Explore Delhi, Agra, Bharatpur, Ranthambore and Jaipur with birdwatching and shared safaris. An 8-day tour ending in Jaipur; hotels excluded."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/40082897/pexels-photo-40082897.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1920&h=800"
 }
     ],
     "breadcrumbImage": ""
@@ -2917,9 +3206,20 @@
   "location": "Delhi – Agra – Jaipur – Ranakpur – Udaipur – Jaipur",
   "duration": "6 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "Lake Pichola and the lakeside palaces of Udaipur",
-  "gallery": [],
+
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Lake_Pichola%2C_Udaipur_India.jpg",
+  "imageAlt": "Lake Pichola illuminated at night in Udaipur",
+  "gallery": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ranakpur_jain_temple_1.jpg",
+      "alt": "Ranakpur Jain temple on the journey to Udaipur"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Jagdish_Mandir.JPG",
+      "alt": "Jagdish Temple in Udaipur, Rajasthan"
+    }
+  ],
+
   "highlights": [
     "Explore Delhi, Agra, Jaipur, and Udaipur on a private six-day tour.",
     "Discover historic landmarks with professional tour guides.",
@@ -3074,7 +3374,7 @@
     "description": "Explore Delhi, Agra, Jaipur and Udaipur with private guides and a Lake Pichola boat ride. Includes a return transfer to Jaipur on Day 6."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Lake_pichola_eveining_from_city_palace_large.jpg"
 },
    
 {
@@ -3085,9 +3385,20 @@
   "location": "Delhi – Agra – Jaipur – Jodhpur – Ranakpur – Udaipur",
   "duration": "7 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "Mehrangarh Fort overlooking the blue buildings of Jodhpur",
-  "gallery": [],
+  
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mehrangarh_Fort_view.jpg",
+  "imageAlt": "Mehrangarh Fort in Jodhpur, Rajasthan",
+  "gallery": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/BluecityviewfromMehrangarhFort.jpg",
+      "alt": "Jodhpur's blue city viewed from Mehrangarh Fort"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pichola_Udaipur.jpg",
+      "alt": "Lake Pichola in Udaipur, Rajasthan"
+    }
+  ],
+
   "highlights": [
     "Explore Delhi, Agra, Jaipur, Jodhpur, and Udaipur over seven days.",
     "Discover historic landmarks with professional private tour guides.",
@@ -3256,7 +3567,7 @@
     "description": "Explore Delhi, Agra, Jaipur, Jodhpur and Udaipur on a private 7-day tour with guides and a Lake Pichola boat ride. Optional Jaipur drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://upload.wikimedia.org/wikipedia/commons/d/db/Higher_than_Highnesses.jpg"
 },
 {
   "name": "Golden Triangle with Mandawa Tour",
@@ -3266,9 +3577,20 @@
   "location": "Delhi – Agra – Fatehpur Sikri – Jaipur – Mandawa – Jaipur",
   "duration": "6 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "Colourful frescoes decorating a traditional haveli in Mandawa, Rajasthan",
-  "gallery": [],
+  
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Mandawa_Haweli_1_-_Parade_Elefanten.jpg",
+  "imageAlt": "Painted elephant procession on a traditional haveli wall in Mandawa",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/40236311/pexels-photo-40236311.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "alt": "Sunlit interior showcasing traditional architecture in Mandawa"
+    },
+    {
+      "src": "https://images.pexels.com/photos/40236314/pexels-photo-40236314.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "alt": "Ornate green doorway inside a historic haveli in Mandawa"
+    }
+  ],
+
   "highlights": [
     "Explore Delhi, Agra, Jaipur, and Mandawa on a private six-day tour.",
     "Discover historic landmarks with professional tour guides.",
@@ -3411,7 +3733,7 @@
     "description": "Explore Delhi, Agra, Jaipur and Mandawa on a private 6-day tour with guides, Taj Mahal sunrise views and painted havelis. Delhi pickup, Jaipur drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Amer_Fort%2C_Jaipur%2C_India.jpg"
 },
 {
   "name": "Golden Triangle with Gwalior Tour",
@@ -3421,9 +3743,20 @@
   "location": "Delhi – Agra – Fatehpur Sikri – Jaipur – Gwalior – Jaipur",
   "duration": "6 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "The ornate exterior of Man Singh Palace at Gwalior Fort",
-  "gallery": [],
+
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Gwalior_Fort_in_full_glory.jpg",
+  "imageAlt": "The historic architecture of Gwalior Fort in Madhya Pradesh",
+  "gallery": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Gate_of_Gwalior_Fort_panorama_05.jpg",
+      "alt": "Gateway and fortifications at Gwalior Fort"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/0121521_Sasbahu_%28Sahasrabahu%29_Temples%2C_Gwalior_Fort%2C_Madhya_Pradesh_370.jpg",
+      "alt": "Carved architecture of the Sasbahu temples within Gwalior Fort"
+    }
+  ],
+
   "highlights": [
     "Explore Delhi, Agra, Jaipur, and Gwalior on a private six-day tour.",
     "Discover historic landmarks with professional tour guides.",
@@ -3572,7 +3905,7 @@
     "description": "Explore Delhi, Agra, Jaipur and Gwalior on a private 6-day tour with guides, Taj Mahal sunrise views and royal landmarks. Optional Delhi drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://upload.wikimedia.org/wikipedia/commons/9/9b/The_Gate_of_Gwalior_Fort_panorama_04.jpg"
 },
 {
   "name": "Golden Triangle Tour with Rajasthan Wildlife",
@@ -3582,9 +3915,36 @@
   "location": "Delhi – Agra – Ranthambore – Udaipur – Ranakpur – Jodhpur – Jaipur",
   "duration": "11 days",
   "groupSize": "Private tour with shared wildlife safaris",
-  "image": null,
-  "imageAlt": "A Bengal tiger in Ranthambore National Park during a Rajasthan wildlife tour",
-  "gallery": [],
+  
+  "image": "https://images.unsplash.com/photo-1703878565368-c470432ce5d4?fit=crop&crop=entropy&w=1200&h=900&q=78&fm=webp",
+  "imageAlt": "Bengal tiger resting in Ranthambore Tiger Reserve, Rajasthan, India",
+  "gallery": [
+    {
+      "src": "https://images.unsplash.com/photo-1781084692023-140e4bf3173e?fit=crop&crop=entropy&w=1200&h=900&q=78&fm=webp",
+      "alt": "Qutub Minar and historic architecture in Delhi, India"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1786596552094-a24a0af83c21?fit=crop&crop=entropy&w=1200&h=900&q=78&fm=webp",
+      "alt": "Taj Mahal and its white marble Mughal architecture in Agra"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1695956353120-54ce5e91632b?fit=crop&crop=entropy&w=1200&h=900&q=78&fm=webp",
+      "alt": "Udaipur City Palace overlooking Lake Pichola in Rajasthan"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1675081073787-458ee4c8e3b1?fit=crop&crop=entropy&w=1200&h=900&q=78&fm=webp",
+      "alt": "Intricately carved pillars and architecture at Ranakpur Jain Temple"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1675079839131-8040dbc50625?fit=crop&crop=entropy&w=1200&h=900&q=78&fm=webp",
+      "alt": "Mehrangarh Fort and historic architecture in Jodhpur, Rajasthan"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1791233176112-a1d06f52127a?fit=crop&crop=entropy&w=1200&h=900&q=78&fm=webp",
+      "alt": "Amber Fort and its reflection in Maota Lake in Jaipur"
+    }
+  ],
+
   "highlights": [
     "Explore Delhi, Agra, Ranthambore, Udaipur, Jodhpur, and Jaipur over 11 days.",
     "Discover historic landmarks with professional tour guides.",
@@ -3776,7 +4136,7 @@
     "description": "Explore Delhi, Agra, Ranthambore, Udaipur, Jodhpur and Jaipur on an 11-day private tour with shared safaris and a boat ride. Ends in Jaipur."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.unsplash.com/photo-1767158597961-bd58dccc16bd?fit=crop&crop=entropy&w=1600&h=900&q=80&fm=webp"
 }
     ],
     "breadcrumbImage": ""
@@ -3797,9 +4157,50 @@
   "location": "Jaipur – Mandawa – Bikaner – Jaisalmer – Jodhpur – Udaipur – Pushkar – Ranthambore – Agra – Jaipur",
   "duration": "12 days",
   "groupSize": "Private tour with shared wildlife safaris",
-  "image": null,
-  "imageAlt": "Golden sand dunes near Jaisalmer in Rajasthan's Thar Desert",
-  "gallery": [],
+  
+
+  "image": "https://images.pexels.com/photos/36418053/pexels-photo-36418053.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+  "imageAlt": "Camel caravan crossing golden sand dunes at sunset in Jaisalmer's Thar Desert, Rajasthan",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/29624176/pexels-photo-29624176.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Amber Fort surrounded by scenic hills in Jaipur, Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/32485765/pexels-photo-32485765.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Traditional painted haveli interior with intricate frescoes in Mandawa, Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/31339268/pexels-photo-31339268.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Historic Junagarh Fort showcasing traditional Rajput architecture in Bikaner"
+    },
+    {
+      "src": "https://images.pexels.com/photos/30573733/pexels-photo-30573733.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Traditional camel rider travelling across the sand dunes of Jaisalmer Desert"
+    },
+    {
+      "src": "https://images.pexels.com/photos/31449857/pexels-photo-31449857.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Majestic Mehrangarh Fort overlooking the historic Blue City of Jodhpur"
+    },
+    {
+      "src": "https://images.pexels.com/photos/33558823/pexels-photo-33558823.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Panoramic view of Udaipur and Lake Pichola surrounded by Rajasthan's scenic landscape"
+    },
+    {
+      "src": "https://images.pexels.com/photos/6363480/pexels-photo-6363480.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Sacred Pushkar Lake with traditional temples, historic buildings, and surrounding hills"
+    },
+    {
+      "src": "https://images.pexels.com/photos/24735987/pexels-photo-24735987.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Wild Bengal tiger in its natural forest habitat in Ranthambore, Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/38840668/pexels-photo-38840668.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Sunlit Taj Mahal with white marble architecture and gardens in Agra, India"
+    }
+  ],
+
+
   "highlights": [
     "Start and finish your 12-day journey in Jaipur.",
     "Explore Jaipur's Amber Fort, City Palace, and Jantar Mantar.",
@@ -3992,7 +4393,7 @@
     "description": "Explore Rajasthan, Ranthambore and the Taj Mahal on a private 12-day tour with guides and shared safaris. Pickup and drop-off in Jaipur."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/34452407/pexels-photo-34452407.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 },
 {
   "name": "Rajasthan Tour with Wildlife",
@@ -4002,9 +4403,40 @@
   "location": "Jaipur – Agra – Bharatpur – Ranthambore – Jaipur – Jhalana – Sariska – Jaipur",
   "duration": "9 days",
   "groupSize": "Private tour with shared wildlife safaris",
-  "image": null,
-  "imageAlt": "A Bengal tiger in its natural habitat during a Rajasthan wildlife safari",
-  "gallery": [],
+  "image": "https://images.pexels.com/photos/24735987/pexels-photo-24735987.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+  "imageAlt": "Wild Bengal tiger camouflaged in the forest of Ranthambore National Park in Rajasthan",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/37239516/pexels-photo-37239516.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Amber Fort and scenic surroundings in Jaipur, Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/2387871/pexels-photo-2387871.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Sunrise view of the Taj Mahal in Agra, India"
+    },
+    {
+      "src": "https://images.pexels.com/photos/6387604/pexels-photo-6387604.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Painted stork nesting with chicks at Keoladeo National Park in Bharatpur"
+    },
+    {
+      "src": "https://images.pexels.com/photos/11948880/pexels-photo-11948880.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Waterbirds gathered along the wetland at Bharatpur bird sanctuary"
+    },
+    {
+      "src": "https://images.pexels.com/photos/25785873/pexels-photo-25785873.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Bengal tiger walking through the forest at Ranthambore in Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/11157958/pexels-photo-11157958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Wild leopard photographed in Jaipur, representing the Jhalana leopard safari experience"
+    },
+    {
+      "src": "https://images.pexels.com/photos/27960753/pexels-photo-27960753.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Bengal tiger in the grasslands of Ranthambore, representing Rajasthan tiger safaris"
+    }
+  ],
+
+
   "highlights": [
     "Enjoy pickup and final drop-off in Jaipur.",
     "Explore Amber Fort, City Palace, and Jantar Mantar with a professional guide.",
@@ -4177,7 +4609,7 @@
     "description": "Explore Agra, Bharatpur, Ranthambore, Jhalana and Sariska on a 9-day tour with guides, birdwatching and shared safaris. Jaipur pickup and drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/24735988/pexels-photo-24735988.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 },
 {
   "name": "Luxury Rajasthan Tour",
@@ -4187,9 +4619,38 @@
   "location": "Jaipur – Agra – Jaipur – Jodhpur – Nimaj – Ranakpur – Udaipur – Jaipur",
   "duration": "10 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "Udaipur's lakeside palaces overlooking Lake Pichola",
-  "gallery": [],
+  
+
+  "image": "https://images.pexels.com/photos/33658453/pexels-photo-33658453.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+  "imageAlt": "Luxury Rajasthan tour featuring Udaipur's historic lakeside palaces reflecting in Lake Pichola",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/37612607/pexels-photo-37612607.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Taj Mahal and its reflection in Agra, India"
+    },
+    {
+      "src": "https://images.pexels.com/photos/37239516/pexels-photo-37239516.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Amber Fort overlooking its scenic surroundings in Jaipur, Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/31449857/pexels-photo-31449857.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Panoramic view of Mehrangarh Fort in Jodhpur, Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/35545894/pexels-photo-35545894.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Rajasthan countryside and traditional agricultural life, representing rural experiences on the tour"
+    },
+    {
+      "src": "https://images.pexels.com/photos/11947760/pexels-photo-11947760.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Historic Ranakpur Jain Temple with intricately carved architecture"
+    },
+    {
+      "src": "https://images.pexels.com/photos/9952996/pexels-photo-9952996.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Boat on Lake Pichola with historic Udaipur architecture in the background"
+    }
+  ],
+
+
   "highlights": [
     "Enjoy pickup and final drop-off in Jaipur.",
     "Experience the Taj Mahal at sunrise and explore Agra Fort.",
@@ -4355,7 +4816,8 @@
     "description": "Explore Agra, Jaipur, Jodhpur, Nimaj and Udaipur on a private 10-day tour with guides, royal landmarks and rural experiences. Jaipur pickup and drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+    "breadcrumbImage": "https://images.pexels.com/photos/34452407/pexels-photo-34452407.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+
 },
 {
   "name": "Rural Rajasthan Tour",
@@ -4365,9 +4827,38 @@
   "location": "Jaipur – Agra – Jaipur – Narlai – Deogarh – Ranakpur – Udaipur – Jaipur",
   "duration": "9 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "Traditional village architecture and rocky hills in Narlai, Rajasthan",
-  "gallery": [],
+  
+
+  "image": "https://images.pexels.com/photos/30946066/pexels-photo-30946066.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+  "imageAlt": "Aerial view of an Indian rural village and fields representing the countryside experiences of Rajasthan",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/14909167/pexels-photo-14909167.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Aerial view of historic Agra Fort surrounded by greenery and morning mist"
+    },
+    {
+      "src": "https://images.pexels.com/photos/35794866/pexels-photo-35794866.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Amber Fort overlooking Jaipur's hills and historic cityscape"
+    },
+    {
+      "src": "https://images.pexels.com/photos/35545895/pexels-photo-35545895.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Traditional rural life in Rajasthan showing a farmer and cow in a village courtyard"
+    },
+    {
+      "src": "https://images.pexels.com/photos/29285508/pexels-photo-29285508.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Traditional Indian sadhu in Deogarh, Rajasthan, reflecting the region's cultural heritage"
+    },
+    {
+      "src": "https://images.pexels.com/photos/29449928/pexels-photo-29449928.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Intricately carved marble pillars inside Ranakpur Jain Temple in Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/20754094/pexels-photo-20754094.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Scenic Lake Pichola in Udaipur with a boat, flowers, and historic waterfront scenery"
+    }
+  ],
+
+
   "highlights": [
     "Enjoy pickup and final drop-off in Jaipur.",
     "Experience the Taj Mahal at sunrise and explore Agra Fort.",
@@ -4514,7 +5005,7 @@
     "description": "Explore Agra, Jaipur, Narlai, Deogarh and Udaipur on a private 9-day tour with guides, village experiences and heritage sights. Jaipur pickup and drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/21382502/pexels-photo-21382502.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 },
 {
   "name": "Royal Rajasthan Tour",
@@ -4524,9 +5015,46 @@
   "location": "Jaipur – Agra – Jaipur – Mandawa – Bikaner – Jaisalmer – Jodhpur – Udaipur – Jaipur",
   "duration": "11 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "Jaisalmer Fort rising above the golden sandstone buildings of the city",
-  "gallery": [],
+  
+
+  "image": "https://images.pexels.com/photos/35130760/pexels-photo-35130760.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+  "imageAlt": "Aerial panoramic view of the golden sandstone Jaisalmer Fort in Rajasthan, India",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/37612607/pexels-photo-37612607.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Taj Mahal and its reflection in Agra, India"
+    },
+    {
+      "src": "https://images.pexels.com/photos/35794866/pexels-photo-35794866.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Amber Fort overlooking the historic city of Jaipur"
+    },
+    {
+      "src": "https://images.pexels.com/photos/32485765/pexels-photo-32485765.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Traditional painted haveli with ornate frescoes in Mandawa, Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/31339268/pexels-photo-31339268.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Historic Junagarh Fort displaying ornate Rajput architecture in Bikaner"
+    },
+    {
+      "src": "https://images.pexels.com/photos/4625460/pexels-photo-4625460.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Silhouette of a camel at sunset in the Thar Desert near Jaisalmer"
+    },
+    {
+      "src": "https://images.pexels.com/photos/29298600/pexels-photo-29298600.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Intricately carved golden sandstone facade of a historic haveli in Jaisalmer"
+    },
+    {
+      "src": "https://images.pexels.com/photos/34035714/pexels-photo-34035714.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Mehrangarh Fort rising above the historic city of Jodhpur"
+    },
+    {
+      "src": "https://images.pexels.com/photos/35870476/pexels-photo-35870476.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Udaipur City Palace reflected in the waters of Lake Pichola"
+    }
+  ],
+
+
   "highlights": [
     "Enjoy pickup and final drop-off in Jaipur.",
     "Experience the Taj Mahal at sunrise and explore Agra Fort.",
@@ -4700,7 +5228,7 @@
     "description": "Explore Agra, Mandawa, Bikaner, Jaisalmer, Jodhpur and Udaipur on an 11-day private tour with guides and desert experiences. Jaipur pickup and drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/12912712/pexels-photo-12912712.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 },
 {
   "name": "Rajasthan Tour with Horse Riding",
@@ -4710,9 +5238,41 @@
   "location": "Jaipur – Agra – Jaipur – Jodhpur – Korta – Ranakpur – Udaipur – Jaipur",
   "duration": "10 days",
   "groupSize": "Private tour",
-  "image": null,
-  "imageAlt": "A Marwari horse in the rural landscape of Rajasthan",
-  "gallery": [],
+  
+  "image": "https://images.pexels.com/photos/7758594/pexels-photo-7758594.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+  "imageAlt": "Marwari horse walking through sunlit countryside, representing the horse riding experience in Rajasthan",
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/14909167/pexels-photo-14909167.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Historic Agra Fort with Mughal architecture and surrounding greenery"
+    },
+    {
+      "src": "https://images.pexels.com/photos/29624176/pexels-photo-29624176.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Amber Fort surrounded by the scenic hills of Jaipur, Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/37350641/pexels-photo-37350641.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Panoramic view of Jodhpur city from Mehrangarh Fort"
+    },
+    {
+      "src": "https://images.pexels.com/photos/15224125/pexels-photo-15224125.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Traditional Marwari horse with its distinctive curved ears, representing Rajasthan equestrian heritage"
+    },
+    {
+      "src": "https://images.pexels.com/photos/19124327/pexels-photo-19124327.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Traditional horseback riders in Rajasthan, representing the Korta horse riding experience"
+    },
+    {
+      "src": "https://images.pexels.com/photos/11947760/pexels-photo-11947760.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Intricate carved stone architecture at Ranakpur Jain Temple in Rajasthan"
+    },
+    {
+      "src": "https://images.pexels.com/photos/33658452/pexels-photo-33658452.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop",
+      "alt": "Udaipur City Palace and historic lakeside architecture seen from Lake Pichola at dusk"
+    }
+  ],
+
+
   "highlights": [
     "Enjoy pickup and final drop-off in Jaipur.",
     "Experience the Taj Mahal at sunrise and explore Agra Fort.",
@@ -4884,7 +5444,7 @@
     "description": "Explore Agra, Jaipur, Jodhpur, Korta and Udaipur on a private 10-day tour with guides and a Marwari horseback ride. Jaipur pickup and drop-off."
   },
   "draft": false,
-  "breadcrumbImage": "assets/img/inner-page/breadcrumb/bg-4.jpg"
+  "breadcrumbImage": "https://images.pexels.com/photos/9028927/pexels-photo-9028927.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 }
 
     ],

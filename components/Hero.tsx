@@ -7,7 +7,7 @@ import Counter from "./Counter";
 export const Hero1 = () => {
   const heroSlides = [
     {
-      bgImage: "assets/img/home-1/hero/slider-2.webp",
+      bgImage: "/assets/img/home-1/hero/slider-2.webp",
       title: "Explore India with a Local Tour Guide",
       description:
         "Visit famous places and learn about India’s history and culture with a guide by your side.",
@@ -18,7 +18,7 @@ export const Hero1 = () => {
       ],
     },
     {
-      bgImage: "assets/img/home-1/hero/slider-3.webp",
+      bgImage: "/assets/img/home-1/hero/slider-3.webp",
       title: "Discover Delhi, Agra & Jaipur",
       description:
         "Enjoy guided tours of historic monuments, royal palaces, and local markets.",
@@ -29,7 +29,7 @@ export const Hero1 = () => {
       ],
     },
     {
-      bgImage: "assets/img/home-1/hero/slider-3.webp",
+      bgImage: "/assets/img/home-1/hero/slider-3.webp",
       title: "Plan a Tour Your Way",
       description:
         "Choose the places you want to visit. We’ll help you plan a guided tour that suits your time and interests.",
@@ -65,7 +65,7 @@ export const Hero1 = () => {
                           {slide.description}
                         </p>
                         <Link
-                          href="/destination-details"
+                          href="/services"
                           className="theme-btn"
                           data-animation="fadeInUp"
                           data-delay="1.3s"

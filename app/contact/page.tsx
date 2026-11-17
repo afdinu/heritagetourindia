@@ -1,5 +1,6 @@
 import { Contact1 } from "@/components/Contact";
 import RoavioLayout from "@/layout/RoavioLayout";
+import TourGuideContactForm from "@/components/TourGuideContactForm"
 import Link from "next/link";
 
 const Contact = () => {
@@ -40,7 +41,7 @@ const Contact = () => {
       <div
         className="breadcrumb-wrapper-3 fix bg-cover"
         style={{
-          backgroundImage: "url(assets/img/inner-page/breadcrumb/bg-2.jpg)",
+          backgroundImage: "url(/assets/img/inner-page/breadcrumb/bg-2.jpg)",
         }}
       >
         <div className="container">
@@ -125,75 +126,7 @@ const Contact = () => {
               </div>
               <div className="col-xl-7 col-lg-6">
                 <div className="contact-box">
-                  <form
-                    action="contact.php"
-                    id="contact-form1"
-                    method="POST"
-                    className="contact-form-items"
-                  >
-                    <div className="row g-4">
-                      <div className="col-lg-6">
-                        <div className="form-clt">
-                          <span>Full Name</span>
-                          <input
-                            type="text"
-                            name="name"
-                            id="name331"
-                            placeholder="Full Name"
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="form-clt">
-                          <span>Phone</span>
-                          <input
-                            type="text"
-                            name="name"
-                            id="name22"
-                            placeholder="Phone Number"
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="form-clt">
-                          <span>Email Address</span>
-                          <input
-                            type="text"
-                            name="name"
-                            id="email11"
-                            placeholder="Your email"
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="form-clt">
-                          <span>Subject</span>
-                          <input
-                            type="text"
-                            name="name"
-                            id="name24"
-                            placeholder="Subject"
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="form-clt">
-                          <span>Comments</span>
-                          <textarea
-                            name="message"
-                            id="message1"
-                            placeholder="Type your message"
-                            defaultValue={""}
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-8">
-                        <button type="submit" className="theme-btn">
-                          Submit
-                        </button>
-                      </div>
-                    </div>
-                  </form>
+                 <TourGuideContactForm/>
                 </div>
               </div>
             </div>

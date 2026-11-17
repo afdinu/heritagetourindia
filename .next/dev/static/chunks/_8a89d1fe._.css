@@ -43838,7 +43838,7 @@ span {
   display: inline-block;
 }
 
-.contact-us-wrapper-3 .contact-box .form-clt input, .contact-us-wrapper-3 .contact-box .form-clt textarea {
+.contact-us-wrapper-3 .contact-box .form-clt input, .contact-us-wrapper-3 .contact-box .form-clt select, .contact-us-wrapper-3 .contact-box .form-clt textarea {
   background: var(--white);
   width: 100%;
   color: var(--text);
@@ -54523,6 +54523,8 @@ span {
 }
 
 .tour-place-item .tour-place-image img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   border-radius: 10px;
   width: 100%;
   height: 100%;

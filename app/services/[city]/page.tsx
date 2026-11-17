@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { Contact1 } from "@/components/Contact";
 import RoavioLayout from "@/layout/RoavioLayout";
 
-
 type CityPageProps = {
   params: Promise<{ city: string }>;
 };
@@ -12,18 +11,34 @@ type CityPageProps = {
 const phoneNumber = "+917737244759";
 const whatsappNumber = "917737244759";
 
+function assetPath(path?: string | null): string | null {
+  const imagePath = path?.trim();
+
+  if (!imagePath) return null;
+
+  if (/^(https?:)?\/\//i.test(imagePath)) {
+    return imagePath;
+  }
+
+  return `/${imagePath.replace(/^\/+/, "")}`;
+}
+
 export default async function CityPage({ params }: CityPageProps) {
   const { city } = await params;
   const area = serviceAreas.find((entry) => entry.city === city);
 
   if (!area) notFound();
 
+  const breadcrumbImage =
+    assetPath(area.breadcrumbImage) ||
+    "/assets/img/inner-page/breadcrumb/bg-4.jpg";
+
   return (
     <RoavioLayout>
       <div
         className="breadcrumb-wrapper-2 style-tour-page bg-cover"
         style={{
-          backgroundImage: "url(/assets/img/inner-page/breadcrumb/bg-4.jpg)",
+          backgroundImage: `url(${JSON.stringify(breadcrumbImage)})`,
         }}
       >
         <div className="container">
@@ -34,10 +49,19 @@ export default async function CityPage({ params }: CityPageProps) {
               </h1>
             </div>
 
-            <ul className="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/tour-areas">Tour Areas</Link></li>
-              <li className="style-2" aria-current="page">{area.name}</li>
+            <ul
+              className="breadcrumb-items wow fadeInUp"
+              data-wow-delay=".5s"
+            >
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/services">Services</Link>
+              </li>
+              <li className="style-2" aria-current="page">
+                {area.name}
+              </li>
             </ul>
           </div>
         </div>
@@ -51,14 +75,21 @@ export default async function CityPage({ params }: CityPageProps) {
           </div>
 
           {area.services.length === 0 && (
-            <p className="text-center">Tour options will be added soon.</p>
+            <p className="text-center">
+              Tour options will be added soon.
+            </p>
           )}
 
           <div className="row g-4">
             {area.services.map((tour, index) => {
               const href = `/services/${area.city}/${tour.slug}`;
-              const image = tour.image || area.image;
-              const imageAlt = tour.image ? tour.imageAlt : area.imageAlt;
+
+              const tourImage = assetPath(tour.image);
+              const image = tourImage || assetPath(area.image);
+              const imageAlt = tourImage
+                ? tour.imageAlt
+                : area.imageAlt;
+
               const message = encodeURIComponent(
                 `Hello Heritage Tour Guide India, I’m interested in ${tour.name} (${area.name}). Could you share the details?`
               );
@@ -78,10 +109,13 @@ export default async function CityPage({ params }: CityPageProps) {
                           aria-label={`View details for ${tour.name}`}
                         >
                           <img
-                            src={`/${image.replace(/^\/+/, "")}`}
+                            src={image}
                             alt={imageAlt || ""}
                             className="w-100"
-                            style={{ aspectRatio: "4 / 3", objectFit: "cover" }}
+                            style={{
+                              aspectRatio: "4 / 3",
+                              objectFit: "cover",
+                            }}
                             loading="lazy"
                           />
                         </Link>
@@ -120,14 +154,21 @@ export default async function CityPage({ params }: CityPageProps) {
                             rel="noopener noreferrer"
                             aria-label={`Ask about ${tour.name} on WhatsApp`}
                           >
-                            <i className="fa-brands fa-whatsapp" aria-hidden="true" />
+                            <i
+                              className="fa-brands fa-whatsapp"
+                              aria-hidden="true"
+                            />
                           </a>
+
                           <a
                             href={`tel:${phoneNumber}`}
                             className="btn btn-outline-dark"
                             aria-label={`Call about ${tour.name}`}
                           >
-                            <i className="fa-solid fa-phone" aria-hidden="true" />
+                            <i
+                              className="fa-solid fa-phone"
+                              aria-hidden="true"
+                            />
                           </a>
                         </div>
                       </div>

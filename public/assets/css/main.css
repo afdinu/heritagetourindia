@@ -2300,7 +2300,7 @@ span {
   margin-bottom: 10px;
   display: inline-block;
 }
-.contact-us-wrapper-3 .contact-box .form-clt input, .contact-us-wrapper-3 .contact-box .form-clt textarea {
+.contact-us-wrapper-3 .contact-box .form-clt input,.contact-us-wrapper-3 .contact-box .form-clt select, .contact-us-wrapper-3 .contact-box .form-clt textarea {
   width: 100%;
   border: none;
   outline: none;
@@ -11935,6 +11935,8 @@ span {
   border-radius: 10px;
   transform: scale(1.02);
   transition: all 1.5s ease-out;
+  aspect-ratio: 4/3;
+  object-fit: cover;
 }
 .tour-place-item .tour-place-image::after {
   position: absolute;
